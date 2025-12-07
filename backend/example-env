@@ -1,0 +1,20 @@
+# Database
+MONGODB_URI=
+
+# Cloudinary (quản lý hình ảnh)
+CLOUDINARY_API_KEY=
+CLOUDINARY_SECRET_KEY=
+CLOUDINARY_NAME=
+
+# Bảo mật và xác thực
+JWT_SECRET = "admin"
+
+# Admin mặc định
+ADMIN_EMAIL =
+ADMIN_PASSWORD =
+
+# Stripe (thanh toán)
+
+STRIPE_SECRET_KEY=
+
+OPENAI_API_KEY=

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: Roboto, sans-serif;
+}
+
+select,input ,textarea{
+    border: 1px solid #c2c2c2;
+    outline-color: #446f70;
+    border-radius: 4px;
+}
+
+.active{
+    background-color: #b8dbdd;
+    border-color: #446f70 ;
+}
