@@ -167,7 +167,7 @@ const placeOrderStripe = async (req, res) => {
         product_data: {
           name: item.name,
         },
-        unit_amount: Math.round(((item.price * discountRatio) / VND_TO_USD) * 100),
+        unit_amount: Math.max(50, Math.round(((item.price * discountRatio) / VND_TO_USD) * 100)),
       },
       quantity: item.quantity,
     }));
