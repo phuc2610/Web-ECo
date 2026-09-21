@@ -2,10 +2,26 @@ import customerActivityModel from "../models/customerActivityModel.js";
 import productModel from "../models/productModel.js";
 import { userModel } from "../models/userModel.js";
 
+// Helper trích xuất địa chỉ IP Public của khách hàng
+export const extractClientIp = (req) => {
+  const rawIp =
+    req.body?.ipAddress ||
+    req.headers["cf-connecting-ip"] ||
+    req.headers["x-real-ip"] ||
+    (req.headers["x-forwarded-for"]
+      ? req.headers["x-forwarded-for"].split(",")[0].trim()
+      : "") ||
+    req.socket?.remoteAddress ||
+    req.ip ||
+    "";
+  return rawIp ? rawIp.replace(/^::ffff:/, "").trim() : "";
+};
+
 // Ghi nhận lượt xem sản phẩm của khách hàng
 export const trackProductView = async (req, res) => {
   try {
     const { productId, sessionId, userId, customerName, customerEmail, customerPhone } = req.body;
+    const clientIp = extractClientIp(req);
 
     if (!productId || !sessionId) {
       return res.status(400).json({ success: false, message: "Thiếu productId hoặc sessionId" });
@@ -50,6 +66,7 @@ export const trackProductView = async (req, res) => {
       activity = new customerActivityModel({
         userId: userId || null,
         sessionId,
+        ipAddress: clientIp,
         customerName: uName,
         customerEmail: uEmail,
         customerPhone: uPhone,
@@ -62,6 +79,7 @@ export const trackProductView = async (req, res) => {
         activity.userId = userId;
         activity.isRegistered = true;
       }
+      if (clientIp) activity.ipAddress = clientIp;
       if (uName && uName !== "Khách vãng lai") activity.customerName = uName;
       if (uEmail) activity.customerEmail = uEmail;
       if (uPhone) activity.customerPhone = uPhone;
@@ -149,6 +167,7 @@ export const trackProductView = async (req, res) => {
 export const trackSearchKeyword = async (req, res) => {
   try {
     const { keyword, sessionId, userId } = req.body;
+    const clientIp = extractClientIp(req);
 
     if (!keyword || !keyword.trim() || !sessionId) {
       return res.status(400).json({ success: false, message: "Thiếu keyword hoặc sessionId" });
@@ -167,9 +186,12 @@ export const trackSearchKeyword = async (req, res) => {
       activity = new customerActivityModel({
         userId: userId || null,
         sessionId,
+        ipAddress: clientIp,
         viewedProducts: [],
         searchKeywords: [],
       });
+    } else if (clientIp && !activity.ipAddress) {
+      activity.ipAddress = clientIp;
     }
 
     // Cập nhật từ khóa

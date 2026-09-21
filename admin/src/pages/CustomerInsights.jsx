@@ -72,11 +72,13 @@ const CustomerInsights = ({ token }) => {
 
   // Lọc danh sách khách hàng
   const filteredActivities = customerActivities.filter((act) => {
+    const term = searchTerm.toLowerCase();
     const matchSearch =
-      (act.customerName && act.customerName.toLowerCase().includes(searchTerm.toLowerCase())) ||
-      (act.customerEmail && act.customerEmail.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      (act.customerName && act.customerName.toLowerCase().includes(term)) ||
+      (act.customerEmail && act.customerEmail.toLowerCase().includes(term)) ||
       (act.customerPhone && act.customerPhone.includes(searchTerm)) ||
-      (act.sessionId && act.sessionId.toLowerCase().includes(searchTerm.toLowerCase()));
+      (act.ipAddress && act.ipAddress.toLowerCase().includes(term)) ||
+      (act.sessionId && act.sessionId.toLowerCase().includes(term));
 
     if (filterType === "registered") return matchSearch && act.isRegistered;
     if (filterType === "guest") return matchSearch && !act.isRegistered;
@@ -362,8 +364,8 @@ const CustomerInsights = ({ token }) => {
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Tìm theo tên, email, SĐT..."
-                className="px-3.5 py-1.5 pl-8 rounded-xl border border-gray-300 text-xs focus:outline-none focus:border-red-500 w-52"
+                placeholder="Tìm theo tên, email, SĐT, IP..."
+                className="px-3.5 py-1.5 pl-8 rounded-xl border border-gray-300 text-xs focus:outline-none focus:border-red-500 w-56"
               />
               <span className="absolute left-2.5 top-2 text-gray-400">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -412,7 +414,7 @@ const CustomerInsights = ({ token }) => {
                           {act.customerPhone && (
                             <p className="text-[11px] text-gray-600 font-semibold">{act.customerPhone}</p>
                           )}
-                          <div className="flex items-center gap-1.5 mt-0.5">
+                          <div className="flex flex-wrap items-center gap-1.5 mt-1">
                             <span className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${
                               act.isRegistered
                                 ? "bg-emerald-100 text-emerald-800"
@@ -420,9 +422,23 @@ const CustomerInsights = ({ token }) => {
                             }`}>
                               {act.isRegistered ? "Thành viên" : "Khách vãng lai"}
                             </span>
-                            <span className="text-[9px] text-gray-400 font-mono">
-                              {act.sessionId.substring(0, 10)}...
-                            </span>
+                            {act.ipAddress ? (
+                              <span 
+                                className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-blue-50 text-blue-700 border border-blue-200 shadow-2xs hover:bg-blue-100 cursor-pointer transition-colors"
+                                title="Click để sao chép IP Public của khách hàng"
+                                onClick={() => {
+                                  navigator.clipboard?.writeText(act.ipAddress);
+                                  toast.success(`Đã sao chép IP: ${act.ipAddress}`);
+                                }}
+                              >
+                                <span>🌐</span>
+                                <span>{act.ipAddress}</span>
+                              </span>
+                            ) : (
+                              <span className="text-[9px] text-gray-400 font-mono">
+                                ID: {act.sessionId ? act.sessionId.substring(0, 8) : "---"}...
+                              </span>
+                            )}
                           </div>
                         </div>
                       </div>

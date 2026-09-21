@@ -107,29 +107,29 @@ const PaymentGateway = () => {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Simulate payment (Test Mode)
-  const handleSimulatePayment = async () => {
+  // Handle Customer Manual Transfer Confirmation (Chờ duyệt bằng tay như COD)
+  const [confirming, setConfirming] = useState(false);
+  const handleConfirmCustomerTransfer = async () => {
     try {
-      setSimulating(true);
-      const res = await axios.post(`${backendUrl}/api/payment/simulate`, {
+      setConfirming(true);
+      const res = await axios.post(`${backendUrl}/api/payment/confirm-transfer`, {
         orderId: orderId
       });
       if (res.data?.success) {
-        toast.success('🧪 ' + res.data.message);
-        setIsPaid(true);
+        toast.success('🎉 ' + res.data.message);
         if (pollingRef.current) clearInterval(pollingRef.current);
         if (timerRef.current) clearInterval(timerRef.current);
         setTimeout(() => {
           navigate('/orders');
-        }, 3000);
+        }, 1500);
       } else {
-        toast.error(res.data?.message || 'Mô phỏng thất bại');
+        toast.error(res.data?.message || 'Không thể xác nhận chuyển khoản');
       }
     } catch (err) {
-      console.error('Lỗi mô phỏng:', err);
-      toast.error('Lỗi gửi yêu cầu mô phỏng');
+      console.error('Lỗi xác nhận chuyển khoản:', err);
+      toast.error('Lỗi khi gửi xác nhận chuyển khoản');
     } finally {
-      setSimulating(false);
+      setConfirming(false);
     }
   };
 
@@ -380,47 +380,47 @@ const PaymentGateway = () => {
                 </div>
 
                 {/* Notice banner */}
-                <div className='p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex items-start gap-2.5'>
-                  <span className='text-base shrink-0'>⚠️</span>
+                <div className='p-4 rounded-2xl bg-amber-50/70 border border-amber-200 text-xs text-slate-700 flex items-start gap-2.5'>
+                  <span className='text-base shrink-0'>ℹ️</span>
                   <p>
-                    Vui lòng ghi <strong>chính xác nội dung chuyển khoản</strong> trên để hệ thống tự động xác nhận trong vòng 3 giây mà không cần đối soát thủ công.
+                    Mỗi đơn hàng có <strong>nội dung thanh toán riêng biệt</strong> ({order.transferContent}). Sau khi bạn chuyển khoản thành công qua ứng dụng ngân hàng, vui lòng ấn nút <strong>"Xác nhận đã chuyển khoản"</strong> bên dưới. Đơn hàng sẽ vào trạng thái <strong>chờ duyệt</strong> (như hình thức COD) để nhân viên đối soát và duyệt đơn cho bạn!
                   </p>
                 </div>
               </div>
 
-              {/* Test Mode / Simulation Card (Crucial for Demo & Instant Testing) */}
-              <div className='bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 rounded-3xl p-6 shadow-sm border border-indigo-100 space-y-3'>
-                <div className='flex items-center justify-between'>
-                  <div className='flex items-center gap-2'>
-                    <span className='text-base'>🧪</span>
-                    <h4 className='text-xs sm:text-sm font-black text-indigo-900 uppercase tracking-wider'>
-                      Mô Phỏng Thanh Toán (Test Mode)
+              {/* Customer Transfer Confirmation Card (Chờ duyệt bằng tay như COD) */}
+              <div className='bg-white rounded-3xl p-6 shadow-sm border border-emerald-100 space-y-4'>
+                <div className='flex items-center gap-2'>
+                  <span className='text-xl'>✅</span>
+                  <div>
+                    <h4 className='text-sm sm:text-base font-black text-slate-900 uppercase tracking-tight'>
+                      Xác Nhận Sau Khi Chuyển Khoản
                     </h4>
+                    <p className='text-xs text-slate-500'>Nhấn vào nút dưới đây sau khi bạn đã hoàn tất chuyển tiền trong App Ngân Hàng</p>
                   </div>
-                  <span className='px-2 py-0.5 rounded-md bg-indigo-200/80 text-indigo-800 text-[10px] font-bold'>
-                    Demo 24/7
-                  </span>
                 </div>
-                <p className='text-xs text-indigo-700 leading-relaxed'>
-                  Bạn đang kiểm thử chức năng thanh toán tự động? Nhấn nút bên dưới để mô phỏng sự kiện SePay phát hiện tiền vào tài khoản và tự động kích hoạt đơn hàng tức thì!
-                </p>
+
                 <button
                   type='button'
-                  onClick={handleSimulatePayment}
-                  disabled={simulating || isPaid}
-                  className='w-full py-3 px-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs sm:text-sm shadow-md shadow-indigo-600/20 transition-all flex items-center justify-center gap-2 disabled:opacity-50'
+                  onClick={handleConfirmCustomerTransfer}
+                  disabled={confirming || isPaid}
+                  className='w-full py-4 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 active:scale-[0.99] text-white font-black text-sm sm:text-base shadow-lg shadow-emerald-600/25 transition-all flex items-center justify-center gap-2.5 disabled:opacity-50 cursor-pointer'
                 >
-                  {simulating ? (
+                  {confirming ? (
                     <>
-                      <div className='w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin'></div>
-                      Đang xử lý mô phỏng SePay...
+                      <div className='w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin'></div>
+                      Đang ghi nhận xác nhận...
                     </>
-                  ) : isPaid ? (
-                    '✓ Đã thanh toán thành công'
                   ) : (
-                    '⚡ Kích hoạt mô phỏng thanh toán SePay ngay'
+                    <>
+                      <span>✓</span>
+                      <span>TÔI ĐÃ CHUYỂN TIỀN - XÁC NHẬN ĐƠN HÀNG (CHỜ DUYỆT)</span>
+                    </>
                   )}
                 </button>
+                <p className='text-[11px] text-center text-slate-400'>
+                  * Đơn hàng sẽ chuyển sang trạng thái "Đã đặt hàng - Chờ duyệt" và gửi đến bộ phận kho để chuẩn bị đóng gói.
+                </p>
               </div>
 
               {/* Bottom Actions */}

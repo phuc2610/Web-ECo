@@ -4,6 +4,7 @@ const customerActivitySchema = new mongoose.Schema(
   {
     userId: { type: mongoose.Schema.Types.ObjectId, ref: "user", default: null },
     sessionId: { type: String, required: true, index: true },
+    ipAddress: { type: String, default: "" },
     customerName: { type: String, default: "Khách vãng lai" },
     customerEmail: { type: String, default: "" },
     customerPhone: { type: String, default: "" },

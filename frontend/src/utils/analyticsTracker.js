@@ -12,12 +12,30 @@ export const getSessionId = () => {
   return sessionId;
 };
 
+// Lấy địa chỉ IP Public của khách hàng (cache trong sessionStorage)
+export const getClientPublicIp = async () => {
+  try {
+    const cachedIp = sessionStorage.getItem("mt_client_ip");
+    if (cachedIp) return cachedIp;
+
+    const res = await axios.get("https://api.ipify.org?format=json", { timeout: 3000 });
+    if (res.data?.ip) {
+      sessionStorage.setItem("mt_client_ip", res.data.ip);
+      return res.data.ip;
+    }
+  } catch (e) {
+    // Tránh chặn luồng nếu offline hoặc lỗi mạng ngoài
+  }
+  return "";
+};
+
 // Ghi nhận lượt xem sản phẩm
 export const trackProductView = async (product, user = null) => {
   if (!product || !product._id) return;
 
   try {
     const sessionId = getSessionId();
+    const ipAddress = await getClientPublicIp();
 
     // 1. Lưu vào localStorage để hiển thị tức thời (Recently Viewed)
     const recentlyViewed = getRecentlyViewed();
@@ -44,6 +62,7 @@ export const trackProductView = async (product, user = null) => {
     await axios.post(`${BACKEND_URL}/api/analytics/track-view`, {
       productId: product._id,
       sessionId,
+      ipAddress: ipAddress || undefined,
       userId: user?._id || null,
       customerName: user?.name || undefined,
       customerEmail: user?.email || undefined,
@@ -61,6 +80,7 @@ export const trackSearchKeyword = async (keyword, user = null) => {
 
   try {
     const sessionId = getSessionId();
+    const ipAddress = await getClientPublicIp();
 
     // 1. Lưu lịch sử search vào localStorage để gợi ý nhanh
     const searches = getRecentSearches();
@@ -72,6 +92,7 @@ export const trackSearchKeyword = async (keyword, user = null) => {
     await axios.post(`${BACKEND_URL}/api/analytics/track-search`, {
       keyword: cleanKeyword,
       sessionId,
+      ipAddress: ipAddress || undefined,
       userId: user?._id || null,
     });
   } catch (error) {

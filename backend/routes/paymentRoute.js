@@ -5,7 +5,8 @@ import {
   getOrderPaymentStatus,
   sepayWebhook,
   simulatePayment,
-  getBankInfo
+  getBankInfo,
+  confirmCustomerTransfer
 } from "../controllers/paymentController.js";
 
 const paymentRouter = express.Router();
@@ -21,6 +22,9 @@ paymentRouter.get("/bank-info", getBankInfo);
 
 // Webhook SePay nhận thông báo biến động số dư (Không cần JWT auth của user)
 paymentRouter.post("/sepay-webhook", sepayWebhook);
+
+// Khách hàng ấn xác nhận đã chuyển khoản -> Chuyển vào trạng thái chờ duyệt bằng tay
+paymentRouter.post("/confirm-transfer", confirmCustomerTransfer);
 
 // API mô phỏng thanh toán nhanh cho môi trường test/demo
 paymentRouter.post("/simulate", simulatePayment);

@@ -368,6 +368,46 @@ export const simulatePayment = async (req, res) => {
 };
 
 /**
+ * Khách hàng ấn xác nhận đã chuyển khoản
+ * Chuyển đơn hàng vào trạng thái chờ duyệt bằng tay (như COD)
+ */
+export const confirmCustomerTransfer = async (req, res) => {
+  try {
+    const { orderId } = req.body;
+    const order = await orderModel.findById(orderId);
+
+    if (!order) {
+      return res.status(404).json({ success: false, message: "Không tìm thấy đơn hàng" });
+    }
+
+    // Đặt vào trạng thái chờ duyệt (như COD)
+    order.status = "Đã đặt hàng";
+    order.paymentDetails = {
+      ...(order.paymentDetails || {}),
+      customerConfirmed: true,
+      confirmedAt: new Date(),
+      note: "Khách hàng đã quét mã và bấm xác nhận chuyển khoản. Chờ Admin kiểm tra và duyệt bằng tay."
+    };
+
+    await order.save();
+
+    // Làm trống giỏ hàng nếu còn
+    if (order.userId) {
+      await userModel.findByIdAndUpdate(order.userId, { cartData: {} });
+    }
+
+    return res.json({
+      success: true,
+      message: "Đã ghi nhận xác nhận chuyển khoản! Đơn hàng đang ở trạng thái chờ duyệt như COD.",
+      order
+    });
+  } catch (error) {
+    console.error("Lỗi xác nhận chuyển khoản:", error);
+    return res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+/**
  * Lấy cấu hình thông tin ngân hàng công khai
  */
 export const getBankInfo = async (req, res) => {
