@@ -9,7 +9,7 @@ import ReviewForm from '../components/ReviewForm';
 
 const Orders = () => {
 
-  const {backendUrl , token , currency} = useContext(ShopContext);
+  const {backendUrl , token , currency, navigate} = useContext(ShopContext);
 
   const [orderData,setorderData] = useState([]);
   const [expandedOrder, setExpandedOrder] = useState(null);
@@ -250,7 +250,17 @@ const Orders = () => {
                     </div>
 
                     {/* Action Buttons */}
-                    <div className='flex gap-3'>
+                    <div className='flex flex-wrap gap-2 sm:gap-3'>
+                      {/* Thanh toán QR nếu chưa thanh toán */}
+                      {!order.payment && order.paymentMethod?.includes('VietQR') && order.status !== 'Đã hủy' && (
+                        <button
+                          onClick={() => navigate(`/payment/${order._id}`)}
+                          className='px-3.5 py-2 text-xs sm:text-sm font-bold bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 shadow-sm transition-all flex items-center gap-1.5'
+                        >
+                          <span>💳</span> Thanh toán QR
+                        </button>
+                      )}
+
                       {/* Cancel Order Button */}
                       {order.status === 'Đã đặt hàng' ? (
                         <button 
@@ -321,7 +331,9 @@ const Orders = () => {
                         <div className='flex-1'>
                           <h5 className='font-semibold text-gray-800 mb-1'>{item.name}</h5>
                           <div className='flex items-center gap-4 text-sm text-gray-600 mb-3'>
-                            <span>Size: {item.size}</span>
+                            <span className='px-2.5 py-0.5 bg-blue-50 text-blue-700 rounded-md font-semibold text-xs border border-blue-200'>
+                              Phiên bản: {item.size}
+                            </span>
                             <span>Số lượng: {item.quantity}</span>
                           </div>
                           

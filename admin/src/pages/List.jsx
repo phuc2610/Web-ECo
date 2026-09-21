@@ -234,11 +234,11 @@ const List = ({ token }) => {
               className="grid grid-cols-[1fr_3fr_1fr] md:grid-cols-[1fr_3fr_1fr_1fr_1fr] items-center border border-gray-300 text-sm gap-2 py-1 px-2 hover:bg-gray-100 transition ease-in-out"
               key={index}
             >
-              <img className="w-20" src={item.image[0]} alt="" />
+              <img className="w-20 object-cover" src={item.image?.[0] || "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400"} alt="" />
               <p className="text-orange-600">{item.name}</p>
               <p className="text-blue-600">{item.category}</p>
               <p className="text-red-600">
-                {item.price.toLocaleString("vi-VN")}
+                {Number(item.price || 0).toLocaleString("vi-VN")}
                 {currency}
               </p>
               <div className="text-right md:text-center flex justify-center gap-2">

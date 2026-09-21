@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo from './logo_minhtuan.png'
 import add_icon from './add_icon.png'
 import order_icon from './order_icon.png'
 import list_order_icon from './list_order_icon.png'

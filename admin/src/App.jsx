@@ -9,12 +9,13 @@ import Users from "./pages/Users";
 import Statistics from "./pages/Statistics";
 import Dashboard from "./pages/Dashboard";
 import CustomerSupport from "./pages/CustomerSupport";
+import CustomerInsights from "./pages/CustomerInsights";
 import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 
-export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+export const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
 export const currency = " đ";
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
                 <Route path="/users" element={<Users token={token} />} />
                 <Route path="/statistics" element={<Statistics token={token} />} />
                 <Route path="/customer-support" element={<CustomerSupport token={token} />} />
+                <Route path="/customer-insights" element={<CustomerInsights token={token} />} />
               </Routes>
             </div>
           </div>

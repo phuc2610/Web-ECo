@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
-import { useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
+import { assets } from '../assets/assets';
 import { ShopContext } from '../context/ShopContext';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { useEffect } from 'react';
 
 
 
@@ -53,106 +52,147 @@ const Login = () => {
     }
   }
 
-  useEffect(() =>{
-    if(token){
+  useEffect(() => {
+    if (token) {
       navigate('/');
     }
-  },[token])
-
+  }, [token]);
 
   return (
-    <div className='min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100'>
-      <div className='w-full max-w-md mx-4'>
-        <form onSubmit={onSubmitHandler} className='bg-white rounded-xl shadow-2xl p-8 border border-gray-200'>
-          {/* Header */}
-          <div className='text-center mb-8'>
-            <div className='inline-flex items-center gap-2 mb-4'>
-              <p className='parata-regular text-3xl font-bold text-gray-800'>{currentState}</p>
-            </div>
-            <p className='text-gray-600 text-sm'>
-              {currentState === 'Đăng nhập' 
-                ? 'Đăng nhập để tiếp tục mua sắm' 
-                : 'Tạo tài khoản mới để bắt đầu'
-              }
-            </p>
+    <div className='min-h-screen flex items-center justify-center bg-[#f4f6f8] py-12 px-4'>
+      <div className='w-full max-w-md'>
+        
+        {/* Top Smember Branding Banner */}
+        <div className='bg-[#d70018] rounded-t-3xl p-6 text-white text-center shadow-lg relative overflow-hidden'>
+          <div className='bg-white px-3 py-1.5 rounded-2xl inline-block mb-3 shadow-sm'>
+            <img src={assets.logo} alt="Minh Tuấn Shop" className='h-8 w-auto object-contain' />
           </div>
+          <h1 className='text-xl font-black uppercase tracking-tight'>Smember Membership</h1>
+          <p className='text-xs text-red-100 mt-1'>
+            {currentState === 'Đăng nhập' 
+              ? 'Đăng nhập để nhận voucher và tích điểm mua sắm' 
+              : 'Đăng ký thành viên Smember nhận ngay quà tặng 500k'}
+          </p>
+
+          {/* Member perks pills */}
+          <div className='flex items-center justify-center gap-3 mt-4 text-[10px] text-red-100'>
+            <span className='flex items-center gap-1 bg-red-800/60 px-2.5 py-1 rounded-full'>
+              <span>★</span> Tích điểm đến 5%
+            </span>
+            <span className='flex items-center gap-1 bg-red-800/60 px-2.5 py-1 rounded-full'>
+              <span>🎂</span> Quà sinh nhật VIP
+            </span>
+            <span className='flex items-center gap-1 bg-red-800/60 px-2.5 py-1 rounded-full'>
+              <span>⚡</span> Giao 2h ưu tiên
+            </span>
+          </div>
+        </div>
+
+        {/* Main Form Container */}
+        <div className='bg-white rounded-b-3xl shadow-xl p-6 sm:p-8 border-x border-b border-slate-200'>
           
-          {/* Form Fields */}
-          <div className='space-y-4'>
+          {/* Tab Switcher (CellphoneS Style) */}
+          <div className='grid grid-cols-2 p-1 bg-slate-100 rounded-xl mb-6'>
+            <button
+              type='button'
+              onClick={() => setCurrentState('Đăng nhập')}
+              className={`py-2 rounded-lg text-xs font-black transition-all ${
+                currentState === 'Đăng nhập'
+                  ? 'bg-white text-[#d70018] shadow-sm'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              ĐĂNG NHẬP
+            </button>
+            <button
+              type='button'
+              onClick={() => setCurrentState('Đăng ký')}
+              className={`py-2 rounded-lg text-xs font-black transition-all ${
+                currentState === 'Đăng ký'
+                  ? 'bg-white text-[#d70018] shadow-sm'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              ĐĂNG KÝ
+            </button>
+          </div>
+
+          <form onSubmit={onSubmitHandler} className='space-y-4'>
             {currentState === 'Đăng ký' && (
               <div>
-                <label className='block text-sm font-medium text-gray-700 mb-2'>Họ và tên</label>
+                <label className='block text-xs font-bold text-slate-700 mb-1.5'>Họ và tên của bạn</label>
                 <input 
                   onChange={(e) => setName(e.target.value)} 
                   value={name} 
                   type="text" 
-                  className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors' 
-                  placeholder='Nhập họ và tên của bạn' 
+                  className='w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 focus:outline-none transition-colors' 
+                  placeholder='Ví dụ: Nguyễn Văn An' 
                   required 
                 />
               </div>
             )}
             
             <div>
-              <label className='block text-sm font-medium text-gray-700 mb-2'>Email</label>
+              <label className='block text-xs font-bold text-slate-700 mb-1.5'>Địa chỉ Email</label>
               <input 
                 onChange={(e) => setEmail(e.target.value)} 
                 value={email} 
                 type="email" 
-                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors' 
-                placeholder='Nhập email của bạn' 
+                className='w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 focus:outline-none transition-colors' 
+                placeholder='nguyenvanan@gmail.com' 
                 required 
               />
             </div>
             
             <div>
-              <label className='block text-sm font-medium text-gray-700 mb-2'>Mật khẩu</label>
+              <label className='block text-xs font-bold text-slate-700 mb-1.5'>Mật khẩu</label>
               <input 
                 onChange={(e) => setPassword(e.target.value)} 
                 value={password} 
                 type="password" 
-                className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors' 
-                placeholder='Nhập mật khẩu của bạn' 
+                className='w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 focus:outline-none transition-colors' 
+                placeholder='Nhập mật khẩu (từ 8 ký tự)' 
                 required 
               />
             </div>
-          </div>
-          
-          {/* Action Links */}
-          <div className='flex justify-between items-center text-sm mt-6 mb-8'>
-            <button type="button" className='text-blue-600 hover:text-blue-700 font-medium transition-colors'>
-              Quên mật khẩu?
-            </button>
+
+            {currentState === 'Đăng nhập' && (
+              <div className='flex justify-between items-center text-xs'>
+                <label className='flex items-center gap-1.5 text-slate-600 cursor-pointer'>
+                  <input type='checkbox' defaultChecked className='rounded text-[#d70018] focus:ring-red-500' />
+                  <span>Ghi nhớ tài khoản</span>
+                </label>
+                <a href="#forgot" className='text-[#d70018] font-bold hover:underline'>
+                  Quên mật khẩu?
+                </a>
+              </div>
+            )}
+            
+            {/* Submit Button */}
             <button 
-              type="button"
-              onClick={() => setCurrentState(currentState === 'Đăng nhập' ? 'Đăng ký' : 'Đăng nhập')} 
-              className='text-blue-600 hover:text-blue-700 font-medium transition-colors'
+              type="submit"
+              className='w-full bg-[#d70018] hover:bg-[#ba0014] text-white font-black py-3 px-6 rounded-xl shadow-md active:scale-[0.99] transition-all text-xs sm:text-sm uppercase tracking-wider mt-2'
             >
-              {currentState === 'Đăng nhập' ? 'Tạo tài khoản' : 'Đăng nhập tại đây'}
+              {currentState === 'Đăng nhập' ? 'ĐĂNG NHẬP NGAY' : 'TẠO TÀI KHOẢN SMEMBER'}
             </button>
-          </div>
-          
-          {/* Submit Button */}
-          <button 
-            type="submit"
-            className='w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg'
-          >
-            {currentState === 'Đăng nhập' ? 'Đăng nhập' : 'Đăng ký'}
-          </button>
+          </form>
           
           {/* Footer Note */}
-          <div className='text-center mt-8 pt-6 border-t border-gray-200'>
-            <p className='text-gray-500 text-xs'>
-              Bằng việc {currentState === 'Đăng nhập' ? 'đăng nhập' : 'đăng ký'}, bạn đồng ý với 
-              <a href="#" className='text-blue-600 hover:text-blue-700'> Điều khoản sử dụng </a>
+          <div className='text-center mt-6 pt-5 border-t border-slate-100'>
+            <p className='text-slate-400 text-[11px]'>
+              Bằng việc thao tác, bạn đồng ý với 
+              <span className='text-[#d70018] font-bold cursor-pointer'> Điều khoản sử dụng </span>
               và 
-              <a href="#" className='text-blue-600 hover:text-blue-700'> Chính sách bảo mật</a>
+              <span className='text-[#d70018] font-bold cursor-pointer'> Chính sách bảo mật </span>
+              của Minh Tuấn Shop.
             </p>
           </div>
-        </form>
+
+        </div>
+
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

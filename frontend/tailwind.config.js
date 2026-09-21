@@ -7,21 +7,34 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Roboto', 'sans-serif'],
-        'display': ['Prata', 'serif'],
+        'sans': ['Inter', 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        'display': ['Inter', 'sans-serif'],
       },
       colors: {
-        primary: {
-          50: '#eff6ff',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
+        cps: {
+          red: '#d70018',
+          darkRed: '#b70014',
+          lightRed: '#fef2f2',
+          orange: '#e11d48',
+          bg: '#f4f6f8'
         },
-        secondary: {
-          50: '#faf5ff',
-          500: '#8b5cf6',
-          600: '#7c3aed',
-          700: '#6d28d9',
+        primary: {
+          50: '#fef2f2',
+          100: '#fee2e2',
+          500: '#d70018',
+          600: '#b70014',
+          700: '#991b1b',
+        },
+        navy: {
+          800: '#1e293b',
+          900: '#0f172a',
+          950: '#020617',
+        },
+        tech: {
+          blue: '#d70018',
+          dark: '#1f2937',
+          light: '#f4f6f8',
+          accent: '#b70014',
         }
       },
       animation: {

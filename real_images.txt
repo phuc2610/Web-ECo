@@ -1,0 +1,135 @@
+--- Image at Paragraph 2 (drawings: 2) ---
+[0]: TRƯỜNG ĐẠI HỌC LẠC HỒNG
+[1]: KHOA CÔNG NGHỆ THÔNG TIN
+
+--- Image at Paragraph 4 (drawings: 1) ---
+[6]: BÁO CÁO TỐT NGHIỆP
+
+--- Image at Paragraph 29 (drawings: 2) ---
+[27]: TRƯỜNG ĐẠI HỌC LẠC HỒNG
+[28]: KHOA CÔNG NGHỆ THÔNG TIN
+
+--- Image at Paragraph 31 (drawings: 1) ---
+
+
+--- Image at Paragraph 129 (drawings: 1) ---
+[131]: Hình 1.1 Thực trạng mua sắm
+
+--- Image at Paragraph 132 (drawings: 1) ---
+[131]: Hình 1.1 Thực trạng mua sắm
+
+--- Image at Paragraph 137 (drawings: 1) ---
+[135]: Hình 1.2 Nắm bắt nhu cầu của khách hàn
+[139]: Hình 1.3 Sự quan tâm của khách hàng
+
+--- Image at Paragraph 142 (drawings: 1) ---
+[144]: Hình 1.4 Tham khảo chức năng khách hàng quan tâm
+
+--- Image at Paragraph 146 (drawings: 1) ---
+[144]: Hình 1.4 Tham khảo chức năng khách hàng quan tâm
+
+--- Image at Paragraph 463 (drawings: 1) ---
+[462]: Lý do chọn MongoDB: Linh hoạt, tốc độ cao, dễ mở rộng và tương thích hoàn hảo với NodeJS (thông qua thư viện Mongoose).
+[464]: Hình 2.1 Sơ đồ kiến trúc
+[465]: 2.5. Cloudinary – Nền tảng lưu trữ và quản lý hình ảnh
+
+--- Image at Paragraph 590 (drawings: 2) ---
+[591]: 3.6. Ưu điểm của mô hình client–server trong đề tài
+[592]: Phân tách rõ ràng frontend và backend: giúp dễ bảo trì, mở rộng, triển khai độc lập.
+
+--- Image at Paragraph 830 (drawings: 1) ---
+[828]: Thống kê – báo cáo doanh thu, xuất dữ liệu ra Excel/PDF. Hỗ trợ khách hàng qua chat hoặc gửi email follow-up.
+[832]: Hình 3.1 Sơ đồ usecase tổng thể
+
+--- Image at Paragraph 843 (drawings: 1) ---
+[842]: Hình 3.1Sơ đồ Use Case chi tiết admin
+[844]: 2.2.2. Hệ thống Website DL – Khách hàng
+[845]: Người dùng có thể thao tác với các chức năng chính của website:
+
+--- Image at Paragraph 848 (drawings: 1) ---
+[846]: Đăng ký / Đăng nhập tài khoản.
+[847]: Xem & tìm kiếm sản phẩm → Xem chi tiết → Thêm vào giỏ hàng → Đặt hàng & Thanh toán → Theo dõi đơn hàng. Đánh giá sản phẩm / Viết review (có ảnh). Thêm sản phẩm vào  hoặc so sánh. Chat với admin khi cần hỗ trợ.
+[849]: Hình 3.3 Sơ đồ Use Case cho User
+[850]: 2.3. Sơ đồ ERD (Entity Relationship Diagram)
+
+--- Image at Paragraph 853 (drawings: 1) ---
+[851]: Sơ đồ ERD mô tả cấu trúc dữ liệu và mối quan hệ giữa các bảng trong MongoDB.
+[852]: Các thực thể chính gồm:
+[854]: Hình 3.4 Sơ đồ EDR Tổng Thể
+[855]: 2.4. Luồng xử lý dữ liệu (Data Flow Overview) Luồng xử lý dữ liệu được chia thành ba phần chính: Frontend (React + Vite):
+
+--- Image at Paragraph 1004 (drawings: 1) ---
+[1002]: │ └── main.jsx 	# Điểm khởi chạy ứng dụng React
+[1005]: Hình 4.1. Cấu trúc Frontend
+[1006]: 2.4. Thiết kế giao diện người dùng (User)
+
+--- Image at Paragraph 1129 (drawings: 2) ---
+[1127]: }
+[1130]: 3.5. Models (Mongoose) – điểm nổi bật
+[1131]: Sử dụng schema rõ ràng, validation, virtuals khi cần, timestamps.
+
+--- Image at Paragraph 1143 (drawings: 2) ---
+[1141]: }, { timestamps: true }); Indexing: tạo index trên userId, createdAt, productId để tăng tốc truy vấn.
+[1144]: 3.6. Middleware & cross-cutting concerns 3.6.1. Auth & Role auth.js: xác thực JWT (Authorization: Bearer <token>), attach req.user. adminAuth.js:
+[1145]: kiểm tra req.user.role === 'admin'.
+
+--- Image at Paragraph 1156 (drawings: 2) ---
+[1154]: Joi / express-validator cho validate input (body, query, params).
+[1157]: 3.7. Tích hợp thanh toán & webhook
+[1158]: Stripe: tạo Checkout Session POST /api/order/stripe, xử lý webhook để verify thanh toán → cập nhật order.status.
+
+--- Image at Paragraph 1162 (drawings: 2) ---
+[1160]: Lưu ý bảo mật: xác thực signature của webhook, không xử lý webhooks trực tiếp bằng public internet nếu chưa bảo mật.
+[1163]: 3.8. Email & Notifications
+[1164]: Nodemailer (SMTP / SendGrid) để gửi xác nhận đơn hàng, follow-up support.
+
+--- Image at Paragraph 1166 (drawings: 2) ---
+[1164]: Nodemailer (SMTP / SendGrid) để gửi xác nhận đơn hàng, follow-up support.
+[1165]: Queue (Bull/Redis) cho gửi email bất đồng bộ nếu volume lớn.
+[1168]: 3.9. Hiệu năng & mở rộng
+
+--- Image at Paragraph 1173 (drawings: 2) ---
+[1171]: Connection pooling cho MongoDB.
+[1174]: 3.10. Logging, Monitoring & Testing
+[1175]: Logging: Winston + rotate, ghi request/response, error stack.
+
+--- Image at Paragraph 1179 (drawings: 2) ---
+[1177]: CI/CD: cftạy lint, test, build, deploy (GitHub Actions → Vercel/Heroku/VPS).
+[1180]: 3.11. Deployment
+[1181]: ENV variables: MONGODB_URI, JWT_SECRET, CLOUDINARY_, STRIPE_KEY, SMTP_.
+
+--- Image at Paragraph 1185 (drawings: 2) ---
+[1183]: Process manager: PM2 hoặc container orchestration (K8s) cho scale. Port mặc định: 4000; Reverse proxy (nginx) nếu deploy trên VPS.
+[1186]: 3.12. Security checklist (tóm tắt) Hash password bằng bcrypt (salt >= 10).
+[1187]: JWT expiry + refresh token policy. Validate & sanitize user input.
+
+--- Image at Paragraph 1193 (drawings: 2) ---
+[1191]: Principle of least privilege cho DB users.
+[1194]: 3.13. API contract — Ví dụ request/response mẫu POST /api/auth/login Request:
+[1195]: { "email": "user@example.com", "password": "password123" } Response (200):
+
+--- Image at Paragraph 1214 (drawings: 2) ---
+[1212]: Dưới đây là PHẦN 4 — Tftiết kế kiến trúc tổng tftể (Frontend ↔ Backend — Database), được viết theo phong cách kỹ thuật, súc tích nhưng vẫn đủ chiều sâu để đưa vào báo cáo hoặc đồ án.
+[1216]: Thiết kế kiến trúc tổng thể (Frontend ↔ Backend ↔ Database).
+
+--- Image at Paragraph 1224 (drawings: 2) ---
+[1222]: Tách biệt rõ ràng giữa các tầng (frontend, backend, database), đảm bảo tính mô- đun.
+[1225]: Mô hình kiến trúc tổng thể
+[1226]: Hệ thống được xây dựng theo mô hình 3 lớp (Three-Tier Architecture):
+
+--- Image at Paragraph 1248 (drawings: 2) ---
+[1246]: Dữ liệu được sao lưu định kỳ và có khả năng mở rộng theo chiều ngang (sharding).
+[1249]: 4.3. Luồng hoạt động tổng quát
+[1250]: Người dùng (Frontend)
+
+--- Image at Paragraph 1272 (drawings: 2) ---
+[1270]: └────────────────────────────┘
+[1274]: 4.6. Ưu điểm của kiến trúc
+
+--- Image at Paragraph 1323 (drawings: 1) ---
+[1321]: Phần Frontend hoạt động ổn định, giao diện trực quan, tốc độ phản hồi nhanh, đảm bảo tính thẩm mỹ và trải nghiệm người dùng tốt. Kết nối chặt chẽ với API backend để đồng bộ dữ liệu sản phẩm, người dùng và đơn hàng theo thời gian thực.
+[1324]: Hình 5.1 Giao diện trang chủ user
+
+--- Image at Paragraph 1327 (drawings: 1) ---
+[1328]: Hình 5.2Giao diện trang sản phẩm
+

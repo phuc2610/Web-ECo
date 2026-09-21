@@ -12,6 +12,9 @@ import chatRouter from "./routes/chatRoute.js";
 import reviewRouter from "./routes/reviewRoute.js";
 import wishlistRouter from "./routes/wishlistRoute.js";
 import compareRouter from "./routes/compareRoute.js";
+import couponRouter from "./routes/couponRoute.js";
+import paymentRouter from "./routes/paymentRoute.js";
+import analyticsRouter from "./routes/analyticsRoute.js";
 
 // App Config
 const app = express();
@@ -33,6 +36,9 @@ app.use("/api/chat", chatRouter);
 app.use("/api/review", reviewRouter);
 app.use("/api/wishlist", wishlistRouter);
 app.use("/api/compare", compareRouter);
+app.use("/api/coupon", couponRouter);
+app.use("/api/payment", paymentRouter);
+app.use("/api/analytics", analyticsRouter);
 
 app.get("/", (req, res) => {
   res.send("API Working");

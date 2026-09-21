@@ -1,0 +1,197 @@
+[59] (Heading 1) [HAS_IMAGE]: LỜI CẢM ƠN
+[76] (Normal) [HAS_IMAGE]: DANH MỤC CÁC TỪ VIẾT TẮT
+[78] (Normal) [HAS_IMAGE]: DANH MỤC HÌNH ẢNH
+[83] (Heading 1) [HAS_IMAGE]: CHƯƠNG 1: MỞ ĐẦU
+[84] (Heading 2) [HAS_IMAGE]: 1. Lý do chọn đề tài
+[100] (Heading 2) [HAS_IMAGE]: 2. Mục tiêu nghiên cứu
+[102] (Normal) [HAS_IMAGE]: Trong bối cảnh xu hướng số hóa và thương mại điện tử phát triển mạnh mẽ, việc các cửa hàng, doanh nghiệp triển khai hệ thống bán hàng trực tuyến không chỉ là nhu cầu mà còn là yếu tố bắt buộc để nâng cao năng lực cạnh tranh. Tuy nhiên, phần lớn các cửa hàng kinh doanh quần áo tại Việt Nam vẫn hoạt động chủ yếu theo hình thức truyền thống hoặc phụ thuộc vào các nền tảng trung gian, dẫn đến việc quản lý đơn hàng, sản phẩm và khách hàng chưa thực sự hiệu quả.
+[106] (Heading 3) [HAS_IMAGE]: 2.1 Mục tiêu tổng quát
+[110] (Normal) [HAS_IMAGE]: Hình thành hệ thống quản trị trực tuyến (Admin Panel) cho phép người quản lý có thể theo dõi, cập nhật và kiểm soát toàn bộ hoạt động kinh doanh một cách thuận tiện, nhanh chóng và chính xác
+[112] (Heading 3) [HAS_IMAGE]: 2.2. Mục tiêu cụ thể
+[120] (Normal) [HAS_IMAGE]: Xem danh mục sản phẩm, lọc theo thương hiệu, giá, loại sản phẩm.
+[121] (Normal) [HAS_IMAGE]: Xem chi tiết sản phẩm với thông tin kỹ thuật, hình ảnh, giá bán, đánh giá.
+[125] (Normal) [HAS_IMAGE]: Viết đánh giá (review) kèm hình ảnh, giúp tăng tính tương tác và độ tin cậy của sản phẩm.
+[131] (Normal) [HAS_IMAGE]: Hình 1.1 Thực trạng mua sắm
+[135] (Normal) [HAS_IMAGE]: Hình 1.2 Nắm bắt nhu cầu của khách hàn
+[139] (Normal) [HAS_IMAGE]: Hình 1.3 Sự quan tâm của khách hàng
+[144] (Normal) [HAS_IMAGE]: Hình 1.4 Tham khảo chức năng khách hàng quan tâm
+[149] (Normal) [HAS_IMAGE]: Hình 1.5 Mong muốn của khách hàng
+[153] (Normal) [HAS_IMAGE]: Quản lý sản phẩm: thêm, chỉnh sửa, xóa, cập nhật hình ảnh (qua Cloudinary), điều chỉnh tồn kho và giá.
+[180] (Normal) [HAS_IMAGE]: Lưu trữ hình ảnh sản phẩm trên Cloudinary, giúp tối ưu tốc độ tải trang và tiết kiệm tài nguyên server.
+[184] (Normal) [HAS_IMAGE]: Xây dựng mô hình website có thể áp dụng thực tế cho các cửa hàng quần áo nhỏ hoặc đại lý đồ, giúp chuyển đổi số hoạt động kinh doanh.
+[190] (Heading 2) [HAS_IMAGE]: 3. Phạm vi nghiên cứu
+[193] (Heading 3) [HAS_IMAGE]: 3.1. Phạm vi chức năng
+[196] (Normal) [HAS_IMAGE]: Cho phép người dùng đăng ký, đăng nhập, xem danh mục sản phẩm, tìm kiếm, lọc và xem chi tiết sản phẩm.
+[219] (Normal) [HAS_IMAGE]: Xử lý giao dịch thanh toán qua Stripe, quản lý ảnh qua Cloudinary, và thực hiện upload hình ảnh qua Multer.
+[221] (Heading 3) [HAS_IMAGE]: 3.2. Phạm vi kỹ thuật
+[224] (Normal) [HAS_IMAGE]: Backend: Xây dựng bằng NodeJS + Express, quản lý dữ liệu qua MongoDB/Mongoose, xác thực bằng JWT, và xử lý upload hình ảnh với Multer + Cloudinary.
+[231] (Heading 3) [HAS_IMAGE]: 3.3. Giới hạn phạm vi
+[236] (Normal) [HAS_IMAGE]: Website hoạt động trong mô hình cửa hàng đơn lẻ, chưa mở rộng lên quy mô sàn thương mại điện tử đa nhà bán hàng (multi-vendor).
+[240] (Heading 3) [HAS_IMAGE]: 3.4. Đối tượng nghiên cứu và ứng dụng
+[252] (Heading 2) [HAS_IMAGE]: 4. Phương pháp nghiên cứu
+[255] (Heading 3) [HAS_IMAGE]: 4.1 Phương pháp phân tích và khảo sát yêu cầu
+[257] (Normal) [HAS_IMAGE]: Tiến hành nghiên cứu, khảo sát mô hình hoạt động của các website thương mại điện tử hiện có trong cùng lĩnh vực (Zara, Uniqlo, Shein...) nhằm xác định các chức năng cơ bản và nâng cao cần có của hệ thống.
+[263] (Heading 3) [HAS_IMAGE]: 4.2 Phương pháp thiết kế hệ thống
+[269] (Normal) [HAS_IMAGE]: Thiết kế mô hình quan hệ giữa các collection MongoDB theo chuẩn hóa, đảm bảo tính toàn vẹn dữ liệu.
+[273] (Normal) [HAS_IMAGE]: Thiết kế tổng thể theo mô hình client–server.
+[284] (Heading 3) [HAS_IMAGE]: 4.3. Phương pháp lập trình và phát triển hệ thống
+[286] (Normal) [HAS_IMAGE]: Phát triển theo mô hình Full-stack MERN (MongoDB – Express – React – NodeJS):
+[290] (Normal) [HAS_IMAGE]: Backend xây dựng bằng NodeJS + ExpressJS, tổ chức theo mô hình MVC (Model – View – Controller).
+[296] (Normal) [HAS_IMAGE]: Cloudinary cho lưu trữ hình ảnh.
+[308] (Heading 3) [HAS_IMAGE]: 4.4. Phương pháp kiểm thử và đánh giá
+[331] (Heading 3) [HAS_IMAGE]: 4.5. Phương pháp tổng hợp và đánh giá kết quả
+[335] (Normal) [HAS_IMAGE]: Đưa ra nhận xét, kết luận và hướng phát triển, đảm bảo đề tài đạt cả hai yếu tố: tính ứng dụng thực tế và tính học thuật.
+[337] (Heading 1) [HAS_IMAGE]: CHƯƠNG 2 CƠ SỞ LÝ THUYẾT
+[339] (Heading 2) [HAS_IMAGE]: 1. Tổng quan về thương mại điện tử
+[340] (Heading 3) [HAS_IMAGE]: 1.1. Khái niệm thương mại điện tử
+[341] (Normal) [HAS_IMAGE]: Thương mại điện tử (E-Commerce) là hình thức mua bán hàng hóa, dịch vụ hoặc trao đổi thông tin thương mại thông qua các phương tiện điện tử, đặc biệt là Internet.
+[345] (Heading 3) [HAS_IMAGE]: 1.2. Đặc điểm của thương mại điện tử
+[346] (Normal) [HAS_IMAGE]: Thương mại điện tử có một số đặc điểm nổi bật so với mô hình kinh doanh truyền thống, bao gồm:
+[359] (Heading 3) [HAS_IMAGE]: 1.3. Lợi ích của thương mại điện tử
+[376] (Heading 3) [HAS_IMAGE]: 1.4. Phân loại mô hình thương mại điện tử
+[377] (Normal) [HAS_IMAGE]: Thương mại điện tử được chia thành nhiều mô hình khác nhau tùy theo đối tượng tham gia giao dịch:
+[378] (Normal) [HAS_IMAGE]: Mô hình 	Đặc điểm 	Ví dụ minh họa
+[379] (Normal) [HAS_IMAGE]: Dự án Website DL thuộc mô hình B2C (doamh nghiệp → người tiêu dùng).
+[380] (Heading 3) [HAS_IMAGE]: 1.5. Thực trạng và xu hướng thương mại điện tử tại Việt Nam
+[390] (Heading 3) [HAS_IMAGE]: 1.6. Vai trò của thương mại điện tử
+[399] (Heading 3) [HAS_IMAGE]: 1.7. Kết luận
+[402] (Normal) [HAS_IMAGE]: ứng dụng các công nghệ web hiện đại để triển khai mô hình kinh doanh trực tuyến, phù hợp với xu thế chuyển đổi số hiện nay, đặc biệt trong ngành thời trang
+[404] (Heading 2) [HAS_IMAGE]: 2. Các công nghệ sử dụng
+[406] (Normal) [HAS_IMAGE]: Hệ thống được phát triển theo mô hình MERN Stack mở rộng (MongoDB – Express – React – NodeJS) kết hợp với Cloudinary, Stripe, JWT và TailwindCSS để đảm bảo hiệu năng, bảo mật và trải nghiệm người dùng tối ưu.
+[409] (Heading 3) [HAS_IMAGE]: 2.1. ReactJS – Thư viện xây dựng giao diện người dùng
+[424] (Normal) [HAS_IMAGE]: Lý do chọn ReactJS: Hiệu năng cao, dễ mở rộng, cộng đồng hỗ trợ mạnh, phù hợp với mô hình ứng dụng thương mại điện tử có nhiều tương tác.
+[425] (Heading 3) [HAS_IMAGE]: 2.2. NodeJS – Nền tảng phía máy chủ
+[439] (Heading 3) [HAS_IMAGE]: 2.3. ExpressJS – Framework cho backend NodeJS
+[449] (Normal) [HAS_IMAGE]: Quản lý tải lên hình ảnh (upload) bằng Multer và liên kết với Cloudinary.
+[452] (Heading 3) [HAS_IMAGE]: 2.4. MongoDB – Cơ sở dữ liệu NoSQL
+[464] (Normal) [HAS_IMAGE]: Hình 2.1 Sơ đồ kiến trúc
+[465] (Heading 3) [HAS_IMAGE]: 2.5. Cloudinary – Nền tảng lưu trữ và quản lý hình ảnh
+[466] (Normal) [HAS_IMAGE]: Cloudinary là dịch vụ điện toán đám mây chuyên xử lý, lưu trữ và tối ưu hình ảnh hoặc video cho các ứng dụng web.
+[470] (Normal) [HAS_IMAGE]: Lưu trữ hình ảnh sản phẩm, ảnh người dùng, và ảnh review.
+[475] (Heading 3) [HAS_IMAGE]: 2.6. Stripe – Cổng thanh toán trực tuyến
+[487] (Heading 3) [HAS_IMAGE]: 2.7. JWT (JSON Web Token) – Cơ chế xác thực và bảo mật
+[501] (Heading 3) [HAS_IMAGE]: 2.8. TailwindCSS – Thư viện CSS tiện dụng
+[512] (Heading 3) [HAS_IMAGE]: 2.9. Tổng kết
+[514] (Normal) [HAS_IMAGE]: Mỗi công nghệ đảm nhiệm một vai trò riêng nhưng phối hợp nhịp nhàng trong mô hình tổng thể:
+[520] (Heading 2) [HAS_IMAGE]: 3. Mô hình hệ thống web thương mại điện tử (kiến trúc client–server)
+[521] (Heading 3) [HAS_IMAGE]: 3.1. Giới thiệu mô hình
+[522] (Normal) [HAS_IMAGE]: Các hệ thống web hiện đại, đặc biệt là website thương mại điện tử, thường được xây dựng dựa trên mô hình kiến trúc client–server (máy khách – máy chủ). Trong mô hình này:
+[528] (Heading 3) [HAS_IMAGE]: 3.2. Kiến trúc tổng thể của hệ thống DL
+[530] (Heading 3) [HAS_IMAGE]: 3.3. Các thành phần tương tác trong hệ thống
+[566] (Heading 3) [HAS_IMAGE]: 3.4. Quy trình hoạt động của hệ thống (tóm tắt luồng dữ liệu)
+[568] (Normal) [HAS_IMAGE]: Người dùng truy cập website → giao diện ReactJS hiển thị danh mục sản phẩm được tải từ API /api/product/list.
+[579] (Heading 3) [HAS_IMAGE]: 3.5. Sơ đồ mô hình kiến trúc hệ thống (mô tả)
+[591] (Heading 3) [HAS_IMAGE]: 3.6. Ưu điểm của mô hình client–server trong đề tài
+[602] (Heading 3) [HAS_IMAGE]: 3.7. Kết luận
+[603] (Normal) [HAS_IMAGE]: Mô hình client–server là nền tảng cốt lõi trong kiến trúc của hệ thống DL.
+[606] (Heading 1) [HAS_IMAGE]: CHƯƠNG 3 PHÂN TÍCH HỆ THỐNG
+[608] (Heading 2) [HAS_IMAGE]: 1. Khảo sát yêu cầu người dùng (User & Admin)
+[609] (Heading 3) [HAS_IMAGE]: 1.1. Mục tiêu khảo sát
+[615] (Heading 3) [HAS_IMAGE]: 1.2. Nhóm người dùng cuối (User)
+[621] (Normal) [HAS_IMAGE]: Ưu tiên tốc độ truy cập, hình ảnh sản phẩm rõ ràng, quy trình mua hàng nhanh gọn, thanh toán an toàn.
+[625] (Normal) [HAS_IMAGE]: Dễ dàng tìm kiếm sản phẩm theo danh mục, thương hiệu, giá, hoặc từ khóa.
+[627] (Normal) [HAS_IMAGE]: Xem chi tiết sản phẩm với hình ảnh, thông số kỹ thuật, đánh giá và các sản phẩm tương tự.
+[636] (Normal) [HAS_IMAGE]: Gửi đánh giá (review) kèm hình ảnh về sản phẩm sau khi mua.
+[645] (Normal) [HAS_IMAGE]: Duyệt danh mục Xem các danh mục quần áo... và lọc theo giá, hãng, sản phẩm loại.
+[647] (Normal) [HAS_IMAGE]: Xem chi tiết sản 	Hiển thị hình ảnh, mô tả, thông số kỹ thuật, đánh giá phẩm 	và sản phẩm liên quan.
+[667] (Heading 3) [HAS_IMAGE]: 1.3. Nhóm quản trị viên hệ thống (Admin)
+[670] (Normal) [HAS_IMAGE]: Quản lý danh mục và sản phẩm.
+[693] (Normal) [HAS_IMAGE]: Quản lý sản phẩm Thêm mới, chỉnh sửa thông tin, giá, tồn kho, hình ảnh sản phẩm.
+[707] (Normal) [HAS_IMAGE]: 1.3.4. Kết luận khảo sát
+[712] (Heading 2) [HAS_IMAGE]: 2. Chức năng chính của hệ thống
+[727] (Normal) [HAS_IMAGE]: Người dùng có thể tìm kiếm sản phẩm theo từ khóa, danh mục, thương hiệu hoặc mức giá.
+[731] (Normal) [HAS_IMAGE]: Hình ảnh (lưu trên Cloudinary).
+[762] (Normal) [HAS_IMAGE]: Sau khi mua hàng, người dùng có thể gửi đánh giá (review) cho sản phẩm đã mua, kèm hình ảnh thực tế.
+[784] (Normal) [HAS_IMAGE]: Thêm mới sản phẩm: nhập thông tin, giá, tồn kho, mô tả, thông số kỹ thuật và tải nhiều hình ảnh qua Multer + Cloudinary.
+[787] (Normal) [HAS_IMAGE]: Tìm kiếm sản phẩm: dễ dàng lọc và tìm theo tên, mã, danh mục.
+[813] (Normal) [HAS_IMAGE]: 2.3. Kết luận chức năng
+[815] (Normal) [HAS_IMAGE]: Hệ thống đảm bảo tính toàn diện, bảo mật và khả năng mở rộng, đáp ứng các yêu cầu của một mô hình thương mại điện tử chuyên biệt trong lĩnh vực thời trang Rất tốt — bạn đã có đủ 4 sơ đồ cốt lõi để viết phần 3: “Sơ đồ use case, ERD, luồng xử lý dữ liệu” của báo cáo. Sơ đồ use case, ERD, luồng xử lý dữ liệu
+[820] (Normal) [HAS_IMAGE]: Xem, tìm kiếm, so sánh và thêm sản phẩm vào . Xem chi tiết sản phẩm, đánh giá và viết review có hình ảnh.
+[832] (Normal) [HAS_IMAGE]: Hình 3.1 Sơ đồ usecase tổng thể
+[838] (Normal) [HAS_IMAGE]: Quản lý sản phẩm (thêm mới, cập nhật giá, tồn kho, hình ảnh). Quản lý đơn hàng (xem, duyệt, cập nhật trạng thái).
+[842] (Normal) [HAS_IMAGE]: Hình 3.1Sơ đồ Use Case chi tiết admin
+[849] (Normal) [HAS_IMAGE]: Hình 3.3 Sơ đồ Use Case cho User
+[854] (Normal) [HAS_IMAGE]: Hình 3.4 Sơ đồ EDR Tổng Thể
+[865] (Heading 1) [HAS_IMAGE]: CHƯƠNG 4 PHÂN TÍCH HỆ THỐNG
+[901] (Normal) [HAS_IMAGE]: Thuộc về 1 danh mục (categories).
+[1000] (Normal) [HAS_IMAGE]: │ ├── assets/ 	# Hình ảnh, biểu tượng, banner
+[1001] (Normal) [HAS_IMAGE]: │ ├── styles/ 	# Cấu hình Tailwind CSS
+[1005] (Normal) [HAS_IMAGE]: Hình 4.1. Cấu trúc Frontend
+[1008] (Normal) [HAS_IMAGE]: Hiển thị banner khuyến mãi, danh mục sản phẩm, và các sản phẩm nổi bật.
+[1009] (Normal) [HAS_IMAGE]: Có thanh tìm kiếm nhanh và gợi ý sản phẩm. Trang danh mục /collection:
+[1012] (Normal) [HAS_IMAGE]: Hiển thị ảnh, mô tả, thông số kỹ thuật, giá, và đánh giá có hình ảnh.
+[1147] (Normal) [HAS_IMAGE]: multerConfig.js cấu hình multer để nhận nhiều ảnh (field name: images) và lưu tạm → upload lên Cloudinary trong controller.
+[1209] (Normal) [HAS_IMAGE]: 3.14. Kết luận
+[1225] (Normal) [HAS_IMAGE]: Mô hình kiến trúc tổng thể
+[1226] (Normal) [HAS_IMAGE]: Hệ thống được xây dựng theo mô hình 3 lớp (Three-Tier Architecture):
+[1235] (Normal) [HAS_IMAGE]: Upload hình ảnh và thanh toán đều gọi API backend.
+[1281] (Normal) [HAS_IMAGE]: 4.7. Kết luận
+[1282] (Normal) [HAS_IMAGE]: Kiến trúc tổng thể của hệ thống Website DL được thiết kế theo mô hình Frontend – Backend – Database rõ ràng, hướng dịch vụ (Service-oriented), giúp đảm bảo tính linh hoạt, bảo mật và mở rộng trong tương lai.
+[1286] (Heading 1) [HAS_IMAGE]: CHƯƠNG 5 XÂY DỰNG CHƯƠNG TRÌNH
+[1300] (Normal) [HAS_IMAGE]: │ └── utils/ 	→ Hàm tiện ích và cấu hình API
+[1303] (Normal) [HAS_IMAGE]: Home (/): Hiển thị banner, danh mục và sản phẩm nổi bật.
+[1304] (Normal) [HAS_IMAGE]: Collection (/collection): Liệt kê sản phẩm, lọc theo danh mục hoặc giá. Product Detail (/product/:id): Hiển thị chi tiết sản phẩm, đánh giá, thêm vào giỏ hàng hoặc .
+[1324] (Normal) [HAS_IMAGE]: Hình 5.1 Giao diện trang chủ user
+[1328] (Normal) [HAS_IMAGE]: Hình 5.2Giao diện trang sản phẩm
+[1336] (Normal) [HAS_IMAGE]: Cấu trúc backend được tổ chức theo mô hình MVC (Model – View – Controller), giúp mã nguồn rõ ràng, dễ bảo trì và mở rộng.
+[1396] (Normal) [HAS_IMAGE]: Quản lý sản phẩm: Cho phép thêm, sửa, xóa, cập nhật thông tin sản phẩm, hình ảnh và giá bán.
+[1423] (Heading 2) [HAS_IMAGE]: 4.2 Upload hình ảnh với Cloudinary
+[1424] (Normal) [HAS_IMAGE]: Để quản lý hình ảnh sản phẩm hiệu quả, hệ thống tích hợp Cloudinary – nền tảng lưu trữ và xử lý hình ảnh trực tuyến. Quy trình upload hoạt động như sau:
+[1425] (Normal) [HAS_IMAGE]: Người quản trị (admin) chọn hình ảnh sản phẩm trong giao diện quản trị. Ảnh được gửi từ Frontend lên Backend qua API upload.
+[1426] (Normal) [HAS_IMAGE]: Backend sử dụng SDK của Cloudinary để tải ảnh lên hệ thống lưu trữ đám mây. Sau khi upload thành công, Cloudinary trả về URL công khai của hình ảnh. URL này được lưu trong cơ sở dữ liệu MongoDB để hiển thị sản phẩm trên website.
+[1430] (Heading 2) [HAS_IMAGE]: 4.3 Tích hợp thanh toán Stripe
+[1440] (Heading 2) [HAS_IMAGE]: 4.4 Bảo mật và đồng bộ dữ liệu
+[1445] (Heading 1) [HAS_IMAGE]: CHƯƠNG 6 KẾT QUẢ ĐẠT ĐƯỢC
+[1449] (Normal) [HAS_IMAGE]: Hệ thống được xây dựng với mục tiêu hoạt động liên tục, ổn định và có khả năng xử lý đồng thời nhiều yêu cầu của người dùng. Tất cả các module đều được thiết kế theo mô hình client–server, đảm bảo tính tách biệt giữa giao diện, xử lý nghiệp vụ và cơ sở dữ liệu, giúp dễ dàng bảo trì và mở rộng.
+[1451] (Heading 2) [HAS_IMAGE]: 1.2. Ổn định trong các chức năng người dùng
+[1458] (Heading 2) [HAS_IMAGE]: 1.3. Ổn định trong các chức năng quản trị (Admin Panel)
+[1463] (Heading 2) [HAS_IMAGE]: 1.4. Kiểm thử và xử lý lỗi hệ thống
+[1469] (Normal) [HAS_IMAGE]: 1.6. Kết luận
+[1477] (Heading 2) [HAS_IMAGE]: 2.2. Nguyên tắc thiết kế giao diện
+[1484] (Normal) [HAS_IMAGE]: Body (Trang chính): hiển thị danh mục sản phẩm, banner quảng cáo, danh sách sản phẩm nổi bật, bộ lọc và sắp xếp.
+[1486] (Heading 2) [HAS_IMAGE]: 2.4. Responsive và khả năng tương thích đa thiết bị
+[1490] (Normal) [HAS_IMAGE]: Menu chuyển sang dạng hamburger menu trên màn hình nhỏ, giúp người dùng thao tác dễ dàng.
+[1492] (Heading 2) [HAS_IMAGE]: 2.5. Cải thiện trải nghiệm người dùng
+[1496] (Normal) [HAS_IMAGE]: ChatWidget: hỗ trợ khách hàng trực tiếp, tăng tính tương tác và giữ chân người dùng. 2.6. Kết luận
+[1506] (Heading 2) [HAS_IMAGE]: 3.2. Kiểm tra và xác thực token ở backend
+[1509] (Heading 2) [HAS_IMAGE]: 3.3. Mã hóa và bảo mật thông tin
+[1513] (Heading 2) [HAS_IMAGE]: 3.4. Quản lý phân quyền người dùng
+[1517] (Heading 2) [HAS_IMAGE]: 3.5. Bảo vệ chống tấn công phổ biến
+[1518] (Normal) [HAS_IMAGE]: CORS được cấu hình để chỉ cho phép các domain hợp lệ truy cập API. Helmet và express-rate-limit được tích hợp nhằm giảm thiểu nguy cơ tấn công DDoS hoặc XSS. JWT kết hợp cùng HTTPS giúp đảm bảo dữ liệu truyền tải giữa frontend và backend được mã hóa và an toàn.
+[1524] (Normal) [HAS_IMAGE]: Dữ liệu hiển thị theo thời gian thực, giúp người quản trị nắm bắt được tình hình kinh doanh nhanh chóng.
+[1525] (Heading 2) [HAS_IMAGE]: 4.2. Kết nối dữ liệu đồng bộ giữa Frontend – Backend – Database
+[1528] (Heading 2) [HAS_IMAGE]: 4.3. Cơ chế đồng bộ thời gian thực (Real-time Update)
+[1531] (Heading 2) [HAS_IMAGE]: 4.4. Tự động hóa và tối ưu quản trị
+[1534] (Heading 2) [HAS_IMAGE]: 4.5. Đảm bảo tính toàn vẹn và thống nhất dữ liệu
+[1537] (Heading 1) [HAS_IMAGE]: CHƯƠNG 7: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+[1538] (Normal) [HAS_IMAGE]: 1. Kết luận
+[1540] (Heading 2) [HAS_IMAGE]: 1.1. Tổng quan
+[1543] (Heading 2) [HAS_IMAGE]: 1.2. Tính năng người dùng
+[1546] (Heading 2) [HAS_IMAGE]: 1.3. Tính năng quản trị
+[1549] (Heading 2) [HAS_IMAGE]: 1.4. Đánh giá tổng thể
+[1556] (Heading 2) [HAS_IMAGE]: 2.2. Về ứng dụng di động
+[1558] (Heading 2) [HAS_IMAGE]: 2.3. Về phương thức thanh toán
+[1564] (Heading 2) [HAS_IMAGE]: 3.2. Triển khai lên domain thực tế
+[1566] (Heading 2) [HAS_IMAGE]: 3.3. Mở rộng phương thức thanh toán
+[1574] (Normal) [HAS_IMAGE]: Tài liệu tham khảo
+[1593] (Normal) [HAS_IMAGE]: Hướng dẫn upload, quản lý hình ảnh bằng Cloudinary trong Node.js. https://cloudinary.com/documentation/node_integration
+  Row 0: STT | Hình ảnh | Mô tả
+  Row 1: 1 | Hình 1.1 | Thực trạng mua sắm
+  Row 2: 2 | Hình 1.2 | Nắm bắt nhu cầu của khách hàng
+  Row 3: 3 | Hình 1.3 | Sự quan tâm của khách hàng
+  Row 4: 4 | Hình 1.4 | Tham khảo chức năng khách hàng quan tâm
+  Row 5: 5 | Hình 1.5 | Mong muốn của khách hàng
+  Row 6: 6 | Hình 2.1 | Sơ đồ kiến trúc hệ thống
+  Row 7: 7 | Hình 3.1 | Sơ đồ Use Case tổng thể
+  Row 8: 8 | Hình 3.2 | Sơ đồ Use Case chi tiết Admin
+  Row 9: 9 | Hình 3.3 | Sơ đồ Use Case cho User
+  Row 10: 10 | Hình 3.4 | Sơ đồ ERD tổng thể
+  Row 11: 11 | Hình 4.1 | Cấu trúc thư mục Frontend
+  Row 12: 12 | Hình 5.1 | Giao diện trang chủ User
+  Row 13: 13 | Hình 5.2 | Giao diện trang sản phẩm
+  Row 1: Thông tin  users 	người dùng, vai trò  (user/admin), bảo mật JWT.  products Sản phẩm, thông số kỹ thuật, hình ảnh, tồn kho.  Thông tin thức thanh toán.  orders 	đơn hàng, trạng thái, phương | 1–N với orders, reviews, chats, s  1–N với reviews, orderItems, s  1–N với orderItems
+  Row 2: 2 | products | Lưu thông tin chi tiết sản phẩm (tên, giá, tồn kho, mô tả, hình  ảnh, danh mục)
+  Row 3: 3 | categories | Quản lý danh mục sản phẩm
+  Row 2: Cloudinary | Lưu trữ hình ảnh sản phẩm, avatar người dùng
+  Row 1: │── models/ | → Mô hình dữ liệu MongoDB (Mongoose)
+  Row 3: │── config/ | → Cấu hình cơ sở dữ liệu, Cloudinary, Stripe

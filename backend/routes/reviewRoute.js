@@ -8,7 +8,8 @@ import {
     updateReview,
     deleteReview,
     markHelpful,
-    reportReview
+    reportReview,
+    getRecentReviews
 } from "../controllers/reviewController.js";
 import fs from 'fs';
 import path from 'path';
@@ -62,6 +63,7 @@ const cleanupFiles = (req, res, next) => {
 };
 
 // Public routes
+reviewRouter.get('/recent', getRecentReviews);
 reviewRouter.get('/product/:productId', getProductReviews);
 
 

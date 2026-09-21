@@ -47,6 +47,18 @@ const Sidebar = () => {
 
         <NavLink
           className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded-l"
+          to="/customer-insights"
+        >
+          <div className="w-6 h-6 rounded-full flex items-center justify-center text-red-600 bg-red-50 text-xs font-bold">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <p className="hidden md:block">Hành vi & Nhu cầu khách</p>
+        </NavLink>
+
+        <NavLink
+          className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded-l"
           to="/customer-support"
         >
           <div className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold">

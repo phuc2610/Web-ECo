@@ -1,0 +1,74 @@
+=== Table 0: 36 rows x 2 cols ===
+  Row 0: Từ viết tắt | Giải thích
+  Row 1: API | Application Programming Interface – Giao diện lập trình ứng dụng
+  Row 2: B2C | Business to Customer – Doanh nghiệp đến người tiêu dùng
+  Row 3: B2B | Business to Business – Doanh nghiệp đến doanh nghiệp
+  Row 4: C2C | Customer to Customer – Cá nhân đến cá nhân
+
+=== Table 1: 14 rows x 3 cols ===
+  Row 0: STT | Hình ảnh | Mô tả
+  Row 1: 1 | Hình 1.1 | Thực trạng mua sắm
+  Row 2: 2 | Hình 1.2 | Nắm bắt nhu cầu của khách hàng
+  Row 3: 3 | Hình 1.3 | Sự quan tâm của khách hàng
+  Row 4: 4 | Hình 1.4 | Tham khảo chức năng khách hàng quan tâm
+
+=== Table 2: 4 rows x 3 cols ===
+  Row 0: B2C (Business to  Customer) | Doanh nghiệp bán hàng trực tiếp cho người tiêu dùng. | Tiki, Lazada, Shopee.
+  Row 1: B2B (Business to  Business) | Giao dịch giữa hai doanh nghiệp. | Alibaba.
+  Row 2: C2C (Customer to  Customer) | Cá nhân bán hàng cho cá nhân thông qua nền tảng trung gian. | Chợ Tốt, eBay, Shopee C2C.
+  Row 3: C2B (Customer to  Business)    B2G (Business to  Government) | Cá nhân cung cấp sản  phẩm/dịch vụ cho doanh 	 nghiệp. 	    Doanh nghiệp cung cấp hàng hóa, dịch vụ cho cơ quan nhà nước. | Freelancer, Fiverr.  Các cổng đấu thầu trực tuyến.
+
+=== Table 3: 3 rows x 3 cols ===
+  Row 0: Đối tượng | Nhóm chức năng chính | Mô tả tổng quát
+  Row 1: Người dùng (User) | Đăng ký/Đăng nhập, Mua hàng,  Thanh toán, Review, Chat hỗ  trợ | Giúp người dùng có trải nghiệm mua sắm trực tuyến nhanh, an toàn, và tiện lợi.
+  Row 2: Quản trị viên  (Admin) | Quản lý sản phẩm, Đơn hàng,  Người dùng, Review, Thống kê,  Hỗ trợ khách hàng | Hỗ trợ quản trị hiệu quả hoạt động kinh doanh và duy trì chất lượng dịch vụ.
+
+=== Table 4: 7 rows x 2 cols ===
+  Row 0: Thực thể 	Mô tả | Quan hệ
+  Row 1: Thông tin  users 	người dùng, vai trò  (user/admin), bảo mật JWT.  products Sản phẩm, thông số kỹ thuật, hình ảnh, tồn kho.  Thông tin thức thanh toán.  orders 	đơn hàng, trạng thái, phương | 1–N với orders, reviews, chats, s  1–N với reviews, orderItems, s  1–N với orderItems
+  Row 2: orderItems  Chi tiết từng sản phẩm trong đơn hàng. | N–1 với orders, products
+  Row 3: reviews 	Đánh giá sản phẩm, ảnh, điểm số, helpful/report. | N–1 với users, products
+  Row 4: s 	Danh sách yêu thích của người dùng. | N–1 với users, products
+
+=== Table 5: 11 rows x 3 cols ===
+  Row 0: STT  collection | STT  collection | Chức năng chính
+  Row 1: 1 | users | Lưu trữ thông tin người dùng (khách hàng, quản trị viên)
+  Row 2: 2 | products | Lưu thông tin chi tiết sản phẩm (tên, giá, tồn kho, mô tả, hình  ảnh, danh mục)
+  Row 3: 3 | categories | Quản lý danh mục sản phẩm
+  Row 4: 4 | orders | Lưu thông tin đơn hàng (khách hàng, tổng tiền, trạng thái, ngày  đặt)
+
+=== Table 6: 6 rows x 2 cols ===
+  Row 0: │ 	Frontend | │
+  Row 1: │ 	(ReactJS + Redux) | │
+  Row 2: │ - Giao diện web | │
+  Row 3: │ - Gọi API bằng Axios | │
+  Row 4: │ - Hiển thị sản phẩm, giỏ | │
+
+=== Table 7: 5 rows x 2 cols ===
+  Row 0: │ 	Backend API | │
+  Row 1: │ 	(Node.js + Express) | │
+  Row 2: │ - Xử lý logic nghiệp vụ | │
+  Row 3: │ - Xác thực JWT | │
+  Row 4: │ - Upload ảnh (Cloudinary) | │
+
+=== Table 8: 8 rows x 2 cols ===
+  Row 0: │ 	MongoDB Atlas | │
+  Row 1: │ - Collection: Users | │
+  Row 2: │ 	Products | │
+  Row 3: │ 	Orders | │
+  Row 4: │ 	Reviews | │
+
+=== Table 9: 9 rows x 2 cols ===
+  Row 0: 4.5. Các thành phần bổ trợ | 
+  Row 1: Thành phần | Chức năng
+  Row 2: Cloudinary | Lưu trữ hình ảnh sản phẩm, avatar người dùng
+  Row 3: Stripe / VNPay API | Xử lý thanh toán trực tuyến
+  Row 4: Nodemailer / Gmail API | Gửi email xác nhận đơn hàng
+
+=== Table 10: 6 rows x 2 cols ===
+  Row 0: │── controllers/ | → Xử lý logic nghiệp vụ cho từng route
+  Row 1: │── models/ | → Mô hình dữ liệu MongoDB (Mongoose)
+  Row 2: │── middleware/ | → Xác thực JWT, phân quyền admin, upload ảnh
+  Row 3: │── config/ | → Cấu hình cơ sở dữ liệu, Cloudinary, Stripe
+  Row 4: │── uploads/ | → Lưu tạm ảnh người dùng upload
+

@@ -1,0 +1,36 @@
+Row 0: Từ viết tắt | Giải thích
+Row 1: API | Application Programming Interface – Giao diện lập trình ứng dụng
+Row 2: B2C | Business to Customer – Doanh nghiệp đến người tiêu dùng
+Row 3: B2B | Business to Business – Doanh nghiệp đến doanh nghiệp
+Row 4: C2C | Customer to Customer – Cá nhân đến cá nhân
+Row 5: C2B | Customer to Business – Cá nhân đến doanh nghiệp
+Row 6: B2G | Business to Government – Doanh nghiệp đến chính phủ
+Row 7: MERN | MongoDB, ExpressJS, ReactJS, NodeJS
+Row 8: JWT | JSON Web Token – Mã thông báo xác thực dạng JSON
+Row 9: UI | User Interface – Giao diện người dùng
+Row 10: UX | User Experience – Trải nghiệm người dùng
+Row 11: SPA | Single Page Application – Ứng dụng một trang
+Row 12: MVC | Model – View – Controller
+Row 13: CRUD | Create, Read, Update, Delete – Tạo, Đọc, Cập nhật, Xóa
+Row 14: REST | Representational State Transfer
+Row 15: HTTP | HyperText Transfer Protocol – Giao thức truyền siêu văn bản
+Row 16: HTTPS | HyperText Transfer Protocol Secure – Giao thức truyền siêu văn bản bảo mật
+Row 17: SSL | Secure Sockets Layer – Lớp ổ cắm bảo mật
+Row 18: TLS | Transport Layer Security – Bảo mật tầng truyền tải
+Row 19: COD | Cash on Delivery – Thanh toán khi nhận hàng
+Row 20: SKU | Stock Keeping Unit – Đơn vị lưu kho
+Row 21: ERD | Entity Relationship Diagram – Sơ đồ quan hệ thực thể
+Row 22: NoSQL | Non-relational SQL – Cơ sở dữ liệu phi quan hệ
+Row 23: JSON | JavaScript Object Notation
+Row 24: BSON | Binary JSON – JSON dạng nhị phân
+Row 25: CORS | Cross-Origin Resource Sharing – Chia sẻ tài nguyên đa nguồn gốc
+Row 26: ORM | Object Relational Mapping
+Row 27: SDK | Software Development Kit – Bộ công cụ phát triển phần mềm
+Row 28: URL | Uniform Resource Locator – Địa chỉ tài nguyên đồng nhất
+Row 29: SMTP | Simple Mail Transfer Protocol – Giao thức truyền thư đơn giản
+Row 30: AI | Artificial Intelligence – Trí tuệ nhân tạo
+Row 31: VPS | Virtual Private Server – Máy chủ riêng ảo
+Row 32: CSS | Cascading Style Sheets
+Row 33: XSS | Cross-Site Scripting – Tấn công kịch bản chéo trang
+Row 34: DDoS | Distributed Denial of Service – Tấn công từ chối dịch vụ phân tán
+Row 35: PCI-DSS | Payment Card Industry Data Security Standard – Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán

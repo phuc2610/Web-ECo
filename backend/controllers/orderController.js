@@ -8,8 +8,17 @@ import Stripe from "stripe";
 const currency = "usd";
 const deliveryCharge = 30000;
 
-// gateway initialize
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+// gateway initialize (lazy — so server starts even without the key)
+let _stripe;
+const getStripe = () => {
+  if (!_stripe) {
+    if (!process.env.STRIPE_SECRET_KEY) {
+      throw new Error("STRIPE_SECRET_KEY is not set in environment variables");
+    }
+    _stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+  }
+  return _stripe;
+};
 
 // Placing orders using COD Method
 const placeOrder = async (req, res) => {
@@ -177,7 +186,7 @@ const placeOrderStripe = async (req, res) => {
       });
     }
 
-    const session = await stripe.checkout.sessions.create({
+    const session = await getStripe().checkout.sessions.create({
       payment_method_types: ["card"],
       success_url: `${origin}/verify?success=true&orderId=${newOrder._id}`,
       cancel_url: `${origin}/verify?success=false&orderId=${newOrder._id}`,

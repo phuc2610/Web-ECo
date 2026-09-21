@@ -13,6 +13,8 @@ const orderSchema = new mongoose.Schema({
     cancelReason: { type:String, default: '' },
     paymentMethod: { type:String , required:true },
     payment: { type:Boolean, required:true , default: false },
+    orderCode: { type:String, default: '' },
+    paymentDetails: { type:Object, default: {} },
     // date: { type:Number , required:true }
 },{timestamps:true})
 

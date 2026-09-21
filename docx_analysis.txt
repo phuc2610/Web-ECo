@@ -1,0 +1,1753 @@
+Total paragraphs: 1615
+Total tables: 11
+Total sections: 4
+
+=== ALL PARAGRAPHS ===
+[0] (Normal) [HAS_IMAGE]: TRƯỜNG ĐẠI HỌC LẠC HỒNG
+[1] (Normal) [HAS_IMAGE]: KHOA CÔNG NGHỆ THÔNG TIN
+[2] (Normal) [HAS_IMAGE]: 
+[3] (Normal) [HAS_IMAGE]: 
+[4] (Normal) [HAS_IMAGE]: 
+[5] (Normal) [HAS_IMAGE]: 
+[6] (Normal) [HAS_IMAGE]: BÁO CÁO TỐT NGHIỆP
+[7] (Normal) [HAS_IMAGE]: 
+[8] (Normal) [HAS_IMAGE]: ĐỀ TÀI:
+[9] (Normal) [HAS_IMAGE]: WEBSITE BÁN QUẦN ÁO
+[10] (Normal) [HAS_IMAGE]: 
+[11] (Normal) [HAS_IMAGE]: 
+[12] (Normal) [HAS_IMAGE]: 
+[13] (Normal) [HAS_IMAGE]: 
+[14] (Normal) [HAS_IMAGE]: 
+[15] (Normal) [HAS_IMAGE]: 122000776 – TRẦN TUẦN LƯƠNG
+[16] (Normal) [HAS_IMAGE]: 122001433 – NGUYỄN VĂN ĐẠI
+[17] (Normal) [HAS_IMAGE]: 
+[18] (Normal) [HAS_IMAGE]: 
+[19] (Normal) [HAS_IMAGE]: 
+[20] (Normal) [HAS_IMAGE]: 
+[21] (Normal) [HAS_IMAGE]: 
+[22] (Normal) [HAS_IMAGE]: 
+[23] (Normal) [HAS_IMAGE]: 
+[24] (Normal) [HAS_IMAGE]: 
+[25] (Normal) [HAS_IMAGE]: 
+[26] (Normal) [HAS_IMAGE]: Tháng 5/2026
+[27] (Normal) [HAS_IMAGE]: TRƯỜNG ĐẠI HỌC LẠC HỒNG
+[28] (Normal) [HAS_IMAGE]: KHOA CÔNG NGHỆ THÔNG TIN
+[29] (Normal) [HAS_IMAGE]: 
+[30] (Normal) [HAS_IMAGE]: 
+[31] (Normal) [HAS_IMAGE]: 
+[32] (Normal) [HAS_IMAGE]: 
+[33] (Normal) [HAS_IMAGE]: 
+[34] (Normal) [HAS_IMAGE]: 
+[35] (Normal) [HAS_IMAGE]: 
+[36] (Normal) [HAS_IMAGE]: BÁO CÁO TỐT NGHIỆP
+[37] (Normal) [HAS_IMAGE]: 
+[38] (Normal) [HAS_IMAGE]: 
+[39] (Normal) [HAS_IMAGE]: ĐỀ TÀI:
+[40] (Normal) [HAS_IMAGE]: WEBSITE BÁN QUẦN ÁO
+[41] (Normal) [HAS_IMAGE]: 
+[42] (Normal) [HAS_IMAGE]: 
+[43] (Normal) [HAS_IMAGE]: 
+[44] (Normal) [HAS_IMAGE]: 
+[45] (Normal) [HAS_IMAGE]: 
+[46] (Normal) [HAS_IMAGE]: SVTH:
+[47] (Normal) [HAS_IMAGE]: 122000776 – TRẦN TUẦN LƯƠNG
+[48] (Normal) [HAS_IMAGE]: 122001433 – NGUYỄN VĂN ĐẠI
+[49] (Normal) [HAS_IMAGE]: GVHD:
+[50] (Normal) [HAS_IMAGE]: BÙI XUÂN CẢNH
+[51] (Normal) [HAS_IMAGE]: 
+[52] (Normal) [HAS_IMAGE]: 
+[53] (Normal) [HAS_IMAGE]: 
+[54] (Normal) [HAS_IMAGE]: 
+[55] (Normal) [HAS_IMAGE]: 
+[56] (Normal) [HAS_IMAGE]: 
+[57] (Normal) [HAS_IMAGE]: 
+[58] (Normal) [HAS_IMAGE]: THÁNG 5/2026
+[59] (Heading 1) [HAS_IMAGE]: LỜI CẢM ƠN
+[60] (Normal) [HAS_IMAGE]: 
+[61] (Normal) [HAS_IMAGE]: Trong kỷ nguyên số hóa hiện nay, thương mại điện tử đã trở thành một phần không thể thiếu của nền kinh tế toàn cầu. Thói quen mua sắm của người tiêu dùng, đặc biệt là giới trẻ, đã chuyển dịch mạnh mẽ từ các cửa hàng truyền thống sang các nền tảng trực tuyến. Đối với ngành thời trang, xu hướng này càng thể hiện rõ rệt khi nhu cầu cập nhật xu hướng mới, so sánh giá cả và mua sắm tiện lợi ngày càng tăng cao.
+[62] (Normal) [HAS_IMAGE]: 
+[63] (Normal) [HAS_IMAGE]: Tuy nhiên, nhiều cửa hàng thời trang vừa và nhỏ hiện nay vẫn đang vận hành theo phương thức truyền thống hoặc phụ thuộc hoàn toàn vào các nền tảng mạng xã hội, dẫn đến khó khăn trong việc quản lý tồn kho (đặc biệt là các biến thể size, màu sắc), thất thoát đơn hàng và thiếu công cụ quản lý doanh thu chuyên nghiệp.
+[64] (Normal) [HAS_IMAGE]: 
+[65] (Normal) [HAS_IMAGE]: Xuất phát từ thực tế đó, đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – DL” được thực hiện nhằm cung cấp một giải pháp bán hàng toàn diện. Hệ thống cho phép người dùng xem sản phẩm, lựa chọn kích cỡ/màu sắc, đặt hàng và thanh toán trực tuyến. Đồng thời, hệ thống cung cấp cho người quản trị công cụ để quản lý sản phẩm, đơn hàng và khách hàng một cách hiệu quả.
+[66] (Normal) [HAS_IMAGE]: 
+[67] (Normal) [HAS_IMAGE]: Hệ thống được xây dựng dựa trên nền tảng công nghệ MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS) kết hợp với các dịch vụ tiên tiến như Cloudinary (lưu trữ ảnh) và Stripe (thanh toán quốc tế), đảm bảo tính hiện đại, bảo mật và khả năng mở rộng.
+[68] (Normal) [HAS_IMAGE]: 
+[69] (Normal) [HAS_IMAGE]: Báo cáo này sẽ trình bày chi tiết quá trình phát triển dự án từ khâu khảo sát, phân tích, thiết kế hệ thống đến triển khai và kiểm thử.
+[70] (Normal) [HAS_IMAGE]: 
+[71] (Normal) [HAS_IMAGE]: Em xin chân thành cảm ơn thầy Bùi Xuân Cảnh đã tận tình hướng dẫn em hoàn thành đồ án này.
+[72] (Normal) [HAS_IMAGE]: 
+[73] (Normal) [HAS_IMAGE]: 
+[74] (Normal) [HAS_IMAGE]: 
+[75] (Normal) [HAS_IMAGE]: 
+[76] (Normal) [HAS_IMAGE]: DANH MỤC CÁC TỪ VIẾT TẮT
+[77] (Normal) [HAS_IMAGE]: 
+[78] (Normal) [HAS_IMAGE]: DANH MỤC HÌNH ẢNH
+[79] (Normal) [HAS_IMAGE]: 
+[80] (Normal) [HAS_IMAGE]: 
+[81] (Normal) [HAS_IMAGE]: 
+[82] (Normal) [HAS_IMAGE]: 
+[83] (Heading 1) [HAS_IMAGE]: CHƯƠNG 1: MỞ ĐẦU
+[84] (Heading 2) [HAS_IMAGE]: 1. Lý do chọn đề tài
+[85] (Normal) [HAS_IMAGE]: 
+[86] (Normal) [HAS_IMAGE]: Trong thời đại công nghệ số phát triển mạnh mẽ, việc mua sắm trực tuyến đã trở thành xu hướng phổ biến và quen thuộc với hầu hết người tiêu dùng. Thương mại điện tử không chỉ giúp người dùng tiết kiệm thời gian, công sức mà còn mở ra cơ hội kinh doanh lớn cho các doanh nghiệp và cửa hàng.
+[87] (Normal) [HAS_IMAGE]: 
+[88] (Normal) [HAS_IMAGE]: Trong ngành công nghiệp thời trang, "nhanh" và "tiện lợi" là hai yếu tố then chốt. Khách hàng ngày nay không chỉ muốn mua một chiếc áo, họ muốn xem nó trên người mẫu, biết rõ số đo, chất liệu và nhận hàng ngay tại nhà. Các cửa hàng thời trang truyền thống đang gặp khó khăn trong việc tiếp cận lượng khách hàng khổng lồ trên Internet.
+[89] (Normal) [HAS_IMAGE]: 
+[90] (Normal) [HAS_IMAGE]: Thực tế cho thấy, việc quản lý một cửa hàng quần áo phức tạp hơn nhiều so với các mặt hàng khác do đặc thù về "biến thể" (Variants). Một mẫu áo có thể có 5 size (S, M, L, XL, XXL) và 3 màu (Đỏ, Xanh, Đen), tạo ra 15 đơn vị hàng hóa (SKU) cần quản lý khác nhau. Việc quản lý thủ công qua sổ sách hoặc Excel rất dễ gây nhầm lẫn.
+[91] (Normal) [HAS_IMAGE]: 
+[92] (Normal) [HAS_IMAGE]: Từ những lý do trên, tôi quyết định chọn đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – DL” với mong muốn:
+[93] (Normal) [HAS_IMAGE]: Tạo ra một nền tảng chuyên biệt cho thời trang, giải quyết tốt bài toán hiển thị và lựa chọn size/màu.
+[94] (Normal) [HAS_IMAGE]: Xây dựng hệ thống quản trị giúp chủ cửa hàng kiểm soát tồn kho chính xác.
+[95] (Normal) [HAS_IMAGE]: Ứng dụng các công nghệ lập trình web hiện đại (Full-stack JavaScript) để tạo ra sản phẩm có tính thực tiễn cao.
+[96] (Normal) [HAS_IMAGE]: 
+[97] (Normal) [HAS_IMAGE]: Đề tài không chỉ mang ý nghĩa học thuật mà còn có giá trị thực tiễn lớn. Việc hoàn thiện website DL giúp sinh viên (hoặc người thực hiện) rèn luyện kỹ năng phân tích – thiết kế hệ thống, lập trình frontend/backend, bảo mật, xử lý dữ liệu, thanh toán trực tuyến và triển khai hệ thống web hoàn chỉnh.
+[98] (Normal) [HAS_IMAGE]: 
+[99] (Normal) [HAS_IMAGE]: Từ những lý do trên, đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – DL” được lựa chọn nhằm hướng đến mục tiêu tạo ra một sản phẩm thực tế, hữu ích, có thể áp dụng cho các cửa hàng kinh doanh nhỏ lẻ, đồng thời khẳng định năng lực phát triển ứng dụng web thương mại điện tử hiện đại của người thực hiện.
+[100] (Heading 2) [HAS_IMAGE]: 2. Mục tiêu nghiên cứu
+[101] (Normal) [HAS_IMAGE]: 
+[102] (Normal) [HAS_IMAGE]: Trong bối cảnh xu hướng số hóa và thương mại điện tử phát triển mạnh mẽ, việc các cửa hàng, doanh nghiệp triển khai hệ thống bán hàng trực tuyến không chỉ là nhu cầu mà còn là yếu tố bắt buộc để nâng cao năng lực cạnh tranh. Tuy nhiên, phần lớn các cửa hàng kinh doanh quần áo tại Việt Nam vẫn hoạt động chủ yếu theo hình thức truyền thống hoặc phụ thuộc vào các nền tảng trung gian, dẫn đến việc quản lý đơn hàng, sản phẩm và khách hàng chưa thực sự hiệu quả.
+[103] (Normal) [HAS_IMAGE]: 
+[104] (Normal) [HAS_IMAGE]: Trên cơ sở đó, đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – DL” được thực hiện với mục tiêu tổng quát là xây dựng một hệ thống thương mại điện tử hoàn chỉnh, có khả năng đáp ứng các yêu cầu thực tế của hoạt động kinh doanh trực tuyến trong lĩnh vực thiết bị công nghệ.
+[105] (Normal) [HAS_IMAGE]: 
+[106] (Heading 3) [HAS_IMAGE]: 2.1 Mục tiêu tổng quát
+[107] (Normal) [HAS_IMAGE]: 
+[108] (Normal) [HAS_IMAGE]: Xây dựng một website thương mại điện tử chuyên nghiệp, thân thiện với người dùng, cho phép khách hàng có thể tìm kiếm, xem, đặt mua và thanh toán trực tuyến các sản phẩm quần áo
+[109] (Normal) [HAS_IMAGE]: 
+[110] (Normal) [HAS_IMAGE]: Hình thành hệ thống quản trị trực tuyến (Admin Panel) cho phép người quản lý có thể theo dõi, cập nhật và kiểm soát toàn bộ hoạt động kinh doanh một cách thuận tiện, nhanh chóng và chính xác
+[111] (Normal) [HAS_IMAGE]: 
+[112] (Heading 3) [HAS_IMAGE]: 2.2. Mục tiêu cụ thể
+[113] (Normal) [HAS_IMAGE]: Về mặt chức năng người dùng:
+[114] (Normal) [HAS_IMAGE]: 
+[115] (Normal) [HAS_IMAGE]: Xây dựng giao diện website hiện đại, trực quan, thân thiện với trải nghiệm người dùng (UI/UX), đảm bảo hiển thị tốt trên mọi thiết bị.
+[116] (Normal) [HAS_IMAGE]: 
+[117] (Normal) [HAS_IMAGE]: Cho phép người dùng:
+[118] (Normal) [HAS_IMAGE]: 
+[119] (Normal) [HAS_IMAGE]: Đăng ký, đăng nhập và quản lý tài khoản cá nhân.
+[120] (Normal) [HAS_IMAGE]: Xem danh mục sản phẩm, lọc theo thương hiệu, giá, loại sản phẩm.
+[121] (Normal) [HAS_IMAGE]: Xem chi tiết sản phẩm với thông tin kỹ thuật, hình ảnh, giá bán, đánh giá.
+[122] (Normal) [HAS_IMAGE]: Thêm sản phẩm vào giỏ hàng
+[123] (Normal) [HAS_IMAGE]: Thực hiện đặt hàng và thanh toán trực tuyến thông qua cổng thanh toán
+[124] (Normal) [HAS_IMAGE]: Stripe, đảm bảo an toàn, nhanh chóng và bảo mật.
+[125] (Normal) [HAS_IMAGE]: Viết đánh giá (review) kèm hình ảnh, giúp tăng tính tương tác và độ tin cậy của sản phẩm.
+[126] (Normal) [HAS_IMAGE]: Tra cứu lịch sử đơn hàng, theo dõi trạng thái giao hàng, hoặc hủy đơn hàng nếu cần.
+[127] (Normal) [HAS_IMAGE]: 
+[128] (Normal) [HAS_IMAGE]: 
+[129] (Normal) [HAS_IMAGE]: 
+[130] (Normal) [HAS_IMAGE]: 
+[131] (Normal) [HAS_IMAGE]: Hình 1.1 Thực trạng mua sắm
+[132] (Normal) [HAS_IMAGE]: 
+[133] (Normal) [HAS_IMAGE]: 
+[134] (Normal) [HAS_IMAGE]: 
+[135] (Normal) [HAS_IMAGE]: Hình 1.2 Nắm bắt nhu cầu của khách hàn
+[136] (Normal) [HAS_IMAGE]: 
+[137] (Normal) [HAS_IMAGE]: 
+[138] (Normal) [HAS_IMAGE]: 
+[139] (Normal) [HAS_IMAGE]: Hình 1.3 Sự quan tâm của khách hàng
+[140] (Normal) [HAS_IMAGE]: 
+[141] (Normal) [HAS_IMAGE]: 
+[142] (Normal) [HAS_IMAGE]: 
+[143] (Normal) [HAS_IMAGE]: 
+[144] (Normal) [HAS_IMAGE]: Hình 1.4 Tham khảo chức năng khách hàng quan tâm
+[145] (Normal) [HAS_IMAGE]: 
+[146] (Normal) [HAS_IMAGE]: 
+[147] (Normal) [HAS_IMAGE]: 
+[148] (Normal) [HAS_IMAGE]: 
+[149] (Normal) [HAS_IMAGE]: Hình 1.5 Mong muốn của khách hàng
+[150] (Normal) [HAS_IMAGE]: Về mặt chức năng quản trị (Admin Panel):
+[151] (Normal) [HAS_IMAGE]: Xây dựng hệ thống quản trị riêng biệt, chỉ dành cho người có quyền quản lý (Admin).
+[152] (Normal) [HAS_IMAGE]: Cung cấp các chức năng quản trị cốt lõi:
+[153] (Normal) [HAS_IMAGE]: Quản lý sản phẩm: thêm, chỉnh sửa, xóa, cập nhật hình ảnh (qua Cloudinary), điều chỉnh tồn kho và giá.
+[154] (Normal) [HAS_IMAGE]: 
+[155] (Normal) [HAS_IMAGE]: Quản lý người dùng: phân quyền người dùng, theo dõi hoạt động tài khoản.
+[156] (Normal) [HAS_IMAGE]: 
+[157] (Normal) [HAS_IMAGE]: Quản lý đơn hàng: xem chi tiết, thay đổi trạng thái (chờ xác nhận, đang giao, hoàn tất, hủy), xử lý đơn thủ công khi cần.
+[158] (Normal) [HAS_IMAGE]: 
+[159] (Normal) [HAS_IMAGE]: Thống kê – báo cáo: hiển thị biểu đồ doanh thu, lượng bán ra, sản phẩm bán chạy, doanh thu theo ngày/tháng/năm.
+[160] (Normal) [HAS_IMAGE]: 
+[161] (Normal) [HAS_IMAGE]: Hỗ trợ khách hàng: tiếp nhận và phản hồi tin nhắn trực tuyến qua hệ thống chat, gửi email chăm sóc khách hàng (qua Nodemailer).
+[162] (Normal) [HAS_IMAGE]: 
+[163] (Normal) [HAS_IMAGE]: c. Về mặt kỹ thuật và bảo mật hệ thống:
+[164] (Normal) [HAS_IMAGE]: 
+[165] (Normal) [HAS_IMAGE]: Ứng dụng các công nghệ web hiện đại:
+[166] (Normal) [HAS_IMAGE]: 
+[167] (Normal) [HAS_IMAGE]: Frontend: ReactJS, React Router, TailwindCSS, Framer Motion.
+[168] (Normal) [HAS_IMAGE]: 
+[169] (Normal) [HAS_IMAGE]: Backend: NodeJS, ExpressJS, MongoDB, JWT, Cloudinary, Stripe, Multer.
+[170] (Normal) [HAS_IMAGE]: 
+[171] (Normal) [HAS_IMAGE]: Thiết lập cơ chế xác thực và phân quyền an toàn:
+[172] (Normal) [HAS_IMAGE]: 
+[173] (Normal) [HAS_IMAGE]: Sử dụng JWT (JSON Web Token) cho xác thực người dùng và quản trị viên.
+[174] (Normal) [HAS_IMAGE]: 
+[175] (Normal) [HAS_IMAGE]: Mã hóa mật khẩu bằng bcrypt để bảo mật dữ liệu người dùng.
+[176] (Normal) [HAS_IMAGE]: Bảo vệ các API quan trọng bằng middleware kiểm tra quyền truy cập. Tích hợp
+[177] (Normal) [HAS_IMAGE]: hệ thống thanh toán quốc tế (Stripe) để hỗ trợ thanh toán nhanh,
+[178] (Normal) [HAS_IMAGE]: chính xác, minh bạch.
+[179] (Normal) [HAS_IMAGE]: 
+[180] (Normal) [HAS_IMAGE]: Lưu trữ hình ảnh sản phẩm trên Cloudinary, giúp tối ưu tốc độ tải trang và tiết kiệm tài nguyên server.
+[181] (Normal) [HAS_IMAGE]: 
+[182] (Normal) [HAS_IMAGE]: d. Về mặt ứng dụng thực tế:
+[183] (Normal) [HAS_IMAGE]: 
+[184] (Normal) [HAS_IMAGE]: Xây dựng mô hình website có thể áp dụng thực tế cho các cửa hàng quần áo nhỏ hoặc đại lý đồ, giúp chuyển đổi số hoạt động kinh doanh.
+[185] (Normal) [HAS_IMAGE]: 
+[186] (Normal) [HAS_IMAGE]: Góp phần rèn luyện năng lực thiết kế và phát triển ứng dụng web full-stack, tăng cường kỹ năng lập trình, bảo mật, tối ưu giao diện và xử lý dữ liệu.
+[187] (Normal) [HAS_IMAGE]: Tạo nền tảng để phát triển thêm ứng dụng di động hoặc mở rộng tính năng (như gợi ý sản phẩm bằng AI hoặc phân tích hành vi người dùng).
+[188] (Normal) [HAS_IMAGE]: 
+[189] (Normal) [HAS_IMAGE]: 
+[190] (Heading 2) [HAS_IMAGE]: 3. Phạm vi nghiên cứu
+[191] (Normal) [HAS_IMAGE]: Đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – DL” được triển khai trong phạm vi của một hệ thống thương mại điện tử hoạt động trên nền tảng website, hướng đến việc mô phỏng đầy đủ quy trình kinh doanh trực tuyến trong lĩnh vực thời trang.
+[192] (Normal) [HAS_IMAGE]: Phạm vi nghiên cứu của đề tài được xác định cụ thể như sau:
+[193] (Heading 3) [HAS_IMAGE]: 3.1. Phạm vi chức năng
+[194] (Normal) [HAS_IMAGE]: Phía người dùng (Frontend):
+[195] (Normal) [HAS_IMAGE]: 
+[196] (Normal) [HAS_IMAGE]: Cho phép người dùng đăng ký, đăng nhập, xem danh mục sản phẩm, tìm kiếm, lọc và xem chi tiết sản phẩm.
+[197] (Normal) [HAS_IMAGE]: 
+[198] (Normal) [HAS_IMAGE]: Thực hiện các thao tác thương mại điện tử cơ bản: thêm sản phẩm vào giỏ hàng, so sánh sản phẩm, đánh giá (review) và đặt hàng.
+[199] (Normal) [HAS_IMAGE]: 
+[200] (Normal) [HAS_IMAGE]: Hỗ trợ thanh toán trực tuyến thông qua cổng Stripe, theo quy trình thanh toán an toàn và tự động.
+[201] (Normal) [HAS_IMAGE]: 
+[202] (Normal) [HAS_IMAGE]: Quản lý thông tin cá nhân và lịch sử đơn hàng.
+[203] (Normal) [HAS_IMAGE]: 
+[204] (Normal) [HAS_IMAGE]: Hỗ trợ chat trực tiếp với quản trị viên để được tư vấn, giải đáp thắc mắc.
+[205] (Normal) [HAS_IMAGE]: 
+[206] (Normal) [HAS_IMAGE]: Phía quản trị viên (Admin Panel):
+[207] (Normal) [HAS_IMAGE]: 
+[208] (Normal) [HAS_IMAGE]: Cung cấp các chức năng quản trị toàn diện: quản lý sản phẩm, người dùng, đơn hàng, và thống kê báo cáo doanh thu.
+[209] (Normal) [HAS_IMAGE]: 
+[210] (Normal) [HAS_IMAGE]: Cho phép thêm, sửa, xóa sản phẩm, cập nhật tồn kho, điều chỉnh giá và theo dõi hoạt động kinh doanh theo thời gian thực.
+[211] (Normal) [HAS_IMAGE]: 
+[212] (Normal) [HAS_IMAGE]: Hỗ trợ quản lý tương tác với người dùng qua hệ thống chat và gửi email hỗ trợ (Nodemailer).
+[213] (Normal) [HAS_IMAGE]: 
+[214] (Normal) [HAS_IMAGE]: Phía hệ thống (Backend API):
+[215] (Normal) [HAS_IMAGE]: 
+[216] (Normal) [HAS_IMAGE]: Cung cấp các dịch vụ RESTful API cho frontend và admin sử dụng.
+[217] (Normal) [HAS_IMAGE]: 
+[218] (Normal) [HAS_IMAGE]: Đảm bảo an toàn dữ liệu, xác thực người dùng và phân quyền truy cập bằng JWT (JSON Web Token).
+[219] (Normal) [HAS_IMAGE]: Xử lý giao dịch thanh toán qua Stripe, quản lý ảnh qua Cloudinary, và thực hiện upload hình ảnh qua Multer.
+[220] (Normal) [HAS_IMAGE]: 
+[221] (Heading 3) [HAS_IMAGE]: 3.2. Phạm vi kỹ thuật
+[222] (Normal) [HAS_IMAGE]: Frontend: Xây dựng bằng ReactJS (sử dụng Vite, TailwindCSS, Axios, React Router, React Toastify, Framer Motion).
+[223] (Normal) [HAS_IMAGE]: 
+[224] (Normal) [HAS_IMAGE]: Backend: Xây dựng bằng NodeJS + Express, quản lý dữ liệu qua MongoDB/Mongoose, xác thực bằng JWT, và xử lý upload hình ảnh với Multer + Cloudinary.
+[225] (Normal) [HAS_IMAGE]: 
+[226] (Normal) [HAS_IMAGE]: Cơ sở dữ liệu: Sử dụng MongoDB Atlas để lưu trữ người dùng, sản phẩm, đơn hàng, đánh giá,  và dữ liệu thống kê.
+[227] (Normal) [HAS_IMAGE]: 
+[228] (Normal) [HAS_IMAGE]: 
+[229] (Normal) [HAS_IMAGE]: Triển khai: Hệ thống được triển khai trực tuyến (deploy) thông qua các nền tảng như Vercel (frontend + admin) và Render / Railway (backend).
+[230] (Normal) [HAS_IMAGE]: 
+[231] (Heading 3) [HAS_IMAGE]: 3.3. Giới hạn phạm vi
+[232] (Normal) [HAS_IMAGE]: Hệ thống chỉ triển khai dưới dạng website, chưa phát triển phiên bản ứng dụng di động (mobile app).
+[233] (Normal) [HAS_IMAGE]: 
+[234] (Normal) [HAS_IMAGE]: Chưa tích hợp các cổng thanh toán nội địa như Momo, ZaloPay hoặc VNPay (chỉ sử dụng Stripe).
+[235] (Normal) [HAS_IMAGE]: 
+[236] (Normal) [HAS_IMAGE]: Website hoạt động trong mô hình cửa hàng đơn lẻ, chưa mở rộng lên quy mô sàn thương mại điện tử đa nhà bán hàng (multi-vendor).
+[237] (Normal) [HAS_IMAGE]: 
+[238] (Normal) [HAS_IMAGE]: Các tính năng nâng cao như gợi ý sản phẩm thông minh (AI Recommendation) hoặc đề xuất theo hành vi người dùng được để mở cho giai đoạn phát triển tiếp theo.
+[239] (Normal) [HAS_IMAGE]: 
+[240] (Heading 3) [HAS_IMAGE]: 3.4. Đối tượng nghiên cứu và ứng dụng
+[241] (Normal) [HAS_IMAGE]: 
+[242] (Normal) [HAS_IMAGE]: Đối tượng sử dụng:
+[243] (Normal) [HAS_IMAGE]: 
+[244] (Normal) [HAS_IMAGE]: Người dùng có nhu cầu tìm hiểu, mua sắm quần áo, các phụ kiện thời trang
+[245] (Normal) [HAS_IMAGE]: 
+[246] (Normal) [HAS_IMAGE]: Quản trị viên/cửa hàng chịu trách nhiệm vận hành, theo dõi và quản lý hoạt động bán hàng.
+[247] (Normal) [HAS_IMAGE]: 
+[248] (Normal) [HAS_IMAGE]: Phạm vi ứng dụng thực tế:
+[249] (Normal) [HAS_IMAGE]: Áp dụng cho các cửa hàng quần áo, đại lý quần áo nhỏ và vừa, mong muốn có hệ thống bán hàng online độc lập, tiết kiệm chi phí, dễ vận hành và có khả năng mở rộng trong tương lai.
+[250] (Normal) [HAS_IMAGE]: 
+[251] (Normal) [HAS_IMAGE]: 
+[252] (Heading 2) [HAS_IMAGE]: 4. Phương pháp nghiên cứu
+[253] (Normal) [HAS_IMAGE]: Để đạt được các mục tiêu đã đề ra và đảm bảo tính khả thi của đề tài “Xây dựng website thương mại điện tử kinh doanh quần áo – web DL”, quá trình thực hiện được tiến hành theo các bước nghiên cứu có hệ thống, kết hợp giữa phân tích lý thuyết và thực hành phát triển phần mềm, dựa trên quy trình phát triển ứng dụng web hiện đại.
+[254] (Normal) [HAS_IMAGE]: 
+[255] (Heading 3) [HAS_IMAGE]: 4.1 Phương pháp phân tích và khảo sát yêu cầu
+[256] (Normal) [HAS_IMAGE]: 
+[257] (Normal) [HAS_IMAGE]: Tiến hành nghiên cứu, khảo sát mô hình hoạt động của các website thương mại điện tử hiện có trong cùng lĩnh vực (Zara, Uniqlo, Shein...) nhằm xác định các chức năng cơ bản và nâng cao cần có của hệ thống.
+[258] (Normal) [HAS_IMAGE]: 
+[259] (Normal) [HAS_IMAGE]: Phân tích nghiệp vụ từ góc nhìn người dùng (khách hàng) và quản trị viên (admin) để xác định yêu cầu chức năng (Functional Requirements) và yêu cầu phi chức năng (Non-functional Requirements).
+[260] (Normal) [HAS_IMAGE]: 
+[261] (Normal) [HAS_IMAGE]: Lập biểu đồ use case để mô tả tương tác giữa người dùng và hệ thống.
+[262] (Normal) [HAS_IMAGE]: 
+[263] (Heading 3) [HAS_IMAGE]: 4.2 Phương pháp thiết kế hệ thống
+[264] (Normal) [HAS_IMAGE]: 
+[265] (Normal) [HAS_IMAGE]: Thiết kế cơ sở dữ liệu (Database Design):
+[266] (Normal) [HAS_IMAGE]: 
+[267] (Normal) [HAS_IMAGE]: Xác định các thực thể dữ liệu chính (User, Product, Order, Review, , Chat...).
+[268] (Normal) [HAS_IMAGE]: 
+[269] (Normal) [HAS_IMAGE]: Thiết kế mô hình quan hệ giữa các collection MongoDB theo chuẩn hóa, đảm bảo tính toàn vẹn dữ liệu.
+[270] (Normal) [HAS_IMAGE]: 
+[271] (Normal) [HAS_IMAGE]: Thiết kế hệ thống phần mềm (System Design):
+[272] (Normal) [HAS_IMAGE]: 
+[273] (Normal) [HAS_IMAGE]: Thiết kế tổng thể theo mô hình client–server.
+[274] (Normal) [HAS_IMAGE]: 
+[275] (Normal) [HAS_IMAGE]: Phân tách thành ba phần chính: Frontend (ReactJS), Backend (NodeJS/Express) và CSDL (MongoDB).
+[276] (Normal) [HAS_IMAGE]: 
+[277] (Normal) [HAS_IMAGE]: Xây dựng sơ đồ kiến trúc hệ thống, sơ đồ luồng dữ liệu (Data Flow Diagram), và ERD (Entity Relationship Diagram).
+[278] (Normal) [HAS_IMAGE]: 
+[279] (Normal) [HAS_IMAGE]: Thiết kế giao diện người dùng (UI/UX):
+[280] (Normal) [HAS_IMAGE]: Phác thảo bố cục giao diện và hành trình người dùng.
+[281] (Normal) [HAS_IMAGE]: 
+[282] (Normal) [HAS_IMAGE]: Sử dụng TailwindCSS, React Router, Framer Motion để đảm bảo tính thẩm mỹ, dễ sử dụng và trải nghiệm tương tác mượt mà.
+[283] (Normal) [HAS_IMAGE]: 
+[284] (Heading 3) [HAS_IMAGE]: 4.3. Phương pháp lập trình và phát triển hệ thống
+[285] (Normal) [HAS_IMAGE]: 
+[286] (Normal) [HAS_IMAGE]: Phát triển theo mô hình Full-stack MERN (MongoDB – Express – React – NodeJS):
+[287] (Normal) [HAS_IMAGE]: 
+[288] (Normal) [HAS_IMAGE]: Frontend xây dựng bằng ReactJS + Vite, hướng component hóa và tái sử dụng mã nguồn.
+[289] (Normal) [HAS_IMAGE]: 
+[290] (Normal) [HAS_IMAGE]: Backend xây dựng bằng NodeJS + ExpressJS, tổ chức theo mô hình MVC (Model – View – Controller).
+[291] (Normal) [HAS_IMAGE]: 
+[292] (Normal) [HAS_IMAGE]: Tích hợp các công nghệ hỗ trợ:
+[293] (Normal) [HAS_IMAGE]: 
+[294] (Normal) [HAS_IMAGE]: JWT cho xác thực và phân quyền người dùng.
+[295] (Normal) [HAS_IMAGE]: 
+[296] (Normal) [HAS_IMAGE]: Cloudinary cho lưu trữ hình ảnh.
+[297] (Normal) [HAS_IMAGE]: 
+[298] (Normal) [HAS_IMAGE]: Multer cho xử lý upload ảnh sản phẩm và đánh giá.
+[299] (Normal) [HAS_IMAGE]: 
+[300] (Normal) [HAS_IMAGE]: Stripe cho xử lý thanh toán trực tuyến.
+[301] (Normal) [HAS_IMAGE]: 
+[302] (Normal) [HAS_IMAGE]: Nodemailer cho gửi email tự động (phản hồi hỗ trợ khách hàng).
+[303] (Normal) [HAS_IMAGE]: 
+[304] (Normal) [HAS_IMAGE]: Sử dụng Axios để giao tiếp giữa frontend và backend thông qua RESTful API.
+[305] (Normal) [HAS_IMAGE]: 
+[306] (Normal) [HAS_IMAGE]: Tối ưu mã nguồn, cấu trúc thư mục và tái sử dụng component nhằm đảm bảo hiệu suất và khả năng mở rộng của hệ thống.
+[307] (Normal) [HAS_IMAGE]: 
+[308] (Heading 3) [HAS_IMAGE]: 4.4. Phương pháp kiểm thử và đánh giá
+[309] (Normal) [HAS_IMAGE]: 
+[310] (Normal) [HAS_IMAGE]: Kiểm thử chức năng (Functional Testing):
+[311] (Normal) [HAS_IMAGE]: 
+[312] (Normal) [HAS_IMAGE]: Thực hiện kiểm thử các chức năng chính của người dùng và admin như: đăng ký, đăng nhập, đặt hàng, thanh toán, quản lý sản phẩm, đơn hàng, thống kê...
+[313] (Normal) [HAS_IMAGE]: 
+[314] (Normal) [HAS_IMAGE]: Kiểm tra hoạt động ổn định của các API backend, đảm bảo dữ liệu phản hồi đúng và nhanh.
+[315] (Normal) [HAS_IMAGE]: 
+[316] (Normal) [HAS_IMAGE]: Kiểm thử giao diện (UI Testing):
+[317] (Normal) [HAS_IMAGE]: Đánh giá khả năng hiển thị, tính thân thiện và tính responsive của website trên các thiết bị (máy tính, máy tính bảng, điện thoại).
+[318] (Normal) [HAS_IMAGE]: 
+[319] (Normal) [HAS_IMAGE]: Kiểm thử bảo mật (Security Testing):
+[320] (Normal) [HAS_IMAGE]: 
+[321] (Normal) [HAS_IMAGE]: Đảm bảo cơ chế đăng nhập và token JWT hoạt động chính xác, ngăn chặn truy cập trái phép.
+[322] (Normal) [HAS_IMAGE]: 
+[323] (Normal) [HAS_IMAGE]: Kiểm tra việc mã hóa mật khẩu và bảo mật thông tin người dùng.
+[324] (Normal) [HAS_IMAGE]: 
+[325] (Normal) [HAS_IMAGE]: Đánh giá hiệu năng (Performance Testing):
+[326] (Normal) [HAS_IMAGE]: 
+[327] (Normal) [HAS_IMAGE]: Kiểm tra tốc độ phản hồi API và thời gian tải trang.
+[328] (Normal) [HAS_IMAGE]: 
+[329] (Normal) [HAS_IMAGE]: Đánh giá mức độ ổn định khi có nhiều người dùng truy cập đồng thời.
+[330] (Normal) [HAS_IMAGE]: 
+[331] (Heading 3) [HAS_IMAGE]: 4.5. Phương pháp tổng hợp và đánh giá kết quả
+[332] (Normal) [HAS_IMAGE]: 
+[333] (Normal) [HAS_IMAGE]: Tổng hợp dữ liệu kiểm thử, đối chiếu với mục tiêu ban đầu để đánh giá mức độ hoàn thành của hệ thống.
+[334] (Normal) [HAS_IMAGE]: 
+[335] (Normal) [HAS_IMAGE]: Đưa ra nhận xét, kết luận và hướng phát triển, đảm bảo đề tài đạt cả hai yếu tố: tính ứng dụng thực tế và tính học thuật.
+[336] (Normal) [HAS_IMAGE]: 
+[337] (Heading 1) [HAS_IMAGE]: CHƯƠNG 2 CƠ SỞ LÝ THUYẾT
+[338] (Normal) [HAS_IMAGE]: 
+[339] (Heading 2) [HAS_IMAGE]: 1. Tổng quan về thương mại điện tử
+[340] (Heading 3) [HAS_IMAGE]: 1.1. Khái niệm thương mại điện tử
+[341] (Normal) [HAS_IMAGE]: Thương mại điện tử (E-Commerce) là hình thức mua bán hàng hóa, dịch vụ hoặc trao đổi thông tin thương mại thông qua các phương tiện điện tử, đặc biệt là Internet.
+[342] (Normal) [HAS_IMAGE]: Theo định nghĩa của Tổ chức Thương mại Thế giới (WTO), thương mại điện tử bao gồm “việc sản xuất, quảng cáo, bán hàng và phân phối sản phẩm, dịch vụ thông qua các mạng viễn thông”.
+[343] (Normal) [HAS_IMAGE]: Nói một cách đơn giản, thương mại điện tử là quá trình thực hiện các hoạt động kinh doanh – thương mại – thanh toán – giao dịch giữa người bán và người mua thông qua môi trường số.
+[344] (Normal) [HAS_IMAGE]: Các hoạt động này có thể diễn ra giữa doanh nghiệp với khách hàng (B2C), giữa các doanh nghiệp (B2B), hoặc giữa cá nhân với cá nhân (C2C).
+[345] (Heading 3) [HAS_IMAGE]: 1.2. Đặc điểm của thương mại điện tử
+[346] (Normal) [HAS_IMAGE]: Thương mại điện tử có một số đặc điểm nổi bật so với mô hình kinh doanh truyền thống, bao gồm:
+[347] (Normal) [HAS_IMAGE]: Phi giới hạn không gian và thời gian: người mua và người bán có thể giao dịch ở mọi nơi, mọi lúc.
+[348] (Normal) [HAS_IMAGE]: 
+[349] (Normal) [HAS_IMAGE]: Tự động hóa cao: các quy trình đặt hàng, thanh toán, xác nhận, và cập nhật kho hàng được xử lý tự động.
+[350] (Normal) [HAS_IMAGE]: 
+[351] (Normal) [HAS_IMAGE]: Chi phí vận hành thấp: tiết kiệm chi phí thuê mặt bằng, nhân sự và quản lý hàng hóa.
+[352] (Normal) [HAS_IMAGE]: 
+[353] (Normal) [HAS_IMAGE]: Tốc độ giao dịch nhanh: toàn bộ quá trình từ tìm kiếm đến thanh toán chỉ diễn ra trong vài phút.
+[354] (Normal) [HAS_IMAGE]: 
+[355] (Normal) [HAS_IMAGE]: Tính tương tác cao: khách hàng có thể để lại đánh giá, phản hồi, và nhận hỗ trợ trực tuyến.
+[356] (Normal) [HAS_IMAGE]: 
+[357] (Normal) [HAS_IMAGE]: Dễ dàng mở rộng quy mô: doanh nghiệp có thể mở rộng phạm vi kinh doanh mà không cần tăng chi phí cố định.
+[358] (Normal) [HAS_IMAGE]: 
+[359] (Heading 3) [HAS_IMAGE]: 1.3. Lợi ích của thương mại điện tử
+[360] (Normal) [HAS_IMAGE]: Đối với người tiêu dùng:
+[361] (Normal) [HAS_IMAGE]: Có thể tìm kiếm, so sánh và mua hàng dễ dàng mà không cần đến cửa hàng.
+[362] (Normal) [HAS_IMAGE]: 
+[363] (Normal) [HAS_IMAGE]: Tiếp cận nhiều sản phẩm và ưu đãi hơn, đặc biệt là hàng công nghệ có nhiều tùy chọn.
+[364] (Normal) [HAS_IMAGE]: 
+[365] (Normal) [HAS_IMAGE]: Thanh toán và theo dõi đơn hàng một cách nhanh chóng, an toàn và minh bạch.
+[366] (Normal) [HAS_IMAGE]: 
+[367] (Normal) [HAS_IMAGE]: Đối với doanh nghiệp:
+[368] (Normal) [HAS_IMAGE]: Mở rộng thị trường vượt ra ngoài phạm vi địa lý truyền thống.
+[369] (Normal) [HAS_IMAGE]: 
+[370] (Normal) [HAS_IMAGE]: Giảm chi phí vận hành (nhân sự, mặt bằng, quảng cáo truyền thống).
+[371] (Normal) [HAS_IMAGE]: 
+[372] (Normal) [HAS_IMAGE]: Tăng khả năng tiếp cận khách hàng, thu thập và phân tích dữ liệu tiêu dùng để cải thiện dịch vụ.
+[373] (Normal) [HAS_IMAGE]: 
+[374] (Normal) [HAS_IMAGE]: Tối ưu quản lý hàng hóa và đơn hàng thông qua hệ thống quản trị tự động.
+[375] (Normal) [HAS_IMAGE]: 
+[376] (Heading 3) [HAS_IMAGE]: 1.4. Phân loại mô hình thương mại điện tử
+[377] (Normal) [HAS_IMAGE]: Thương mại điện tử được chia thành nhiều mô hình khác nhau tùy theo đối tượng tham gia giao dịch:
+[378] (Normal) [HAS_IMAGE]: Mô hình 	Đặc điểm 	Ví dụ minh họa
+[379] (Normal) [HAS_IMAGE]: Dự án Website DL thuộc mô hình B2C (doamh nghiệp → người tiêu dùng).
+[380] (Heading 3) [HAS_IMAGE]: 1.5. Thực trạng và xu hướng thương mại điện tử tại Việt Nam
+[381] (Normal) [HAS_IMAGE]: Theo báo cáo của Hiệp hội Thương mại điện tử Việt Nam (VECOM), tốc độ tăng trưởng trung bình của thị trường thương mại điện tử Việt Nam đạt từ 18% –
+[382] (Normal) [HAS_IMAGE]: 25%/năm.
+[383] (Normal) [HAS_IMAGE]: Xu hướng tiêu dùng hiện nay tập trung vào:
+[384] (Normal) [HAS_IMAGE]: 
+[385] (Normal) [HAS_IMAGE]: Mua hàng trực tuyến qua website hoặc ứng dụng di động.
+[386] (Normal) [HAS_IMAGE]: 
+[387] (Normal) [HAS_IMAGE]: Thanh toán không tiền mặt, sử dụng thẻ, ví điện tử hoặc cổng thanh toán quốc tế như Stripe, PayPal.
+[388] (Normal) [HAS_IMAGE]: Tích hợp công nghệ mới như trí tuệ nhân tạo (AI), chatbot hỗ trợ khách hàng, và phân tích dữ liệu tiêu dùng.
+[389] (Normal) [HAS_IMAGE]: 
+[390] (Heading 3) [HAS_IMAGE]: 1.6. Vai trò của thương mại điện tử
+[391] (Normal) [HAS_IMAGE]: Trong lĩnh vực thời trang, thương mại điện tử giúp:
+[392] (Normal) [HAS_IMAGE]: Cung cấp thông tin sản phẩm chi tiết và minh bạch (thông số kỹ thuật, giá, so sánh, đánh giá).
+[393] (Normal) [HAS_IMAGE]: 
+[394] (Normal) [HAS_IMAGE]: Tạo điều kiện cho người dùng lựa sản phẩm theo nhu cầu cá nhân.
+[395] (Normal) [HAS_IMAGE]: Giúp doanh nghiệp quản lý kho hàng, đơn hàng và khách hàng hiệu quả.
+[396] (Normal) [HAS_IMAGE]: 
+[397] (Normal) [HAS_IMAGE]: Xây dựng thương hiệu trực tuyến và mở rộng phạm vi khách hàng ngoài khu vực địa lý.
+[398] (Normal) [HAS_IMAGE]: 
+[399] (Heading 3) [HAS_IMAGE]: 1.7. Kết luận
+[400] (Normal) [HAS_IMAGE]: Thương mại điện tử là xu hướng tất yếu của thời đại công nghệ số, mang lại lợi ích to lớn cho cả người tiêu dùng và doanh nghiệp.
+[401] (Normal) [HAS_IMAGE]: Đề tài “Xây dựng website bán quần áo – DL” là một bước đi thực tế trong việc
+[402] (Normal) [HAS_IMAGE]: ứng dụng các công nghệ web hiện đại để triển khai mô hình kinh doanh trực tuyến, phù hợp với xu thế chuyển đổi số hiện nay, đặc biệt trong ngành thời trang
+[403] (Normal) [HAS_IMAGE]: 
+[404] (Heading 2) [HAS_IMAGE]: 2. Các công nghệ sử dụng
+[405] (Normal) [HAS_IMAGE]: Để xây dựng hệ thống website thương mại điện tử DL, đề tài đã lựa chọn và ứng dụng các công nghệ web hiện đại, phổ biến và có tính ổn định cao.
+[406] (Normal) [HAS_IMAGE]: Hệ thống được phát triển theo mô hình MERN Stack mở rộng (MongoDB – Express – React – NodeJS) kết hợp với Cloudinary, Stripe, JWT và TailwindCSS để đảm bảo hiệu năng, bảo mật và trải nghiệm người dùng tối ưu.
+[407] (Normal) [HAS_IMAGE]: Dưới đây là mô tả chi tiết về từng công nghệ được sử dụng:
+[408] (Normal) [HAS_IMAGE]: 
+[409] (Heading 3) [HAS_IMAGE]: 2.1. ReactJS – Thư viện xây dựng giao diện người dùng
+[410] (Normal) [HAS_IMAGE]: ReactJS là thư viện mã nguồn mở do Facebook phát triển, chuyên dùng để xây dựng giao diện người dùng (UI) cho các ứng dụng web.
+[411] (Normal) [HAS_IMAGE]: 
+[412] (Normal) [HAS_IMAGE]: React hoạt động theo cơ chế component-based architecture, chia giao diện thành các thành phần nhỏ có thể tái sử dụng, giúp dễ dàng quản lý và mở rộng ứng dụng.
+[413] (Normal) [HAS_IMAGE]: 
+[414] (Normal) [HAS_IMAGE]: Trong dự án DL, ReactJS được sử dụng để:
+[415] (Normal) [HAS_IMAGE]: 
+[416] (Normal) [HAS_IMAGE]: Xây dựng giao diện website phía khách hàng (frontend) và giao diện trang quản trị (admin panel).
+[417] (Normal) [HAS_IMAGE]: 
+[418] (Normal) [HAS_IMAGE]: Tạo Single Page Application (SPA) với khả năng chuyển trang mượt mà nhờ React Router.
+[419] (Normal) [HAS_IMAGE]: 
+[420] (Normal) [HAS_IMAGE]: Quản lý trạng thái toàn cục (giỏ hàng, người dùng, sản phẩm...) thông qua Context API.
+[421] (Normal) [HAS_IMAGE]: 
+[422] (Normal) [HAS_IMAGE]: Tối ưu trải nghiệm người dùng với Framer Motion (hiệu ứng chuyển động) và React Toastify (thông báo nhanh).
+[423] (Normal) [HAS_IMAGE]: 
+[424] (Normal) [HAS_IMAGE]: Lý do chọn ReactJS: Hiệu năng cao, dễ mở rộng, cộng đồng hỗ trợ mạnh, phù hợp với mô hình ứng dụng thương mại điện tử có nhiều tương tác.
+[425] (Heading 3) [HAS_IMAGE]: 2.2. NodeJS – Nền tảng phía máy chủ
+[426] (Normal) [HAS_IMAGE]: NodeJS là môi trường chạy JavaScript trên máy chủ (server-side), cho phép sử dụng cùng một ngôn ngữ (JavaScript) cho cả frontend và backend.
+[427] (Normal) [HAS_IMAGE]: 
+[428] (Normal) [HAS_IMAGE]: NodeJS hoạt động theo cơ chế non-blocking I/O và event-driven, giúp xử lý nhiều yêu cầu cùng lúc mà không làm chậm hệ thống.
+[429] (Normal) [HAS_IMAGE]: 
+[430] (Normal) [HAS_IMAGE]: Trong dự án, NodeJS được dùng để:
+[431] (Normal) [HAS_IMAGE]: 
+[432] (Normal) [HAS_IMAGE]: Xây dựng máy chủ backend xử lý yêu cầu từ frontend.
+[433] (Normal) [HAS_IMAGE]: Kết nối với cơ sở dữ liệu MongoDB.
+[434] (Normal) [HAS_IMAGE]: Tích hợp API thanh toán Stripe và lưu trữ Cloudinary.
+[435] (Normal) [HAS_IMAGE]: 
+[436] (Normal) [HAS_IMAGE]: Xử lý các thao tác CRUD (tạo, đọc, cập nhật, xóa) đối với sản phẩm, người dùng, đơn hàng, đánh giá, v.v.
+[437] (Normal) [HAS_IMAGE]: 
+[438] (Normal) [HAS_IMAGE]: Lý do chọn NodeJS: Dễ kết hợp với React, hiệu năng cao, linh hoạt và hỗ trợ nhiều module mã nguồn mở.
+[439] (Heading 3) [HAS_IMAGE]: 2.3. ExpressJS – Framework cho backend NodeJS
+[440] (Normal) [HAS_IMAGE]: ExpressJS là framework nhẹ và mạnh mẽ chạy trên nền NodeJS, giúp xây dựng RESTful API một cách nhanh chóng.
+[441] (Normal) [HAS_IMAGE]: 
+[442] (Normal) [HAS_IMAGE]: Express cung cấp cấu trúc rõ ràng cho việc định nghĩa route, middleware, controller, và xử lý yêu cầu HTTP.
+[443] (Normal) [HAS_IMAGE]: 
+[444] (Normal) [HAS_IMAGE]: Trong DL, ExpressJS chịu trách nhiệm:
+[445] (Normal) [HAS_IMAGE]: 
+[446] (Normal) [HAS_IMAGE]: Quản lý tuyến đường API (routes) cho người dùng, sản phẩm, đơn hàng, đánh giá, , chat, thống kê, v.v.
+[447] (Normal) [HAS_IMAGE]: 
+[448] (Normal) [HAS_IMAGE]: Xử lý xác thực, phân quyền thông qua middleware (auth, adminAuth).
+[449] (Normal) [HAS_IMAGE]: Quản lý tải lên hình ảnh (upload) bằng Multer và liên kết với Cloudinary.
+[450] (Normal) [HAS_IMAGE]: Cung cấp API cho frontend (React) và admin (React/Vite).
+[451] (Normal) [HAS_IMAGE]: Lý do chọn Express: Cú pháp đơn giản, dễ mở rộng, tích hợp hoàn hảo với NodeJS và các module bảo mật.
+[452] (Heading 3) [HAS_IMAGE]: 2.4. MongoDB – Cơ sở dữ liệu NoSQL
+[453] (Normal) [HAS_IMAGE]: MongoDB là hệ quản trị cơ sở dữ liệu phi quan hệ (NoSQL) dạng document, lưu dữ liệu dưới dạng JSON (BSON).
+[454] (Normal) [HAS_IMAGE]: Mỗi bản ghi (document) có cấu trúc linh hoạt, dễ mở rộng khi hệ thống phát triển.
+[455] (Normal) [HAS_IMAGE]: 
+[456] (Normal) [HAS_IMAGE]: Trong đề tài, MongoDB lưu trữ toàn bộ dữ liệu của hệ thống như:
+[457] (Normal) [HAS_IMAGE]: 
+[458] (Normal) [HAS_IMAGE]: Thông tin người dùng, sản phẩm, đơn hàng, đánh giá, , chat, thống kê, v.v.
+[459] (Normal) [HAS_IMAGE]: 
+[460] (Normal) [HAS_IMAGE]: Dự án sử dụng MongoDB Atlas – dịch vụ lưu trữ đám mây của MongoDB, giúp truy cập an toàn và dễ triển khai.
+[461] (Normal) [HAS_IMAGE]: 
+[462] (Normal) [HAS_IMAGE]: Lý do chọn MongoDB: Linh hoạt, tốc độ cao, dễ mở rộng và tương thích hoàn hảo với NodeJS (thông qua thư viện Mongoose).
+[463] (Normal) [HAS_IMAGE]: 
+[464] (Normal) [HAS_IMAGE]: Hình 2.1 Sơ đồ kiến trúc
+[465] (Heading 3) [HAS_IMAGE]: 2.5. Cloudinary – Nền tảng lưu trữ và quản lý hình ảnh
+[466] (Normal) [HAS_IMAGE]: Cloudinary là dịch vụ điện toán đám mây chuyên xử lý, lưu trữ và tối ưu hình ảnh hoặc video cho các ứng dụng web.
+[467] (Normal) [HAS_IMAGE]: 
+[468] (Normal) [HAS_IMAGE]: Trong dự án, Cloudinary được dùng để:
+[469] (Normal) [HAS_IMAGE]: 
+[470] (Normal) [HAS_IMAGE]: Lưu trữ hình ảnh sản phẩm, ảnh người dùng, và ảnh review.
+[471] (Normal) [HAS_IMAGE]: 
+[472] (Normal) [HAS_IMAGE]: Tự động nén, tối ưu kích thước ảnh để cải thiện hiệu suất tải trang.
+[473] (Normal) [HAS_IMAGE]: Quản lý đường dẫn ảnh an toàn và ổn định trên nền tảng cloud.
+[474] (Normal) [HAS_IMAGE]: Lý do chọn Cloudinary: Giảm tải cho server, tăng tốc độ tải ảnh, dễ tích hợp qua API và an toàn khi triển khai.
+[475] (Heading 3) [HAS_IMAGE]: 2.6. Stripe – Cổng thanh toán trực tuyến
+[476] (Normal) [HAS_IMAGE]: Stripe là nền tảng thanh toán quốc tế hỗ trợ nhiều loại thẻ tín dụng và ví điện tử.
+[477] (Normal) [HAS_IMAGE]: 
+[478] (Normal) [HAS_IMAGE]: Stripe cho phép các ứng dụng web xử lý thanh toán an toàn, nhanh chóng và minh bạch.
+[479] (Normal) [HAS_IMAGE]: 
+[480] (Normal) [HAS_IMAGE]: Trong DL:
+[481] (Normal) [HAS_IMAGE]: 
+[482] (Normal) [HAS_IMAGE]: Stripe được sử dụng để xử lý các giao dịch thanh toán của khách hàng.
+[483] (Normal) [HAS_IMAGE]: 
+[484] (Normal) [HAS_IMAGE]: Khi khách hàng thanh toán, Stripe tạo một Payment Session, xác nhận giao dịch và trả kết quả về cho hệ thống qua API /order/verifyStripe.
+[485] (Normal) [HAS_IMAGE]: 
+[486] (Normal) [HAS_IMAGE]: Lý do chọn Stripe: Bảo mật cao, dễ tích hợp với NodeJS, hỗ trợ nhiều loại thẻ và tiêu chuẩn PCI-DSS quốc tế.
+[487] (Heading 3) [HAS_IMAGE]: 2.7. JWT (JSON Web Token) – Cơ chế xác thực và bảo mật
+[488] (Normal) [HAS_IMAGE]: JWT là phương pháp xác thực an toàn, phổ biến trong các hệ thống web hiện đại.
+[489] (Normal) [HAS_IMAGE]: 
+[490] (Normal) [HAS_IMAGE]: Sau khi người dùng đăng nhập, hệ thống cấp cho họ một token mã hóa, lưu tạm ở client (localStorage) để xác thực cho các yêu cầu sau.
+[491] (Normal) [HAS_IMAGE]: 
+[492] (Normal) [HAS_IMAGE]: Trong DL, JWT được dùng cho:
+[493] (Normal) [HAS_IMAGE]: 
+[494] (Normal) [HAS_IMAGE]: Đăng nhập người dùng (User Login).
+[495] (Normal) [HAS_IMAGE]: 
+[496] (Normal) [HAS_IMAGE]: Đăng nhập quản trị viên (Admin Login).
+[497] (Normal) [HAS_IMAGE]: 
+[498] (Normal) [HAS_IMAGE]: Phân quyền truy cập các route (middleware auth/adminAuth).
+[499] (Normal) [HAS_IMAGE]: 
+[500] (Normal) [HAS_IMAGE]: Lý do chọn JWT: Gọn nhẹ, dễ triển khai, bảo mật cao, không cần lưu phiên làm việc (session).
+[501] (Heading 3) [HAS_IMAGE]: 2.8. TailwindCSS – Thư viện CSS tiện dụng
+[502] (Normal) [HAS_IMAGE]: TailwindCSS là framework CSS hiện đại dựa trên tiện ích (utility-first), giúp xây dựng giao diện nhanh, gọn và đồng bộ.
+[503] (Normal) [HAS_IMAGE]: 
+[504] (Normal) [HAS_IMAGE]: Trong dự án, TailwindCSS được sử dụng để:
+[505] (Normal) [HAS_IMAGE]: 
+[506] (Normal) [HAS_IMAGE]: Thiết kế giao diện frontend và admin một cách thống nhất.
+[507] (Normal) [HAS_IMAGE]: 
+[508] (Normal) [HAS_IMAGE]: Tối ưu hóa tốc độ phát triển UI, dễ dàng điều chỉnh bố cục, màu sắc, hiệu ứng responsive.
+[509] (Normal) [HAS_IMAGE]: 
+[510] (Normal) [HAS_IMAGE]: Kết hợp cùng React giúp giảm bớt thời gian viết CSS thủ công.
+[511] (Normal) [HAS_IMAGE]: Lý do chọn TailwindCSS: Nhẹ, tùy biến linh hoạt, dễ tích hợp với ReactJS và mang lại giao diện hiện đại, chuyên nghiệp.
+[512] (Heading 3) [HAS_IMAGE]: 2.9. Tổng kết
+[513] (Normal) [HAS_IMAGE]: Sự kết hợp giữa các công nghệ trên tạo thành một hệ thống thương mại điện tử toàn diện, có khả năng hoạt động ổn định, an toàn và dễ mở rộng.
+[514] (Normal) [HAS_IMAGE]: Mỗi công nghệ đảm nhiệm một vai trò riêng nhưng phối hợp nhịp nhàng trong mô hình tổng thể:
+[515] (Normal) [HAS_IMAGE]: ReactJS (giao diện) → NodeJS + Express (xử lý logic & API) → MongoDB (lưu trữ dữ liệu) → Cloudinary (lưu ảnft) → Stripe (tftanft toán) → JWT (bảo mật).
+[516] (Normal) [HAS_IMAGE]: Sự lựa chọn này giúp website Website DL đạt được cả 4 tiêu chí chính của một hệ thống thương mại điện tử hiện đại:
+[517] (Normal) [HAS_IMAGE]: Nhanh – Bảo mật – Dễ sử dụng – Dễ mở rộng.
+[518] (Normal) [HAS_IMAGE]: 
+[519] (Normal) [HAS_IMAGE]: 
+[520] (Heading 2) [HAS_IMAGE]: 3. Mô hình hệ thống web thương mại điện tử (kiến trúc client–server)
+[521] (Heading 3) [HAS_IMAGE]: 3.1. Giới thiệu mô hình
+[522] (Normal) [HAS_IMAGE]: Các hệ thống web hiện đại, đặc biệt là website thương mại điện tử, thường được xây dựng dựa trên mô hình kiến trúc client–server (máy khách – máy chủ). Trong mô hình này:
+[523] (Normal) [HAS_IMAGE]: Client (máy khách) chịu trách nhiệm hiển thị giao diện, tiếp nhận thao tác của người dùng và gửi yêu cầu đến máy chủ.
+[524] (Normal) [HAS_IMAGE]: 
+[525] (Normal) [HAS_IMAGE]: Server (máy chủ) có nhiệm vụ tiếp nhận yêu cầu, xử lý logic nghiệp vụ, truy xuất dữ liệu từ cơ sở dữ liệu, sau đó trả kết quả phản hồi cho client.
+[526] (Normal) [HAS_IMAGE]: 
+[527] (Normal) [HAS_IMAGE]: Cách tiếp cận này giúp hệ thống hoạt động ổn định, dễ mở rộng, dễ bảo trì, và tách biệt rõ ràng giữa phần giao diện người dùng (Frontend) và xử lý nghiệp vụ (Backend).
+[528] (Heading 3) [HAS_IMAGE]: 3.2. Kiến trúc tổng thể của hệ thống DL
+[529] (Normal) [HAS_IMAGE]: Hệ thống website Website DL được thiết kế dựa trên kiến trúc client–server nhiều tầng (multi-tier architecture), gồm 3 tầng chính:
+[530] (Heading 3) [HAS_IMAGE]: 3.3. Các thành phần tương tác trong hệ thống
+[531] (Normal) [HAS_IMAGE]: Hệ thống Website DL gồm nhiều thành phần hoạt động đồng bộ với nhau: Người dùng (Client User):
+[532] (Normal) [HAS_IMAGE]: 
+[533] (Normal) [HAS_IMAGE]: Truy cập website qua trình duyệt, xem sản phẩm, thêm vào giỏ, thanh toán, hoặc gửi đánh giá.
+[534] (Normal) [HAS_IMAGE]: 
+[535] (Normal) [HAS_IMAGE]: Các yêu cầu từ người dùng được gửi đến backend qua giao thức HTTP/HTTPS.
+[536] (Normal) [HAS_IMAGE]: Quản trị viên (Admin):
+[537] (Normal) [HAS_IMAGE]: Sử dụng Admin Panel (ReactJS) để quản lý sản phẩm, đơn hàng, người dùng, thống kê, và hỗ trợ khách hàng.
+[538] (Normal) [HAS_IMAGE]: 
+[539] (Normal) [HAS_IMAGE]: Các thao tác quản trị được bảo vệ bằng cơ chế xác thực JWT Admin Token.
+[540] (Normal) [HAS_IMAGE]: Máy chủ ứng dụng (Backend – NodeJS/Express):
+[541] (Normal) [HAS_IMAGE]: Đóng vai trò trung gian xử lý toàn bộ yêu cầu từ frontend và admin.
+[542] (Normal) [HAS_IMAGE]: Gọi đến MongoDB để truy xuất hoặc cập nhật dữ liệu.
+[543] (Normal) [HAS_IMAGE]: Giao tiếp với Stripe API khi có yêu cầu thanh toán, và Cloudinary API khi người dùng hoặc admin upload ảnh.
+[544] (Normal) [HAS_IMAGE]: 
+[545] (Normal) [HAS_IMAGE]: Trả dữ liệu phản hồi cho frontend ở định dạng JSON (JavaScript Object Notation).
+[546] (Normal) [HAS_IMAGE]: 
+[547] (Normal) [HAS_IMAGE]: Cơ sở dữ liệu (MongoDB Atlas):
+[548] (Normal) [HAS_IMAGE]: 
+[549] (Normal) [HAS_IMAGE]: Lưu trữ các thông tin quan trọng: người dùng, sản phẩm, giỏ hàng, đơn hàng, , đánh giá, thống kê, và chat.
+[550] (Normal) [HAS_IMAGE]: Dữ liệu được truy xuất thông qua thư viện Mongoose, đảm bảo an toàn và nhanh chóng.
+[551] (Normal) [HAS_IMAGE]: 
+[552] (Normal) [HAS_IMAGE]: Stripe API:
+[553] (Normal) [HAS_IMAGE]: 
+[554] (Normal) [HAS_IMAGE]: Cung cấp dịch vụ thanh toán trực tuyến an toàn.
+[555] (Normal) [HAS_IMAGE]: 
+[556] (Normal) [HAS_IMAGE]: Hệ tftống gửi yêu cầu tạo pftiên tftanft toán (Cfteckout Session) → Stripe xử lý giao dịcft → pftản ftồi kết quả về backend.
+[557] (Normal) [HAS_IMAGE]: 
+[558] (Normal) [HAS_IMAGE]: Cloudinary API:
+[559] (Normal) [HAS_IMAGE]: 
+[560] (Normal) [HAS_IMAGE]: Tiếp nhận ảnh sản phẩm và review từ người dùng/admin.
+[561] (Normal) [HAS_IMAGE]: 
+[562] (Normal) [HAS_IMAGE]: Lưu trữ và trả về đường dẫn ảnh được tối ưu để hiển thị nhanh trên frontend.
+[563] (Normal) [HAS_IMAGE]: Nodemailer:
+[564] (Normal) [HAS_IMAGE]: Dùng cho việc gửi email tự động đến khách hàng hoặc phản hồi trong phần hỗ trợ.
+[565] (Normal) [HAS_IMAGE]: 
+[566] (Heading 3) [HAS_IMAGE]: 3.4. Quy trình hoạt động của hệ thống (tóm tắt luồng dữ liệu)
+[567] (Normal) [HAS_IMAGE]: Bước 1:
+[568] (Normal) [HAS_IMAGE]: Người dùng truy cập website → giao diện ReactJS hiển thị danh mục sản phẩm được tải từ API /api/product/list.
+[569] (Normal) [HAS_IMAGE]: Bước 2:
+[570] (Normal) [HAS_IMAGE]: Khi người dùng đăng nhập hoặc thêm sản phẩm vào giỏ hàng → frontend gửi yêu cầu POST đến API /api/user/login hoặc /api/cart/add.
+[571] (Normal) [HAS_IMAGE]: → Backend xác thực JWT, xử lý yêu cầu và cập nhật dữ liệu trong MongoDB.
+[572] (Normal) [HAS_IMAGE]: Bước 3:
+[573] (Normal) [HAS_IMAGE]: Người dùng tiến hành thanh toán → frontend gọi API /api/order/stripe để tạo phiên thanh toán.
+[574] (Normal) [HAS_IMAGE]: → Stripe xử lý giao dịch → trả kết quả → backend xác nhận → frontend hiển thị trang xác minh /verify.
+[575] (Normal) [HAS_IMAGE]: Bước 4:
+[576] (Normal) [HAS_IMAGE]: Khi người dùng gửi đánh giá, upload ảnh review hoặc khi admin thêm sản phẩm → hệ thống upload ảnh lên Cloudinary, nhận lại đường dẫn ảnh, sau đó lưu vào cơ sở dữ liệu MongoDB.
+[577] (Normal) [HAS_IMAGE]: Bước 5:
+[578] (Normal) [HAS_IMAGE]: Quản trị viên truy cập Admin Panel → gọi các API /api/admin/products, /api/admin/orders, /api/statistics/... để xem báo cáo và cập nhật dữ liệu.
+[579] (Heading 3) [HAS_IMAGE]: 3.5. Sơ đồ mô hình kiến trúc hệ thống (mô tả)
+[580] (Normal) [HAS_IMAGE]: [Người dùng / Admin]
+[581] (Normal) [HAS_IMAGE]: ↓ (HTTP/HTTPS)
+[582] (Normal) [HAS_IMAGE]: [ReactJS Frontend / ReactJS Admin Panel]
+[583] (Normal) [HAS_IMAGE]: ↓ (API Request/Response)
+[584] (Normal) [HAS_IMAGE]: [NodeJS + ExpressJS Backend Server]
+[585] (Normal) [HAS_IMAGE]: ↓
+[586] (Normal) [HAS_IMAGE]: ┌────────────┬──────────────┬────────────┐
+[587] (Normal) [HAS_IMAGE]: │ MongoDB 	│ Cloudinary  │ Stripe API 	│ │ (Database) 	│ (Image Host)│ (Payment) 	│ └────────────┴──────────────┴────────────┘
+[588] (Normal) [HAS_IMAGE]: 
+[589] (Normal) [HAS_IMAGE]: 
+[590] (Normal) [HAS_IMAGE]: 
+[591] (Heading 3) [HAS_IMAGE]: 3.6. Ưu điểm của mô hình client–server trong đề tài
+[592] (Normal) [HAS_IMAGE]: Phân tách rõ ràng frontend và backend: giúp dễ bảo trì, mở rộng, triển khai độc lập.
+[593] (Normal) [HAS_IMAGE]: 
+[594] (Normal) [HAS_IMAGE]: Tăng khả năng bảo mật: backend chịu trách nhiệm xác thực, không để lộ dữ liệu nhạy cảm trên client.
+[595] (Normal) [HAS_IMAGE]: 
+[596] (Normal) [HAS_IMAGE]: Dễ mở rộng quy mô: có thể thêm dịch vụ (như AI gợi ý sản phẩm, chat realtime, mobile app).
+[597] (Normal) [HAS_IMAGE]: 
+[598] (Normal) [HAS_IMAGE]: Tăng hiệu năng: frontend xử lý hiển thị, backend xử lý logic – tránh quá tải hệ thống.
+[599] (Normal) [HAS_IMAGE]: 
+[600] (Normal) [HAS_IMAGE]: Tương thích cao: có thể triển khai trên nhiều nền tảng khác nhau (desktop, mobile browser, tablet).
+[601] (Normal) [HAS_IMAGE]: 
+[602] (Heading 3) [HAS_IMAGE]: 3.7. Kết luận
+[603] (Normal) [HAS_IMAGE]: Mô hình client–server là nền tảng cốt lõi trong kiến trúc của hệ thống DL.
+[604] (Normal) [HAS_IMAGE]: Sự tách biệt rõ giữa frontend (ReactJS), backend (NodeJS + Express) và database (MongoDB) không chỉ giúp hệ thống hoạt động ổn định và hiệu quả mà còn tạo điều kiện thuận lợi cho việc nâng cấp, mở rộng và tích hợp thêm các dịch vụ khác trong tương lai như ứng dụng di động, chat realtime hoặc phân tích dữ liệu thông minh.
+[605] (Normal) [HAS_IMAGE]: 
+[606] (Heading 1) [HAS_IMAGE]: CHƯƠNG 3 PHÂN TÍCH HỆ THỐNG
+[607] (Normal) [HAS_IMAGE]: 
+[608] (Heading 2) [HAS_IMAGE]: 1. Khảo sát yêu cầu người dùng (User & Admin)
+[609] (Heading 3) [HAS_IMAGE]: 1.1. Mục tiêu khảo sát
+[610] (Normal) [HAS_IMAGE]: Mục tiêu của giai đoạn khảo sát là xác định rõ nhu cầu và hành vi sử dụng của hai nhóm người dùng chính trong hệ thống thương mại điện tử DL:
+[611] (Normal) [HAS_IMAGE]: Người dùng cuối (Customer/User) – khách hàng truy cập website để mua hàng.
+[612] (Normal) [HAS_IMAGE]: Quản trị viên hệ thống (Admin) – người điều hành và quản lý toàn bộ hoạt động của website.
+[613] (Normal) [HAS_IMAGE]: 
+[614] (Normal) [HAS_IMAGE]: Việc khảo sát yêu cầu giúp nhóm phát triển hiểu đúng nhu cầu thực tế, từ đó đề xuất các chức năng phù hợp, thân thiện, hiệu quả và dễ sử dụng cho cả hai nhóm đối tượng.
+[615] (Heading 3) [HAS_IMAGE]: 1.2. Nhóm người dùng cuối (User)
+[616] (Normal) [HAS_IMAGE]: 1.2.1. Mô tả đối tượng
+[617] (Normal) [HAS_IMAGE]: Người dùng là các khách hàng cá nhân có nhu cầu tìm hiểu, so sánh, mua sắm quần áo,... thông qua website DL.
+[618] (Normal) [HAS_IMAGE]: Đa số người dùng:
+[619] (Normal) [HAS_IMAGE]: Sử dụng Internet thường xuyên và quen thuộc với mua sắm trực tuyến.
+[620] (Normal) [HAS_IMAGE]: 
+[621] (Normal) [HAS_IMAGE]: Ưu tiên tốc độ truy cập, hình ảnh sản phẩm rõ ràng, quy trình mua hàng nhanh gọn, thanh toán an toàn.
+[622] (Normal) [HAS_IMAGE]: 
+[623] (Normal) [HAS_IMAGE]: 1.2.2. Nhu cầu sử dụng
+[624] (Normal) [HAS_IMAGE]: Người dùng mong muốn:
+[625] (Normal) [HAS_IMAGE]: Dễ dàng tìm kiếm sản phẩm theo danh mục, thương hiệu, giá, hoặc từ khóa.
+[626] (Normal) [HAS_IMAGE]: 
+[627] (Normal) [HAS_IMAGE]: Xem chi tiết sản phẩm với hình ảnh, thông số kỹ thuật, đánh giá và các sản phẩm tương tự.
+[628] (Normal) [HAS_IMAGE]: 
+[629] (Normal) [HAS_IMAGE]: Thêm sản phẩm vào giỏ hàng, so sánh hoặc thêm vào danh sách yêu thích ().
+[630] (Normal) [HAS_IMAGE]: 
+[631] (Normal) [HAS_IMAGE]: Thanh toán đơn hàng bằng các phương thức linh hoạt như thanh toán khi nhận hàng (COD) hoặc thanh toán online (Stripe).
+[632] (Normal) [HAS_IMAGE]: 
+[633] (Normal) [HAS_IMAGE]: Theo dõi tình trạng đơn hàng, lịch sử mua hàng và thông tin tài khoản.
+[634] (Normal) [HAS_IMAGE]: 
+[635] (Normal) [HAS_IMAGE]: Đăng ký tài khoản và đăng nhập bảo mật bằng email và mật khẩu.
+[636] (Normal) [HAS_IMAGE]: Gửi đánh giá (review) kèm hình ảnh về sản phẩm sau khi mua.
+[637] (Normal) [HAS_IMAGE]: Nhận hỗ trợ trực tuyến (chat hoặc email) khi gặp vấn đề về đơn hàng hoặc sản phẩm.
+[638] (Normal) [HAS_IMAGE]: 1.2.3. Yêu cầu chức năng
+[639] (Normal) [HAS_IMAGE]: ST 	Chức năng 	Mô tả chi tiết
+[640] (Normal) [HAS_IMAGE]: T
+[641] (Normal) [HAS_IMAGE]: Đăng ký/Đăng Người dùng có thể tạo tài khoản hoặc đăng nhập nhập bằng email và mật khẩu.
+[642] (Normal) [HAS_IMAGE]: 
+[643] (Normal) [HAS_IMAGE]: Quản lý hồ sơ cá Xem và cập nhật thông tin cá nhân, mật khẩu, địa chỉ nhân giao hàng.
+[644] (Normal) [HAS_IMAGE]: 
+[645] (Normal) [HAS_IMAGE]: Duyệt danh mục Xem các danh mục quần áo... và lọc theo giá, hãng, sản phẩm loại.
+[646] (Normal) [HAS_IMAGE]: 
+[647] (Normal) [HAS_IMAGE]: Xem chi tiết sản 	Hiển thị hình ảnh, mô tả, thông số kỹ thuật, đánh giá phẩm 	và sản phẩm liên quan.
+[648] (Normal) [HAS_IMAGE]: 
+[649] (Normal) [HAS_IMAGE]: Giỏ hàng 	Thêm, xóa hoặc cập nhật số lượng sản phẩm trong
+[650] (Normal) [HAS_IMAGE]: giỏ hàng.
+[651] (Normal) [HAS_IMAGE]: Thanh toán 	Lựa chọn phương thức thanh toán (COD hoặc
+[652] (Normal) [HAS_IMAGE]: Stripe).
+[653] (Normal) [HAS_IMAGE]: Theo dõi đơn hàng Xem trạng thái đơn hàng (đang xử lý, giao hàng, hoàn thành...).
+[654] (Normal) [HAS_IMAGE]: 
+[655] (Normal) [HAS_IMAGE]: Lưu lại các sản phẩm yêu thích để xem hoặc mua
+[656] (Normal) [HAS_IMAGE]: sau.
+[657] (Normal) [HAS_IMAGE]: So sánh sản phẩm 	Chọn nhiều sản phẩm để so sánh chi tiết thông số và
+[658] (Normal) [HAS_IMAGE]: giá.
+[659] (Normal) [HAS_IMAGE]: Đánh giá sản phẩm 	Gửi đánh giá (có thể kèm ảnh) và chấm điểm sao cho sản phẩm đã mua.
+[660] (Normal) [HAS_IMAGE]: 
+[661] (Normal) [HAS_IMAGE]: Hỗ trợ khách hàng 	Gửi tin nhắn chat hoặc email đến admin để được hỗ trợ, phản hồi nhanh.
+[662] (Normal) [HAS_IMAGE]: 1.2.4. Yêu cầu phi chức năng (Non-functional)
+[663] (Normal) [HAS_IMAGE]: Tốc độ tải trang nhanh, hiển thị tốt trên mọi thiết bị (responsive). Giao diện thân thiện, dễ thao tác và có tính trực quan cao.
+[664] (Normal) [HAS_IMAGE]: Đảm bảo bảo mật thông tin tài khoản, mật khẩu và dữ liệu thanh toán.
+[665] (Normal) [HAS_IMAGE]: Cơ chế lưu giỏ hàng hoạt động ổn định, không mất dữ liệu khi tải lại trang. Tương tác mượt mà giữa các trang (sử dụng React Router và animation).
+[666] (Normal) [HAS_IMAGE]: 
+[667] (Heading 3) [HAS_IMAGE]: 1.3. Nhóm quản trị viên hệ thống (Admin)
+[668] (Normal) [HAS_IMAGE]: 1.3.1. Mô tả đối tương
+[669] (Normal) [HAS_IMAGE]: Admin là những người có quyền quản lý và điều hành toàn bộ hoạt động của website, bao gồm:
+[670] (Normal) [HAS_IMAGE]: Quản lý danh mục và sản phẩm.
+[671] (Normal) [HAS_IMAGE]: 
+[672] (Normal) [HAS_IMAGE]: Kiểm soát đơn hàng và tình trạng thanh toán.
+[673] (Normal) [HAS_IMAGE]: Quản lý người dùng và hỗ trợ khách hàng.
+[674] (Normal) [HAS_IMAGE]: Theo dõi báo cáo, thống kê doanh thu và hiệu suất kinh doanh.
+[675] (Normal) [HAS_IMAGE]: 
+[676] (Normal) [HAS_IMAGE]: Admin đăng nhập thông qua trang quản trị riêng biệt được bảo vệ bằng token xác thực (JWT) để đảm bảo an toàn. 1.3.2. Nhu cầu sử dụng
+[677] (Normal) [HAS_IMAGE]: Admin cần có khả năng:
+[678] (Normal) [HAS_IMAGE]: Thêm, chỉnh sửa, xóa sản phẩm, bao gồm tải ảnh lên Cloudinary.
+[679] (Normal) [HAS_IMAGE]: 
+[680] (Normal) [HAS_IMAGE]: Theo dõi danh sách đơn hàng, cập nhật trạng thái hoặc hủy đơn.
+[681] (Normal) [HAS_IMAGE]: 
+[682] (Normal) [HAS_IMAGE]: Quản lý thông tin người dùng, phân quyền và xử lý các tài khoản vi phạm.
+[683] (Normal) [HAS_IMAGE]: 
+[684] (Normal) [HAS_IMAGE]: Theo dõi thống kê kinh doanh: tổng doanh thu, số lượng sản phẩm bán, top sản phẩm nổi bật.
+[685] (Normal) [HAS_IMAGE]: 
+[686] (Normal) [HAS_IMAGE]: Trao đổi với khách hàng qua chat, gửi email phản hồi hoặc thông báo khuyến mãi.
+[687] (Normal) [HAS_IMAGE]: Xem báo cáo tổng hợp để đưa ra quyết định điều hành.
+[688] (Normal) [HAS_IMAGE]: 1.3.3. Yêu cầu chức năng
+[689] (Normal) [HAS_IMAGE]: ST 	Chức năng 	Mô tả chi tiết
+[690] (Normal) [HAS_IMAGE]: T
+[691] (Normal) [HAS_IMAGE]: Đăng nhập admin 	Xác thực tài khoản quản trị bằng email và mật khẩu.
+[692] (Normal) [HAS_IMAGE]: 
+[693] (Normal) [HAS_IMAGE]: Quản lý sản phẩm Thêm mới, chỉnh sửa thông tin, giá, tồn kho, hình ảnh sản phẩm.
+[694] (Normal) [HAS_IMAGE]: Quản lý đơn hàng Xem danh sách, cập nhật trạng thái, xác nhận thanh toán, hủy đơn hàng.
+[695] (Normal) [HAS_IMAGE]: 
+[696] (Normal) [HAS_IMAGE]: Quản lý người 	Xem, sửa, xóa hoặc khóa tài khoản người dùng. dùng
+[697] (Normal) [HAS_IMAGE]: Quản lý đánh giá 	Xem các review, đánh dấu hoặc xóa các đánh giá không hợp lệ.
+[698] (Normal) [HAS_IMAGE]: Quản lý thống kê Xem biểu đồ doanh thu, sản phẩm bán chạy, đơn hàng theo tháng.
+[699] (Normal) [HAS_IMAGE]: 
+[700] (Normal) [HAS_IMAGE]: Hỗ trợ khách 	Quản lý tin nhắn chat, trả lời hoặc gửi email hỗ trợ. hàng
+[701] (Normal) [HAS_IMAGE]: Báo cáo & xuất 	Xuất danh sách đơn hàng hoặc thống kê ra file Excel.
+[702] (Normal) [HAS_IMAGE]: dữ liệu
+[703] (Normal) [HAS_IMAGE]: Giao diện quản trị dễ sử dụng, có bố cục trực quan (Navbar, Sidebar, Dashboard). Hệ thống đảm bảo an toàn: chỉ admin hợp lệ mới truy cập được. Cập nhật dữ liệu real-time (ví dụ: đơn hàng mới, chat khách hàng).
+[704] (Normal) [HAS_IMAGE]: 
+[705] (Normal) [HAS_IMAGE]: Tối ưu thao tác để giảm thời gian quản trị (thông báo tự động, toast message).
+[706] (Normal) [HAS_IMAGE]: 
+[707] (Normal) [HAS_IMAGE]: 1.3.4. Kết luận khảo sát
+[708] (Normal) [HAS_IMAGE]: Qua quá trình khảo sát, hai nhóm người dùng chính (User và Admin) có mục tiêu sử dụng khác nhau nhưng liên quan chặt chẽ:
+[709] (Normal) [HAS_IMAGE]: Người dùng tập trung vào trải nghiệm mua sắm, thanh toán và hỗ trợ nhanh.
+[710] (Normal) [HAS_IMAGE]: 
+[711] (Normal) [HAS_IMAGE]: Admin tập trung vào quản lý, kiểm soát, thống kê và duy trì hoạt động ổn định của website.
+[712] (Heading 2) [HAS_IMAGE]: 2. Chức năng chính của hệ thống
+[713] (Normal) [HAS_IMAGE]: Hệ thống website thương mại điện tử Website DL được xây dựng nhằm cung cấp cho người dùng một nền tảng mua sắm trực tuyến chuyên biệt về thời trang , đồng thời hỗ trợ quản trị viên quản lý toàn bộ hoạt động kinh doanh một cách hiệu quả và khoa học.
+[714] (Normal) [HAS_IMAGE]: Các chức năng chính được chia thành hai nhóm đối tượng sử dụng: Người dùng (User).
+[715] (Normal) [HAS_IMAGE]: 
+[716] (Normal) [HAS_IMAGE]: Quản trị viên (Admin).
+[717] (Normal) [HAS_IMAGE]: 2. 2. Chức năng của người dung ( User )
+[718] (Normal) [HAS_IMAGE]: Người dùng là khách hàng truy cập website Website DL để tìm kiếm, lựa chọn và mua sắm sản phẩm công nghệ. Các chức năng chính bao gồm:
+[719] (Normal) [HAS_IMAGE]: 2.1.1. Đăng ký và đăng nhập
+[720] (Normal) [HAS_IMAGE]: Người dùng có thể tạo tài khoản mới bằng email, mật khẩu và thông tin cá nhân.
+[721] (Normal) [HAS_IMAGE]: 
+[722] (Normal) [HAS_IMAGE]: Hệ thống sử dụng JWT (JSON Web Token) để xác thực, đảm bảo an toàn và riêng tư trong quá trình đăng nhập.
+[723] (Normal) [HAS_IMAGE]: 
+[724] (Normal) [HAS_IMAGE]: Sau khi đăng nhập, người dùng có thể truy cập các tính năng cá nhân như giỏ hàng, , đánh giá và lịch sử mua hàng.
+[725] (Normal) [HAS_IMAGE]: 
+[726] (Normal) [HAS_IMAGE]: 2.1.2. Tìm kiếm và xem sản phẩm
+[727] (Normal) [HAS_IMAGE]: Người dùng có thể tìm kiếm sản phẩm theo từ khóa, danh mục, thương hiệu hoặc mức giá.
+[728] (Normal) [HAS_IMAGE]: 
+[729] (Normal) [HAS_IMAGE]: Trang chi tiết sản phẩm hiển thị đầy đủ thông tin gồm:
+[730] (Normal) [HAS_IMAGE]: 
+[731] (Normal) [HAS_IMAGE]: Hình ảnh (lưu trên Cloudinary).
+[732] (Normal) [HAS_IMAGE]: 
+[733] (Normal) [HAS_IMAGE]: Thông số kỹ thuật chi tiết.
+[734] (Normal) [HAS_IMAGE]: Giá bán, tình trạng tồn kho.
+[735] (Normal) [HAS_IMAGE]: Đánh giá và nhận xét từ người dùng khác.
+[736] (Normal) [HAS_IMAGE]: 
+[737] (Normal) [HAS_IMAGE]: Hệ thống cũng hiển thị sản phẩm tương tự hoặc đề xuất sản phẩm phù hợp.
+[738] (Normal) [HAS_IMAGE]: 
+[739] (Normal) [HAS_IMAGE]: 2.1.3. Mua hàng và giỏ hàng
+[740] (Normal) [HAS_IMAGE]: Người dùng có thể thêm sản phẩm vào giỏ hàng (Cart), cập nhật số lượng hoặc xóa sản phẩm.
+[741] (Normal) [HAS_IMAGE]: 
+[742] (Normal) [HAS_IMAGE]: Giỏ hàng được lưu trữ theo tài khoản người dùng, đảm bảo dữ liệu không bị mất khi tải lại trang.
+[743] (Normal) [HAS_IMAGE]: 
+[744] (Normal) [HAS_IMAGE]: Khi đã chọn đủ sản phẩm, người dùng tiến hành đặt hàng (Place Order).
+[745] (Normal) [HAS_IMAGE]: 2.1.4. Thanh toán
+[746] (Normal) [HAS_IMAGE]: Hệ thống hỗ trợ hai phương thức thanh toán:
+[747] (Normal) [HAS_IMAGE]: COD (Cash on Delivery): Thanh toán khi nhận hàng.
+[748] (Normal) [HAS_IMAGE]: Stripe: Thanh toán trực tuyến bằng thẻ quốc tế.
+[749] (Normal) [HAS_IMAGE]: Toàn bộ quá trình thanh toán được thực hiện an toàn và bảo mật, tuân thủ tiêu chuẩn PCI-DSS của Stripe.
+[750] (Normal) [HAS_IMAGE]: 
+[751] (Normal) [HAS_IMAGE]: Sau khi thanh toán, hệ thống tự động cập nhật trạng thái đơn hàng và hiển thị trang xác minh (/verify) cho người dùng.
+[752] (Normal) [HAS_IMAGE]: 
+[753] (Normal) [HAS_IMAGE]: 2.1.5.  Danh sách yêu thích
+[754] (Normal) [HAS_IMAGE]: Người dùng có thể thêm sản phẩm vào danh sách yêu thích để xem lại hoặc mua trong tương lai.
+[755] (Normal) [HAS_IMAGE]: 
+[756] (Normal) [HAS_IMAGE]: Tính năng này giúp người dùng dễ dàng lưu trữ và theo dõi sản phẩm ưa thích mà không cần tìm kiếm lại.
+[757] (Normal) [HAS_IMAGE]: 
+[758] (Normal) [HAS_IMAGE]: 2.1.6. So sánh sản phẩm
+[759] (Normal) [HAS_IMAGE]: Người dùng có thể chọn nhiều sản phẩm cùng loại để so sánh về giá, chất lượng, thương hiệu, bảo hành, v.v.
+[760] (Normal) [HAS_IMAGE]: 
+[761] (Normal) [HAS_IMAGE]: 2.1.7. Review – Đánh giá sản phẩm
+[762] (Normal) [HAS_IMAGE]: Sau khi mua hàng, người dùng có thể gửi đánh giá (review) cho sản phẩm đã mua, kèm hình ảnh thực tế.
+[763] (Normal) [HAS_IMAGE]: 
+[764] (Normal) [HAS_IMAGE]: Các đánh giá được hiển thị công khai trên trang chi tiết sản phẩm, giúp tăng tính minh bạch và độ tin cậy.
+[765] (Normal) [HAS_IMAGE]: 
+[766] (Normal) [HAS_IMAGE]: Người dùng có thể đánh dấu đánh giá “hữu ích” hoặc “báo cáo vi phạm”.
+[767] (Normal) [HAS_IMAGE]: 2.1.8. Quản lý tài khoản và đơn hàng
+[768] (Normal) [HAS_IMAGE]: Xem, chỉnh sửa thông tin cá nhân, mật khẩu, địa chỉ giao hàng.
+[769] (Normal) [HAS_IMAGE]: 
+[770] (Normal) [HAS_IMAGE]: Theo dõi lịch sử mua hàng, trạng thái đơn hàng, hoặc hủy đơn hàng nếu chưa xử lý.
+[771] (Normal) [HAS_IMAGE]: 
+[772] (Normal) [HAS_IMAGE]: 2.1.9. Hỗ trợ khách hàng (Chat)
+[773] (Normal) [HAS_IMAGE]: Người dùng có thể trò chuyện trực tuyến với quản trị viên để được tư vấn hoặc hỗ trợ.
+[774] (Normal) [HAS_IMAGE]: Hệ thống có thể gửi email phản hồi tự động khi admin xử lý xong yêu cầu.
+[775] (Normal) [HAS_IMAGE]: 
+[776] (Normal) [HAS_IMAGE]: 2. 2. Chức năng của quản trị viên (Admin)
+[777] (Normal) [HAS_IMAGE]: Quản trị viên chịu trách nhiệm điều hành toàn bộ hoạt động của hệ thống thông qua trang quản trị riêng biệt (Admin Panel). Các chức năng chính gồm:
+[778] (Normal) [HAS_IMAGE]: 2.1.1. Đăng nhập quản trị viên
+[779] (Normal) [HAS_IMAGE]: Quản trị viên đăng nhập bằng tài khoản được cấp.
+[780] (Normal) [HAS_IMAGE]: 
+[781] (Normal) [HAS_IMAGE]: Hệ thống xác thực qua JWT Admin Token để đảm bảo chỉ người có quyền mới được truy cập.
+[782] (Normal) [HAS_IMAGE]: 
+[783] (Normal) [HAS_IMAGE]: 2.1.2. Quản lý sản phẩm
+[784] (Normal) [HAS_IMAGE]: Thêm mới sản phẩm: nhập thông tin, giá, tồn kho, mô tả, thông số kỹ thuật và tải nhiều hình ảnh qua Multer + Cloudinary.
+[785] (Normal) [HAS_IMAGE]: 
+[786] (Normal) [HAS_IMAGE]: Chỉnh sửa/Xóa sản phẩm: cập nhật thông tin hoặc xóa sản phẩm không còn bán.
+[787] (Normal) [HAS_IMAGE]: Tìm kiếm sản phẩm: dễ dàng lọc và tìm theo tên, mã, danh mục.
+[788] (Normal) [HAS_IMAGE]: 2.1.3. Quản lý đơn hàng
+[789] (Normal) [HAS_IMAGE]: Xem danh sách toàn bộ đơn hàng của người dùng.
+[790] (Normal) [HAS_IMAGE]: 
+[791] (Normal) [HAS_IMAGE]: Cập nhật trạng thái đơn hàng (đang xử lý, đã giao, đã hủy, hoàn tất).
+[792] (Normal) [HAS_IMAGE]: Xóa hoặc hủy các đơn hàng không hợp lệ.
+[793] (Normal) [HAS_IMAGE]: Theo dõi thông tin thanh toán (Stripe/COD).
+[794] (Normal) [HAS_IMAGE]: 2.1.4. Quản lý người dùng
+[795] (Normal) [HAS_IMAGE]: Xem danh sách người dùng, chỉnh sửa thông tin hoặc xóa tài khoản.
+[796] (Normal) [HAS_IMAGE]: Quản lý quyền truy cập và xử lý các báo cáo hoặc hành vi vi phạm.
+[797] (Normal) [HAS_IMAGE]: 2.1.5. Quản lý đánh giá
+[798] (Normal) [HAS_IMAGE]: Duyệt, kiểm tra hoặc xóa các review không hợp lệ.
+[799] (Normal) [HAS_IMAGE]: 
+[800] (Normal) [HAS_IMAGE]: Đánh dấu những phản hồi vi phạm nội quy hoặc spam.
+[801] (Normal) [HAS_IMAGE]: 
+[802] (Normal) [HAS_IMAGE]: 2.1.6. Quản lý thống kê & báo cáo
+[803] (Normal) [HAS_IMAGE]: Xem báo cáo doanh thu, số lượng đơn hàng, tổng sản phẩm bán, top sản phẩm nổi bật, thống kê người dùng mới.
+[804] (Normal) [HAS_IMAGE]: Biểu diễn số liệu trực quan bằng biểu đồ (SimpleChart).
+[805] (Normal) [HAS_IMAGE]: 
+[806] (Normal) [HAS_IMAGE]: Xuất dữ liệu ra Excel (xlsx) để lưu trữ hoặc báo cáo định kỳ.
+[807] (Normal) [HAS_IMAGE]: 
+[808] (Normal) [HAS_IMAGE]: 2.1.7. Hỗ trợ khách hàng
+[809] (Normal) [HAS_IMAGE]: Theo dõi và phản hồi các tin nhắn chat của người dùng.
+[810] (Normal) [HAS_IMAGE]: 
+[811] (Normal) [HAS_IMAGE]: Đánh dấu các yêu cầu đã xử lý hoặc gửi email follow-up qua Nodemailer.
+[812] (Normal) [HAS_IMAGE]: Quản lý lịch sử trò chuyện để nâng cao chất lượng chăm sóc khách hàng.
+[813] (Normal) [HAS_IMAGE]: 2.3. Kết luận chức năng
+[814] (Normal) [HAS_IMAGE]: Hệ thống Website DL bao gồm đầy đủ các chức năng cốt lõi của một website thương mại điện tử hiện đại, cụ thể:
+[815] (Normal) [HAS_IMAGE]: Hệ thống đảm bảo tính toàn diện, bảo mật và khả năng mở rộng, đáp ứng các yêu cầu của một mô hình thương mại điện tử chuyên biệt trong lĩnh vực thời trang Rất tốt — bạn đã có đủ 4 sơ đồ cốt lõi để viết phần 3: “Sơ đồ use case, ERD, luồng xử lý dữ liệu” của báo cáo. Sơ đồ use case, ERD, luồng xử lý dữ liệu
+[816] (Normal) [HAS_IMAGE]: 2.1. Sơ đồ Use Case tổng thể hệ thống DL
+[817] (Normal) [HAS_IMAGE]: Hệ thống Website DL gồm hai nhóm người dùng chính: User (khách hàng) và
+[818] (Normal) [HAS_IMAGE]: Admin (quản trị viên).
+[819] (Normal) [HAS_IMAGE]: Sơ đồ Use Case tổng thể mô tả toàn bộ chức năng mà hai đối tượng này có thể thực hiện trong hệ thống. User (Khách hàng) có thể:
+[820] (Normal) [HAS_IMAGE]: Xem, tìm kiếm, so sánh và thêm sản phẩm vào . Xem chi tiết sản phẩm, đánh giá và viết review có hình ảnh.
+[821] (Normal) [HAS_IMAGE]: Thêm sản phẩm vào giỏ hàng, đặt hàng và thanh toán trực tuyến.
+[822] (Normal) [HAS_IMAGE]: Theo dõi trạng thái đơn hàng, cập nhật thông tin cá nhân.
+[823] (Normal) [HAS_IMAGE]: Chat hỗ trợ với admin qua giao diện chat 2 chiều (real-time).
+[824] (Normal) [HAS_IMAGE]: Admin (Quản trị viên) có thể:
+[825] (Normal) [HAS_IMAGE]: Quản lý tài khoản người dùng (thêm, khóa/mở khóa, phân quyền).
+[826] (Normal) [HAS_IMAGE]: Quản lý sản phẩm (thêm, sửa, xóa, cập nhật tồn kho và giá).
+[827] (Normal) [HAS_IMAGE]: Quản lý đơn hàng (xử lý, xác nhận, hủy, hoàn tất).
+[828] (Normal) [HAS_IMAGE]: Thống kê – báo cáo doanh thu, xuất dữ liệu ra Excel/PDF. Hỗ trợ khách hàng qua chat hoặc gửi email follow-up.
+[829] (Normal) [HAS_IMAGE]: 
+[830] (Normal) [HAS_IMAGE]: 
+[831] (Normal) [HAS_IMAGE]: 
+[832] (Normal) [HAS_IMAGE]: Hình 3.1 Sơ đồ usecase tổng thể
+[833] (Normal) [HAS_IMAGE]: 2.2. Sơ đồ Use Case chi tiết
+[834] (Normal) [HAS_IMAGE]: 2.2.1. Hệ thống Website DL – Admin
+[835] (Normal) [HAS_IMAGE]: Sơ đồ use case cho quản trị viên thể hiện các chức năng chi tiết mà admin được phép thao tác:
+[836] (Normal) [HAS_IMAGE]: Đăng nhập hệ thống.
+[837] (Normal) [HAS_IMAGE]: Quản lý tài khoản người dùng (phân quyền, thêm/sửa/xóa, khóa tài khoản).
+[838] (Normal) [HAS_IMAGE]: Quản lý sản phẩm (thêm mới, cập nhật giá, tồn kho, hình ảnh). Quản lý đơn hàng (xem, duyệt, cập nhật trạng thái).
+[839] (Normal) [HAS_IMAGE]: 
+[840] (Normal) [HAS_IMAGE]: Thống kê – báo cáo doanh thu, sản phẩm bán chạy, xuất file Excel/PDF. Hỗ trợ khách hàng qua Chat & Email.
+[841] (Normal) [HAS_IMAGE]: 
+[842] (Normal) [HAS_IMAGE]: Hình 3.1Sơ đồ Use Case chi tiết admin
+[843] (Normal) [HAS_IMAGE]: 
+[844] (Normal) [HAS_IMAGE]: 2.2.2. Hệ thống Website DL – Khách hàng
+[845] (Normal) [HAS_IMAGE]: Người dùng có thể thao tác với các chức năng chính của website:
+[846] (Normal) [HAS_IMAGE]: Đăng ký / Đăng nhập tài khoản.
+[847] (Normal) [HAS_IMAGE]: Xem & tìm kiếm sản phẩm → Xem chi tiết → Thêm vào giỏ hàng → Đặt hàng & Thanh toán → Theo dõi đơn hàng. Đánh giá sản phẩm / Viết review (có ảnh). Thêm sản phẩm vào  hoặc so sánh. Chat với admin khi cần hỗ trợ.
+[848] (Normal) [HAS_IMAGE]: 
+[849] (Normal) [HAS_IMAGE]: Hình 3.3 Sơ đồ Use Case cho User
+[850] (Normal) [HAS_IMAGE]: 2.3. Sơ đồ ERD (Entity Relationship Diagram)
+[851] (Normal) [HAS_IMAGE]: Sơ đồ ERD mô tả cấu trúc dữ liệu và mối quan hệ giữa các bảng trong MongoDB.
+[852] (Normal) [HAS_IMAGE]: Các thực thể chính gồm:
+[853] (Normal) [HAS_IMAGE]: 
+[854] (Normal) [HAS_IMAGE]: Hình 3.4 Sơ đồ EDR Tổng Thể
+[855] (Normal) [HAS_IMAGE]: 2.4. Luồng xử lý dữ liệu (Data Flow Overview) Luồng xử lý dữ liệu được chia thành ba phần chính: Frontend (React + Vite):
+[856] (Normal) [HAS_IMAGE]: Gửi yêu cầu API tới Backend qua Axios.
+[857] (Normal) [HAS_IMAGE]: Nhận và hiển thị dữ liệu sản phẩm, giỏ hàng, người dùng.
+[858] (Normal) [HAS_IMAGE]: Thực hiện các thao tác thêm/xóa/cập nhật local state (ShopContext). Backend (NodeJS + Express):
+[859] (Normal) [HAS_IMAGE]: Tiếp nhận yêu cầu từ Frontend → định tuyến tới Controller phù hợp. Controller gọi Model (Mongoose) để truy vấn hoặc cập nhật dữ liệu.
+[860] (Normal) [HAS_IMAGE]: Kết quả trả về JSON cho Frontend. Database (MongoDB Atlas):
+[861] (Normal) [HAS_IMAGE]: Lưu trữ dữ liệu sản phẩm, người dùng, đơn hàng, đánh giá, chat, v.v. Dữ liệu đồng bộ và được xác thực qua JWT Token.
+[862] (Normal) [HAS_IMAGE]: Ví dụ luồng xử lý “Đặt hàng & thanh toán”:
+[863] (Normal) [HAS_IMAGE]: User (Frontend) → /api/order/place → orderController → orderModel.save()
+[864] (Normal) [HAS_IMAGE]: → Stripe API (xử lý thanh toán) → Trả về kết quả → Cập nhật trạng thái đơn hàng.
+[865] (Heading 1) [HAS_IMAGE]: CHƯƠNG 4 PHÂN TÍCH HỆ THỐNG
+[866] (Normal) [HAS_IMAGE]: 
+[867] (Normal) [HAS_IMAGE]: Thiết kế cơ sở dữ liệu (MongoDB collections).
+[868] (Normal) [HAS_IMAGE]: Tổng quan
+[869] (Normal) [HAS_IMAGE]: Cơ sở dữ liệu của hệ thống thương mại điện tử Website DL được xây dựng trên nền tảng MongoDB – một hệ quản trị cơ sở dữ liệu NoSQL dạng documentoriented, cho phép lưu trữ linh hoạt, mở rộng dễ dàng và tối ưu hiệu suất truy vấn.
+[870] (Normal) [HAS_IMAGE]: Dữ liệu được tổ chức thành các collection (tương tự bảng trong SQL), mỗi collection chứa các document (tương tự bản ghi) dưới dạng JSON.
+[871] (Normal) [HAS_IMAGE]: Hệ thống bao gồm 10 collection chính, được thiết kế đảm bảo tính toàn vẹn, nhất quán và thuận tiện cho việc mở rộng chức năng.
+[872] (Normal) [HAS_IMAGE]: Danh sách các collection Tên
+[873] (Normal) [HAS_IMAGE]: 
+[874] (Normal) [HAS_IMAGE]: Cấu trúc chi tiết các collection
+[875] (Normal) [HAS_IMAGE]: 1.3.1. Collection users
+[876] (Normal) [HAS_IMAGE]: {
+[877] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[878] (Normal) [HAS_IMAGE]: "username": "DL",
+[879] (Normal) [HAS_IMAGE]: "email": "user@example.com",
+[880] (Normal) [HAS_IMAGE]: "password": "hashed_password",
+[881] (Normal) [HAS_IMAGE]: "role": "customer | admin",
+[882] (Normal) [HAS_IMAGE]: "phone": "0123456789",
+[883] (Normal) [HAS_IMAGE]: "address": "123 Trần Hưng Đạo, TP.HCM",
+[884] (Normal) [HAS_IMAGE]: "createdAt": ISODate,
+[885] (Normal) [HAS_IMAGE]: "updatedAt": ISODate
+[886] (Normal) [HAS_IMAGE]: }
+[887] (Normal) [HAS_IMAGE]: Mối quan hệ: 1 user có thể có nhiều đơn hàng (orders), đánh giá (reviews),
+[888] (Normal) [HAS_IMAGE]: (s).
+[889] (Normal) [HAS_IMAGE]: 1.3.2. Collection products
+[890] (Normal) [HAS_IMAGE]: {
+[891] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[892] (Normal) [HAS_IMAGE]: "name": "Áo polo", "category_id":
+[893] (Normal) [HAS_IMAGE]: ObjectId,
+[894] (Normal) [HAS_IMAGE]: "price": 185000,
+[895] (Normal) [HAS_IMAGE]: "description": "Chất liệu vải cao cấp.", "stock": 25,
+[896] (Normal) [HAS_IMAGE]: "images": ["image1.jpg", "image2.jpg"],
+[897] (Normal) [HAS_IMAGE]: "brand": "Dell",
+[898] (Normal) [HAS_IMAGE]: "createdAt": ISODate, "updatedAt": ISODate
+[899] (Normal) [HAS_IMAGE]: }
+[900] (Normal) [HAS_IMAGE]: Mối quan hệ:
+[901] (Normal) [HAS_IMAGE]: Thuộc về 1 danh mục (categories).
+[902] (Normal) [HAS_IMAGE]: Có thể được đánh giá trong reviews. Có thể nằm trong orderitems hoặc s.
+[903] (Normal) [HAS_IMAGE]: 1.3.3. Collection orders
+[904] (Normal) [HAS_IMAGE]: {
+[905] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[906] (Normal) [HAS_IMAGE]: "user_id": ObjectId,
+[907] (Normal) [HAS_IMAGE]: "orderItems": [ObjectId],
+[908] (Normal) [HAS_IMAGE]: "totalPrice": 370000,
+[909] (Normal) [HAS_IMAGE]: "status": "pending | confirmed | shipped | completed | cancelled",
+[910] (Normal) [HAS_IMAGE]: "paymentMethod": "COD | Online",
+[911] (Normal) [HAS_IMAGE]: "createdAt": ISODate, "updatedAt": ISODate
+[912] (Normal) [HAS_IMAGE]: }
+[913] (Normal) [HAS_IMAGE]: Mối quan hệ:
+[914] (Normal) [HAS_IMAGE]: Thuộc về 1 người dùng (users).
+[915] (Normal) [HAS_IMAGE]: Gồm nhiều mục hàng (orderitems).
+[916] (Normal) [HAS_IMAGE]: 1.3.4. Collection orderitems
+[917] (Normal) [HAS_IMAGE]: {
+[918] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[919] (Normal) [HAS_IMAGE]: "order_id": ObjectId,
+[920] (Normal) [HAS_IMAGE]: "product_id": ObjectId,
+[921] (Normal) [HAS_IMAGE]: "quantity": 2,
+[922] (Normal) [HAS_IMAGE]: "price": 185000
+[923] (Normal) [HAS_IMAGE]: }
+[924] (Normal) [HAS_IMAGE]: Mối quan hệ: Liên kết giữa orders và products.
+[925] (Normal) [HAS_IMAGE]: 1.3.5. Collection reviews
+[926] (Normal) [HAS_IMAGE]: {
+[927] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[928] (Normal) [HAS_IMAGE]: "product_id": ObjectId,
+[929] (Normal) [HAS_IMAGE]: "user_id": ObjectId,
+[930] (Normal) [HAS_IMAGE]: "rating": 4.5,
+[931] (Normal) [HAS_IMAGE]: "comment": "Sản phẩm tốt, giao hàng nhanh!",
+[932] (Normal) [HAS_IMAGE]: "createdAt": ISODate
+[933] (Normal) [HAS_IMAGE]: }
+[934] (Normal) [HAS_IMAGE]: 1.3.6. Collection s
+[935] (Normal) [HAS_IMAGE]: {
+[936] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[937] (Normal) [HAS_IMAGE]: "user_id": ObjectId,
+[938] (Normal) [HAS_IMAGE]: "products": [ObjectId]
+[939] (Normal) [HAS_IMAGE]: }
+[940] (Normal) [HAS_IMAGE]: 1.3.7. Collection coupons
+[941] (Normal) [HAS_IMAGE]: {
+[942] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[943] (Normal) [HAS_IMAGE]: "code": "SALE20",
+[944] (Normal) [HAS_IMAGE]: "discount": 20,
+[945] (Normal) [HAS_IMAGE]: "startDate": ISODate,
+[946] (Normal) [HAS_IMAGE]: "endDate": ISODate,
+[947] (Normal) [HAS_IMAGE]: "minPurchase": 500000,
+[948] (Normal) [HAS_IMAGE]: "maxDiscount": 200000
+[949] (Normal) [HAS_IMAGE]: }
+[950] (Normal) [HAS_IMAGE]: 1.3.8. Collection chats
+[951] (Normal) [HAS_IMAGE]: {
+[952] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[953] (Normal) [HAS_IMAGE]: "user_id": ObjectId,
+[954] (Normal) [HAS_IMAGE]: "messages": [
+[955] (Normal) [HAS_IMAGE]: {
+[956] (Normal) [HAS_IMAGE]: "sender": "user | admin",
+[957] (Normal) [HAS_IMAGE]: "content": "Xin chào, tôi muốn hỏi về sản phẩm.",
+[958] (Normal) [HAS_IMAGE]: "timestamp": ISODate
+[959] (Normal) [HAS_IMAGE]: }
+[960] (Normal) [HAS_IMAGE]: ]
+[961] (Normal) [HAS_IMAGE]: }
+[962] (Normal) [HAS_IMAGE]: 1.3.9. Collection statistics
+[963] (Normal) [HAS_IMAGE]: {
+[964] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[965] (Normal) [HAS_IMAGE]: "date": ISODate,
+[966] (Normal) [HAS_IMAGE]: "totalSales": 120000000,
+[967] (Normal) [HAS_IMAGE]: "totalOrders": 56,
+[968] (Normal) [HAS_IMAGE]: "topProducts": [
+[969] (Normal) [HAS_IMAGE]: {"product_id": ObjectId, "sold": 15}
+[970] (Normal) [HAS_IMAGE]: }
+[971] (Normal) [HAS_IMAGE]: 1.3.10. Collection categories
+[972] (Normal) [HAS_IMAGE]: {
+[973] (Normal) [HAS_IMAGE]: "_id": ObjectId,
+[974] (Normal) [HAS_IMAGE]: "name": "Sweate",
+[975] (Normal) [HAS_IMAGE]: "description": "Các loại áo sweate", "createdAt":
+[976] (Normal) [HAS_IMAGE]: ISODate
+[977] (Normal) [HAS_IMAGE]: }
+[978] (Normal) [HAS_IMAGE]: 1.3. Mối quan hệ giữa các collection users – orders: 1-n orders – orderitems: 1-n products – orderitems: 1-n products – reviews: 1-n users – s: 1-1 categories – products: 1-n
+[979] (Normal) [HAS_IMAGE]: 
+[980] (Normal) [HAS_IMAGE]: 2. Thiết kế giao diện người dùng (ReactJS)
+[981] (Normal) [HAS_IMAGE]: 2.1. Mục tiêu thiết kế
+[982] (Normal) [HAS_IMAGE]: 
+[983] (Normal) [HAS_IMAGE]: Thiết kế giao diện nhằm mang lại trải nghiệm người dùng trực quan, dễ thao tác, giúp khách hàng có thể tìm kiếm, lựa chọn và mua sắm quần áo một cách nhanh chóng.
+[984] (Normal) [HAS_IMAGE]: 
+[985] (Normal) [HAS_IMAGE]: Website được xây dựng theo triết lý “UI thân thiện – UX liền mạch – tốc độ tối ưu”, đảm bảo phù hợp với cả người dùng thông thường và quản trị viên (admin).
+[986] (Normal) [HAS_IMAGE]: 
+[987] (Normal) [HAS_IMAGE]: 2.2. Công nghệ sử dụng
+[988] (Normal) [HAS_IMAGE]: ReactJS 19: Thư viện chính để xây dựng giao diện, giúp chia nhỏ ứng dụng thành các component độc lập, dễ tái sử dụng.
+[989] (Normal) [HAS_IMAGE]: Vite: Công cụ build giúp khởi động và tải trang nhanh hơn so với Create React App. Tailwind CSS: Thư viện CSS tiện dụng, cho phép tùy chỉnh nhanh các phần tử giao diện, đảm bảo tính responsive trên mọi thiết bị.
+[990] (Normal) [HAS_IMAGE]: React Router 7: Quản lý điều hướng giữa các trang trong SPA (Single Page Application).
+[991] (Normal) [HAS_IMAGE]: Axios: Gửi và nhận dữ liệu từ API backend thông qua HTTP request. React Toastify: Hiển thị thông báo (success, error, warning) thân thiện.
+[992] (Normal) [HAS_IMAGE]: Framer Motion: Tạo hiệu ứng chuyển động mượt mà khi thay đổi trang hoặc thao tác người dùng.
+[993] (Normal) [HAS_IMAGE]: 
+[994] (Normal) [HAS_IMAGE]: 2.3. Cấu trúc thư mục giao diện frontend/
+[995] (Normal) [HAS_IMAGE]: │
+[996] (Normal) [HAS_IMAGE]: ├── src/
+[997] (Normal) [HAS_IMAGE]: │ ├── App.jsx 	# Định tuyến các trang chính
+[998] (Normal) [HAS_IMAGE]: │ ├── pages/ 	# Các trang (Home, Product, Cart, Profile, v.v.)
+[999] (Normal) [HAS_IMAGE]: │ ├── components/ 	# Thành phần giao diện tái sử dụng (Navbar, Footer,…) │  ├── context/ShopContext.jsx # Quản lý trạng thái toàn cục (giỏ hàng, user,…)
+[1000] (Normal) [HAS_IMAGE]: │ ├── assets/ 	# Hình ảnh, biểu tượng, banner
+[1001] (Normal) [HAS_IMAGE]: │ ├── styles/ 	# Cấu hình Tailwind CSS
+[1002] (Normal) [HAS_IMAGE]: │ └── main.jsx 	# Điểm khởi chạy ứng dụng React
+[1003] (Normal) [HAS_IMAGE]: 
+[1004] (Normal) [HAS_IMAGE]: 
+[1005] (Normal) [HAS_IMAGE]: Hình 4.1. Cấu trúc Frontend
+[1006] (Normal) [HAS_IMAGE]: 2.4. Thiết kế giao diện người dùng (User)
+[1007] (Normal) [HAS_IMAGE]: Trang chủ (Home):
+[1008] (Normal) [HAS_IMAGE]: Hiển thị banner khuyến mãi, danh mục sản phẩm, và các sản phẩm nổi bật.
+[1009] (Normal) [HAS_IMAGE]: Có thanh tìm kiếm nhanh và gợi ý sản phẩm. Trang danh mục /collection:
+[1010] (Normal) [HAS_IMAGE]: Lọc và sắp xếp sản phẩm theo giá, thương hiệu, đánh giá.
+[1011] (Normal) [HAS_IMAGE]: Trang chi tiết sản phẩm /product/:id:
+[1012] (Normal) [HAS_IMAGE]: Hiển thị ảnh, mô tả, thông số kỹ thuật, giá, và đánh giá có hình ảnh.
+[1013] (Normal) [HAS_IMAGE]: Cho phép thêm vào giỏ hàng,  hoặc so sánh. Giỏ hàng /cart:
+[1014] (Normal) [HAS_IMAGE]: Hiển thị danh sách sản phẩm đã thêm, chỉnh sửa số lượng, áp dụng mã giảm giá. Thanh toán /place-order:
+[1015] (Normal) [HAS_IMAGE]: Cho phép người dùng nhập địa chỉ, chọn phương thức thanh toán (COD, Stripe).
+[1016] (Normal) [HAS_IMAGE]: Đơn hàng /orders:
+[1017] (Normal) [HAS_IMAGE]: Xem lại lịch sử giao dịch, tình trạng đơn hàng. Trang cá nhân /profile:
+[1018] (Normal) [HAS_IMAGE]: Xem và chỉnh sửa thông tin cá nhân, đổi mật khẩu, xem . Trang hỗ trợ /contact:
+[1019] (Normal) [HAS_IMAGE]: Tích hợp chat widget để người dùng trò chuyện với admin.
+[1020] (Normal) [HAS_IMAGE]: 2.5. Giao diện quản trị (Admin Panel)
+[1021] (Normal) [HAS_IMAGE]: Dashboard: Thống kê nhanh số lượng đơn hàng, doanh thu, người dùng.
+[1022] (Normal) [HAS_IMAGE]: Quản lý sản phẩm: Thêm, sửa, xóa sản phẩm; upload nhiều ảnh bằng Multer + Cloudinary.
+[1023] (Normal) [HAS_IMAGE]: Quản lý đơn hàng: Thay đổi trạng thái (đang xử lý, hoàn tất, hủy).
+[1024] (Normal) [HAS_IMAGE]: Quản lý người dùng: CRUD thông tin tài khoản.
+[1025] (Normal) [HAS_IMAGE]: Thống kê: Hiển thị biểu đồ doanh thu, top sản phẩm bán chạy, và hiệu suất hoạt động. Hỗ trợ khách hàng: Trao đổi tin nhắn, gửi email phản hồi trực tiếp.
+[1026] (Normal) [HAS_IMAGE]: 
+[1027] (Normal) [HAS_IMAGE]: 2.6. Nguyên tắc thiết kế UX/UI
+[1028] (Normal) [HAS_IMAGE]: Tối giản: Sử dụng tông màu trung tính, dễ đọc, nhấn mạnh nội dung chính. Đồng nhất: Mọi trang đều có bố cục quen thuộc: Navbar – Content – Footer. Phản hồi nhanh: Các thao tác thêm/xóa giỏ hàng, đăng nhập, thanh toán đều có phản hồi trực quan (loading, toast message).
+[1029] (Normal) [HAS_IMAGE]: 
+[1030] (Normal) [HAS_IMAGE]: 2.7. Kết quả đạt được
+[1031] (Normal) [HAS_IMAGE]: Giao diện hiện đại, dễ sử dụng, tốc độ tải nhanh. Cấu trúc component rõ ràng, dễ bảo trì và mở rộng.
+[1032] (Normal) [HAS_IMAGE]: Đảm bảo tương thích trình duyệt, hiển thị tốt trên nhiều kích thước màn hình. Tạo nền tảng ổn định để tích hợp các tính năng thông minh (AI gợi ý sản phẩm) trong tương lai.
+[1033] (Normal) [HAS_IMAGE]: 
+[1034] (Normal) [HAS_IMAGE]: 
+[1035] (Normal) [HAS_IMAGE]: 3. Thiết kế API Backend (Node.js + Express)
+[1036] (Normal) [HAS_IMAGE]: 3.1. Mục tiêu
+[1037] (Normal) [HAS_IMAGE]: Cung cấp API RESTful an toàn, hiệu năng cho frontend (khách hàng) và admin. Xử lý các nghiệp vụ chính: quản lý người dùng, sản phẩm, giỏ hàng, đơn hàng, review, , chat, thống kê, mã giảm giá.
+[1038] (Normal) [HAS_IMAGE]: Hỗ trợ upload ảnh (multy-image), thanh toán (Stripe/Razorpay), gửi email (Nodemailer).
+[1039] (Normal) [HAS_IMAGE]: Đảm bảo bảo mật (JWT), xử lý lỗi tập trung, log, dễ mở rộng và deploy.
+[1040] (Normal) [HAS_IMAGE]: 
+[1041] (Normal) [HAS_IMAGE]: 3.2. Kiến trúc API (tổng quan)
+[1042] (Normal) [HAS_IMAGE]: Server: Node.js (v18+), Express (v5)
+[1043] (Normal) [HAS_IMAGE]: ORM: Mongoose (MongoDB)
+[1044] (Normal) [HAS_IMAGE]: Folder structure (gợi ý)
+[1045] (Normal) [HAS_IMAGE]: backend/
+[1046] (Normal) [HAS_IMAGE]: ├── server.js
+[1047] (Normal) [HAS_IMAGE]: ├── config/
+[1048] (Normal) [HAS_IMAGE]: │  ├── mongodb.js
+[1049] (Normal) [HAS_IMAGE]: │  ├── cloudinary.js
+[1050] (Normal) [HAS_IMAGE]: │  └── env.js
+[1051] (Normal) [HAS_IMAGE]: ├── routes/
+[1052] (Normal) [HAS_IMAGE]: │  ├── userRoutes.js
+[1053] (Normal) [HAS_IMAGE]: │  ├── authRoutes.js
+[1054] (Normal) [HAS_IMAGE]: │  ├── productRoutes.js
+[1055] (Normal) [HAS_IMAGE]: │  ├── orderRoutes.js
+[1056] (Normal) [HAS_IMAGE]: │  ├── cartRoutes.js
+[1057] (Normal) [HAS_IMAGE]: │  ├── reviewRoutes.js
+[1058] (Normal) [HAS_IMAGE]: │  ├── Routes.js
+[1059] (Normal) [HAS_IMAGE]: │  ├── chatRoutes.js
+[1060] (Normal) [HAS_IMAGE]: │  └── statisticsRoutes.js
+[1061] (Normal) [HAS_IMAGE]: ├── controllers/
+[1062] (Normal) [HAS_IMAGE]: ├── models/
+[1063] (Normal) [HAS_IMAGE]: ├── middleware/
+[1064] (Normal) [HAS_IMAGE]: │  ├── auth.js
+[1065] (Normal) [HAS_IMAGE]: │  ├── adminAuth.js
+[1066] (Normal) [HAS_IMAGE]: │  ├── errorHandler.js
+[1067] (Normal) [HAS_IMAGE]: │  ├── multerConfig.js
+[1068] (Normal) [HAS_IMAGE]: │  └── rateLimiter.js
+[1069] (Normal) [HAS_IMAGE]: ├── utils/
+[1070] (Normal) [HAS_IMAGE]: │  ├── email.js
+[1071] (Normal) [HAS_IMAGE]: │  └── payments.js
+[1072] (Normal) [HAS_IMAGE]: └── tests/
+[1073] (Normal) [HAS_IMAGE]: 3.3. Endpoints chính (tóm tắt theo resource)
+[1074] (Normal) [HAS_IMAGE]: Tiền tố chung: /api
+[1075] (Normal) [HAS_IMAGE]: 3.3.1. Authentication / User
+[1076] (Normal) [HAS_IMAGE]: POST /api/auth/register — Đăng ký (body: username, email, password). → 201 Created
+[1077] (Normal) [HAS_IMAGE]: POST /api/auth/login — Đăng nhập (email, password) → trả về accessToken (JWT).
+[1078] (Normal) [HAS_IMAGE]: GET /api/user/current — Lấy thông tin user hiện tại (Auth required).
+[1079] (Normal) [HAS_IMAGE]: PUT /api/user/profile — Cập nhật profile (Auth).
+[1080] (Normal) [HAS_IMAGE]: GET /api/admin/users — (AdminAuth) DS user, CRUD: GET /:id, PUT /:id, DELETE /:id.
+[1081] (Normal) [HAS_IMAGE]: 3.3.2. Products
+[1082] (Normal) [HAS_IMAGE]: GET /api/product/list — Lấy danh sách (query: page, limit, sort, filters).
+[1083] (Normal) [HAS_IMAGE]: GET /api/product/:id — Chi tiết sản phẩm.
+[1084] (Normal) [HAS_IMAGE]: POST /api/product/add — (Admin) Thêm sản phẩm (multipart images).
+[1085] (Normal) [HAS_IMAGE]: PUT /api/product/:id — (Admin) Cập nhật.
+[1086] (Normal) [HAS_IMAGE]: DELETE /api/product/:id — (Admin) Xóa.
+[1087] (Normal) [HAS_IMAGE]: 3.3.3. Cart
+[1088] (Normal) [HAS_IMAGE]: POST /api/cart/get — Lấy giỏ của user (Auth).
+[1089] (Normal) [HAS_IMAGE]: POST /api/cart/add — Thêm sản phẩm (Auth).
+[1090] (Normal) [HAS_IMAGE]: POST /api/cart/update — Cập nhật số lượng (Auth).
+[1091] (Normal) [HAS_IMAGE]: POST /api/cart/clear — Xóa giỏ (Auth).
+[1092] (Normal) [HAS_IMAGE]: 3.3.4. Orders
+[1093] (Normal) [HAS_IMAGE]: POST /api/order/place — Tạo đơn (Auth).
+[1094] (Normal) [HAS_IMAGE]: POST /api/order/stripe — Tạo phiên thanh toán Stripe (Auth).
+[1095] (Normal) [HAS_IMAGE]: POST /api/order/verify-stripe — Verify webhook/khách hàng thanh toán.
+[1096] (Normal) [HAS_IMAGE]: GET /api/order/userorders — Đơn của user (Auth).
+[1097] (Normal) [HAS_IMAGE]: POST /api/order/admin/list — (Admin) DS, POST /api/order/admin/status cập nhật trạng thái.
+[1098] (Normal) [HAS_IMAGE]: 3.3.5. Reviews
+[1099] (Normal) [HAS_IMAGE]: GET /api/review/product/:productId — Lấy review.
+[1100] (Normal) [HAS_IMAGE]: POST /api/review/add — (Auth) Thêm review (upload tối đa 5 ảnh).
+[1101] (Normal) [HAS_IMAGE]: PUT /api/review/:id — (Auth owner) Cập nhật.
+[1102] (Normal) [HAS_IMAGE]: DELETE /api/review/:id — (Auth owner/admin) Xóa.
+[1103] (Normal) [HAS_IMAGE]: 3.3.6. s & Compare
+[1104] (Normal) [HAS_IMAGE]: GET /api//list — (Auth) DS . POST /api//add — (Auth) Thêm.
+[1105] (Normal) [HAS_IMAGE]: DELETE /api//remove/:productId — (Auth) Xóa.
+[1106] (Normal) [HAS_IMAGE]: 3.3.7. Chat (Support)
+[1107] (Normal) [HAS_IMAGE]: POST /api/chat/create — (Auth) Tạo phòng chat.
+[1108] (Normal) [HAS_IMAGE]: POST /api/chat/send-user-message — (Auth) Gửi message.
+[1109] (Normal) [HAS_IMAGE]: GET /api/chat/messages/:chatId — (Auth) Lấy messages.
+[1110] (Normal) [HAS_IMAGE]: POST /api/chat/send-admin-message — (Admin) Gửi reply.
+[1111] (Normal) [HAS_IMAGE]: PUT /api/chat/mark-read/:chatId — (Admin) Đánh dấu.
+[1112] (Normal) [HAS_IMAGE]: 3.3.8. Statistics & Coupons
+[1113] (Normal) [HAS_IMAGE]: GET /api/statistics/overview — (Admin) Thống kê tổng quan.
+[1114] (Normal) [HAS_IMAGE]: GET /api/statistics/revenue — (Admin) Báo cáo doanh thu theo ngày/tháng. POST /api/coupons/create — (Admin) Tạo mã giảm giá.
+[1115] (Normal) [HAS_IMAGE]: 
+[1116] (Normal) [HAS_IMAGE]: 3.4. Controllers – nguyên tắc & mẫu
+[1117] (Normal) [HAS_IMAGE]: Mỗi route gọi controller chuyên trách (separation of concerns).
+[1118] (Normal) [HAS_IMAGE]: Controllers nhỏ, trả về JSON chuẩn { success: true/false, data, message }.
+[1119] (Normal) [HAS_IMAGE]: Xử lý async bằng async/await + try/catcft → forward lỗi tới errorHandler.
+[1120] (Normal) [HAS_IMAGE]: Ví dụ (pseudo) controller:
+[1121] (Normal) [HAS_IMAGE]: export const placeOrder = async (req, res, next) => {
+[1122] (Normal) [HAS_IMAGE]: try {
+[1123] (Normal) [HAS_IMAGE]: const { cartItems, shippingAddress, paymentMethod } = req.body; const order = new Order({ userId: req.user._id, items: cartItems, ... }); await order.save();
+[1124] (Normal) [HAS_IMAGE]: // gọi payment service nếu online res.status(201).json({ success: true, data: order });
+[1125] (Normal) [HAS_IMAGE]: } catch (err) { next(err);
+[1126] (Normal) [HAS_IMAGE]: }
+[1127] (Normal) [HAS_IMAGE]: }
+[1128] (Normal) [HAS_IMAGE]: 
+[1129] (Normal) [HAS_IMAGE]: 
+[1130] (Normal) [HAS_IMAGE]: 3.5. Models (Mongoose) – điểm nổi bật
+[1131] (Normal) [HAS_IMAGE]: Sử dụng schema rõ ràng, validation, virtuals khi cần, timestamps.
+[1132] (Normal) [HAS_IMAGE]: Ví dụ model order (tóm tắt):
+[1133] (Normal) [HAS_IMAGE]: const OrderSchema = new Schema({
+[1134] (Normal) [HAS_IMAGE]: userId: { type: ObjectId, ref: "User", required: true }, items: [
+[1135] (Normal) [HAS_IMAGE]: {
+[1136] (Normal) [HAS_IMAGE]: productId: { type: ObjectId, ref: "Product" },
+[1137] (Normal) [HAS_IMAGE]: qty: Number, price: Number
+[1138] (Normal) [HAS_IMAGE]: }
+[1139] (Normal) [HAS_IMAGE]: ],
+[1140] (Normal) [HAS_IMAGE]: totalAmount: Number, paymentMethod: String, status: { type: String, default: "Pending" }
+[1141] (Normal) [HAS_IMAGE]: }, { timestamps: true }); Indexing: tạo index trên userId, createdAt, productId để tăng tốc truy vấn.
+[1142] (Normal) [HAS_IMAGE]: 
+[1143] (Normal) [HAS_IMAGE]: 
+[1144] (Normal) [HAS_IMAGE]: 3.6. Middleware & cross-cutting concerns 3.6.1. Auth & Role auth.js: xác thực JWT (Authorization: Bearer <token>), attach req.user. adminAuth.js:
+[1145] (Normal) [HAS_IMAGE]: kiểm tra req.user.role === 'admin'.
+[1146] (Normal) [HAS_IMAGE]: 3.6.2. File upload
+[1147] (Normal) [HAS_IMAGE]: multerConfig.js cấu hình multer để nhận nhiều ảnh (field name: images) và lưu tạm → upload lên Cloudinary trong controller.
+[1148] (Normal) [HAS_IMAGE]: Sau upload: xóa file tạm. 3.6.3. Error handling errorHandler.js trung tâm trả mã lỗi chuẩn (400,401,403,404,500) với nội dung log.
+[1149] (Normal) [HAS_IMAGE]: Dùng Sentry / Winston cho logging (optional).
+[1150] (Normal) [HAS_IMAGE]: 3.6.4. Rate limiting & Security rateLimiter (express-rate-limit) giới hạn request để chống brute-force.
+[1151] (Normal) [HAS_IMAGE]: Helmet, CORS, xss-clean, express-mongo-sanitize.
+[1152] (Normal) [HAS_IMAGE]: Set httpOnly cookie cho refresh token (nếu dùng).
+[1153] (Normal) [HAS_IMAGE]: 3.6.5. Validation
+[1154] (Normal) [HAS_IMAGE]: Joi / express-validator cho validate input (body, query, params).
+[1155] (Normal) [HAS_IMAGE]: 
+[1156] (Normal) [HAS_IMAGE]: 
+[1157] (Normal) [HAS_IMAGE]: 3.7. Tích hợp thanh toán & webhook
+[1158] (Normal) [HAS_IMAGE]: Stripe: tạo Checkout Session POST /api/order/stripe, xử lý webhook để verify thanh toán → cập nhật order.status.
+[1159] (Normal) [HAS_IMAGE]: Razorpay: tích hợp tương tự (tùy nhu cầu địa phương).
+[1160] (Normal) [HAS_IMAGE]: Lưu ý bảo mật: xác thực signature của webhook, không xử lý webhooks trực tiếp bằng public internet nếu chưa bảo mật.
+[1161] (Normal) [HAS_IMAGE]: 
+[1162] (Normal) [HAS_IMAGE]: 
+[1163] (Normal) [HAS_IMAGE]: 3.8. Email & Notifications
+[1164] (Normal) [HAS_IMAGE]: Nodemailer (SMTP / SendGrid) để gửi xác nhận đơn hàng, follow-up support.
+[1165] (Normal) [HAS_IMAGE]: Queue (Bull/Redis) cho gửi email bất đồng bộ nếu volume lớn.
+[1166] (Normal) [HAS_IMAGE]: 
+[1167] (Normal) [HAS_IMAGE]: 
+[1168] (Normal) [HAS_IMAGE]: 3.9. Hiệu năng & mở rộng
+[1169] (Normal) [HAS_IMAGE]: Pagination & Filtering: tất cả endpoints trả danh sách phải support page, limit, sort, filter.
+[1170] (Normal) [HAS_IMAGE]: Caching: Redis cache cho trang danh sách sản phẩm, kết quả thống kê nặng. Horizontal scaling: tách service (microservice) cho Payments/Emails/Statistics nếu cần.
+[1171] (Normal) [HAS_IMAGE]: Connection pooling cho MongoDB.
+[1172] (Normal) [HAS_IMAGE]: 
+[1173] (Normal) [HAS_IMAGE]: 
+[1174] (Normal) [HAS_IMAGE]: 3.10. Logging, Monitoring & Testing
+[1175] (Normal) [HAS_IMAGE]: Logging: Winston + rotate, ghi request/response, error stack.
+[1176] (Normal) [HAS_IMAGE]: Monitoring: Prometheus / Grafana hoặc APM (NewRelic) để theo dõi latency. Tests: unit tests cho controllers (Jest), integration tests cho routes (supertest).
+[1177] (Normal) [HAS_IMAGE]: CI/CD: cftạy lint, test, build, deploy (GitHub Actions → Vercel/Heroku/VPS).
+[1178] (Normal) [HAS_IMAGE]: 
+[1179] (Normal) [HAS_IMAGE]: 
+[1180] (Normal) [HAS_IMAGE]: 3.11. Deployment
+[1181] (Normal) [HAS_IMAGE]: ENV variables: MONGODB_URI, JWT_SECRET, CLOUDINARY_, STRIPE_KEY, SMTP_.
+[1182] (Normal) [HAS_IMAGE]: Docker: Dockerfile + docker-compose (MongoDB/Redis) cho dev & prod.
+[1183] (Normal) [HAS_IMAGE]: Process manager: PM2 hoặc container orchestration (K8s) cho scale. Port mặc định: 4000; Reverse proxy (nginx) nếu deploy trên VPS.
+[1184] (Normal) [HAS_IMAGE]: 
+[1185] (Normal) [HAS_IMAGE]: 
+[1186] (Normal) [HAS_IMAGE]: 3.12. Security checklist (tóm tắt) Hash password bằng bcrypt (salt >= 10).
+[1187] (Normal) [HAS_IMAGE]: JWT expiry + refresh token policy. Validate & sanitize user input.
+[1188] (Normal) [HAS_IMAGE]: Rate-limit & account lockout logic.
+[1189] (Normal) [HAS_IMAGE]: HTTPS bắt buộc.
+[1190] (Normal) [HAS_IMAGE]: Xác thực webhook signatures.
+[1191] (Normal) [HAS_IMAGE]: Principle of least privilege cho DB users.
+[1192] (Normal) [HAS_IMAGE]: 
+[1193] (Normal) [HAS_IMAGE]: 
+[1194] (Normal) [HAS_IMAGE]: 3.13. API contract — Ví dụ request/response mẫu POST /api/auth/login Request:
+[1195] (Normal) [HAS_IMAGE]: { "email": "user@example.com", "password": "password123" } Response (200):
+[1196] (Normal) [HAS_IMAGE]: {
+[1197] (Normal) [HAS_IMAGE]: "success": true,
+[1198] (Normal) [HAS_IMAGE]: "data": { "user": { "_id": "...", "email": "..." }, "token": "eyJ..." },
+[1199] (Normal) [HAS_IMAGE]: "message": "Login successful"
+[1200] (Normal) [HAS_IMAGE]: }
+[1201] (Normal) [HAS_IMAGE]: GET /api/product/list?page=1&limit=12&sort=price_desc Response (200):
+[1202] (Normal) [HAS_IMAGE]: {
+[1203] (Normal) [HAS_IMAGE]: "success": true,
+[1204] (Normal) [HAS_IMAGE]: "data": {
+[1205] (Normal) [HAS_IMAGE]: "items": [ { "_id": "...", "name": "...", "price": 1000000 }, ... ],
+[1206] (Normal) [HAS_IMAGE]: "pagination": { "page": 1, "limit": 12, "totalPages": 10, "totalItems": 120 }
+[1207] (Normal) [HAS_IMAGE]: }
+[1208] (Normal) [HAS_IMAGE]: }
+[1209] (Normal) [HAS_IMAGE]: 3.14. Kết luận
+[1210] (Normal) [HAS_IMAGE]: Thiết kế API backend trên nền Node.js + Express đảm bảo tính mô-đun, khả năng mở rộng, an toàn và hiệu năng cho hệ thống DL. Kiến trúc đề xuất cho phép dễ dàng mở rộng (microservice), tích hợp thanh toán và dịch vụ bên thứ ba, đồng thời đáp ứng yêu cầu nghiệp vụ cho cả user và admin.
+[1211] (Normal) [HAS_IMAGE]: 
+[1212] (Normal) [HAS_IMAGE]: Dưới đây là PHẦN 4 — Tftiết kế kiến trúc tổng tftể (Frontend ↔ Backend — Database), được viết theo phong cách kỹ thuật, súc tích nhưng vẫn đủ chiều sâu để đưa vào báo cáo hoặc đồ án.
+[1213] (Normal) [HAS_IMAGE]: 
+[1214] (Normal) [HAS_IMAGE]: 
+[1215] (Normal) [HAS_IMAGE]: 
+[1216] (Normal) [HAS_IMAGE]: Thiết kế kiến trúc tổng thể (Frontend ↔ Backend ↔ Database).
+[1217] (Normal) [HAS_IMAGE]: Mục tiêu
+[1218] (Normal) [HAS_IMAGE]: Thiết kế kiến trúc hệ thống giúp đảm bảo:
+[1219] (Normal) [HAS_IMAGE]: Tính ổn định trong hoạt động của website DL.
+[1220] (Normal) [HAS_IMAGE]: Khả năng mở rộng khi lượng người dùng, sản phẩm và giao dịch tăng.
+[1221] (Normal) [HAS_IMAGE]: Bảo mật, hiệu năng cao, dễ bảo trì và triển khai.
+[1222] (Normal) [HAS_IMAGE]: Tách biệt rõ ràng giữa các tầng (frontend, backend, database), đảm bảo tính mô- đun.
+[1223] (Normal) [HAS_IMAGE]: 
+[1224] (Normal) [HAS_IMAGE]: 
+[1225] (Normal) [HAS_IMAGE]: Mô hình kiến trúc tổng thể
+[1226] (Normal) [HAS_IMAGE]: Hệ thống được xây dựng theo mô hình 3 lớp (Three-Tier Architecture):
+[1227] (Normal) [HAS_IMAGE]: [FRONTEND - ReactJS]
+[1228] (Normal) [HAS_IMAGE]: ↓ (HTTP/HTTPS - RESTful API)
+[1229] (Normal) [HAS_IMAGE]: [BACKEND - Node.js + Express] ↓ (Mongoose ORM)
+[1230] (Normal) [HAS_IMAGE]: [DATABASE - MongoDB Cloud]
+[1231] (Normal) [HAS_IMAGE]: a. Frontend (ReactJS)
+[1232] (Normal) [HAS_IMAGE]: Xây dựng giao diện người dùng thân thiện, responsive.
+[1233] (Normal) [HAS_IMAGE]: Giao tiếp với backend qua API RESTful bằng Axios.
+[1234] (Normal) [HAS_IMAGE]: Quản lý trạng thái ứng dụng bằng Redux Toolkit. Xử lý routing bằng React Router DOM.
+[1235] (Normal) [HAS_IMAGE]: Upload hình ảnh và thanh toán đều gọi API backend.
+[1236] (Normal) [HAS_IMAGE]: Triển khai tĩnh trên Vercel hoặc Netlify. b. Backend (Node.js + Express)
+[1237] (Normal) [HAS_IMAGE]: 
+[1238] (Normal) [HAS_IMAGE]: Là tầng trung gian xử lý nghiệp vụ, xác thực người dùng, truy cập dữ liệu.
+[1239] (Normal) [HAS_IMAGE]: Tổ chức thành nhiều module nhỏ: auth, user, product, order, cart, chat, statistics.
+[1240] (Normal) [HAS_IMAGE]: Sử dụng JWT (JSON Web Token) cho xác thực và phân quyền. Upload ảnh bằng Multer + Cloudinary API.
+[1241] (Normal) [HAS_IMAGE]: Tích hợp thanh toán online (Stripe hoặc VNPay).
+[1242] (Normal) [HAS_IMAGE]: Xử lý lỗi và log tập trung, hỗ trợ CORS cho frontend React. c. Database (MongoDB Atlas)
+[1243] (Normal) [HAS_IMAGE]: Lưu trữ dữ liệu phi cấu trúc (document-oriented). Các collection chính:
+[1244] (Normal) [HAS_IMAGE]: users, products, orders, carts, reviews, s, chats, coupons, statistics. Mỗi collection được quản lý qua schema Mongoose.
+[1245] (Normal) [HAS_IMAGE]: Thiết lập index cho trường thường truy vấn như userId, createdAt, productId để tối ưu hiệu năng.
+[1246] (Normal) [HAS_IMAGE]: Dữ liệu được sao lưu định kỳ và có khả năng mở rộng theo chiều ngang (sharding).
+[1247] (Normal) [HAS_IMAGE]: 
+[1248] (Normal) [HAS_IMAGE]: 
+[1249] (Normal) [HAS_IMAGE]: 4.3. Luồng hoạt động tổng quát
+[1250] (Normal) [HAS_IMAGE]: Người dùng (Frontend)
+[1251] (Normal) [HAS_IMAGE]: Gửi yêu cầu từ trình duyệt (ReactJS) qua HTTP/HTTPS tới server Express.
+[1252] (Normal) [HAS_IMAGE]: Ví dụ: đăng nhập, xem sản phẩm, đặt hàng, chat với admin.
+[1253] (Normal) [HAS_IMAGE]: Máy chủ Backend
+[1254] (Normal) [HAS_IMAGE]: Nftận request → xác tftực JWT → xử lý logic ngftiệp vụ. Nếu cần dữ liệu, truy vấn MongoDB thông qua Mongoose.
+[1255] (Normal) [HAS_IMAGE]: Sau khi xử lý, backend trả JSON response cho frontend.
+[1256] (Normal) [HAS_IMAGE]: Cơ sở dữ liệu MongoDB
+[1257] (Normal) [HAS_IMAGE]: Lưu trữ thông tin người dùng, sản phẩm, đơn hàng, tin nhắn, mã giảm giá...
+[1258] (Normal) [HAS_IMAGE]: Kết quả truy vấn trả về cho backend dưới dạng JSON document.
+[1259] (Normal) [HAS_IMAGE]: 4.4. Sơ đồ kiến trúc tổng thể (mô tả)
+[1260] (Normal) [HAS_IMAGE]: ┌────────────────────────────┐
+[1261] (Normal) [HAS_IMAGE]: └──────────────┬─────────────┘
+[1262] (Normal) [HAS_IMAGE]: │ (REST API)
+[1263] (Normal) [HAS_IMAGE]: ▼
+[1264] (Normal) [HAS_IMAGE]: ┌────────────────────────────┐
+[1265] (Normal) [HAS_IMAGE]: │ - Thanh toán (Stripe/VNPay) 	│ │ - Thống kê, chat, coupon 	│
+[1266] (Normal) [HAS_IMAGE]: └──────────────┬─────────────┘
+[1267] (Normal) [HAS_IMAGE]: │ (Mongoose)
+[1268] (Normal) [HAS_IMAGE]: ▼
+[1269] (Normal) [HAS_IMAGE]: ┌────────────────────────────┐
+[1270] (Normal) [HAS_IMAGE]: └────────────────────────────┘
+[1271] (Normal) [HAS_IMAGE]: 
+[1272] (Normal) [HAS_IMAGE]: 
+[1273] (Normal) [HAS_IMAGE]: 
+[1274] (Normal) [HAS_IMAGE]: 4.6. Ưu điểm của kiến trúc
+[1275] (Normal) [HAS_IMAGE]: Tách biệt hoàn toàn frontend và backend → dễ phát triển song song.
+[1276] (Normal) [HAS_IMAGE]: API RESTful chuẩn hóa → dễ mở rộng lên mobile app hoặc microservices.
+[1277] (Normal) [HAS_IMAGE]: Dễ bảo trì, triển khai linh hoạt (có thể tách riêng server API và frontend). Khả năng mở rộng cao nhờ MongoDB (NoSQL, horizontal scaling).
+[1278] (Normal) [HAS_IMAGE]: Hiệu năng tối ưu do React chỉ tải dữ liệu cần thiết qua API.
+[1279] (Normal) [HAS_IMAGE]: Đảm bảo an toàn dữ liệu nhờ xác thực JWT, hạn chế truy cập trái phép.
+[1280] (Normal) [HAS_IMAGE]: 
+[1281] (Normal) [HAS_IMAGE]: 4.7. Kết luận
+[1282] (Normal) [HAS_IMAGE]: Kiến trúc tổng thể của hệ thống Website DL được thiết kế theo mô hình Frontend – Backend – Database rõ ràng, hướng dịch vụ (Service-oriented), giúp đảm bảo tính linh hoạt, bảo mật và mở rộng trong tương lai.
+[1283] (Normal) [HAS_IMAGE]: Cấu trúc này cho phép đội ngũ dễ dàng bổ sung các tính năng như: Ứng dụng mobile (React Native),
+[1284] (Normal) [HAS_IMAGE]: Hệ thống quản lý nội dung (CMS),
+[1285] (Normal) [HAS_IMAGE]: Dịch vụ thống kê nâng cao (Business Intelligence).
+[1286] (Heading 1) [HAS_IMAGE]: CHƯƠNG 5 XÂY DỰNG CHƯƠNG TRÌNH
+[1287] (Normal) [HAS_IMAGE]: 
+[1288] (Normal) [HAS_IMAGE]: Frontend (ReactJS + Vite):giao diện, routes, ShopContext, components.
+[1289] (Normal) [HAS_IMAGE]: Tổng quan
+[1290] (Normal) [HAS_IMAGE]: Phần Frontend được xây dựng bằng ReactJS kết hợp Vite giúp tăng tốc quá trình phát triển và tối ưu hiệu suất hiển thị. Giao diện được thiết kế hiện đại, dễ sử dụng, tương thích trên nhiều thiết bị (responsive design), tập trung vào trải nghiệm người dùng khi mua sắm và thanh toán.
+[1291] (Normal) [HAS_IMAGE]: 
+[1292] (Normal) [HAS_IMAGE]: Cấu trúc thư mục chính frontend/ │── src/
+[1293] (Normal) [HAS_IMAGE]: │ ├── App.jsx 	→ Khai báo routes và bố cục trang
+[1294] (Normal) [HAS_IMAGE]: │  ├── main.jsx 	→ Điểm khởi tạo React + Context Provider
+[1295] (Normal) [HAS_IMAGE]: │ ├── components/ 	→ Các thành phần giao diện tái sử dụng (Navbar, Footer, Card…)
+[1296] (Normal) [HAS_IMAGE]: │ ├── pages/ 	→ Các trang chính: Home, Product,
+[1297] (Normal) [HAS_IMAGE]: Cart, Profile, Checkout…
+[1298] (Normal) [HAS_IMAGE]: │ ├── context/ShopContext.jsx → Quản lý state toàn cục (giỏ hàng, người dùng, )
+[1299] (Normal) [HAS_IMAGE]: │ ├── assets/ 	→ Ảnh và biểu tượng giao diện
+[1300] (Normal) [HAS_IMAGE]: │ └── utils/ 	→ Hàm tiện ích và cấu hình API
+[1301] (Normal) [HAS_IMAGE]: 
+[1302] (Normal) [HAS_IMAGE]: Các trang và chức năng chính
+[1303] (Normal) [HAS_IMAGE]: Home (/): Hiển thị banner, danh mục và sản phẩm nổi bật.
+[1304] (Normal) [HAS_IMAGE]: Collection (/collection): Liệt kê sản phẩm, lọc theo danh mục hoặc giá. Product Detail (/product/:id): Hiển thị chi tiết sản phẩm, đánh giá, thêm vào giỏ hàng hoặc .
+[1305] (Normal) [HAS_IMAGE]: Cart (/cart): Quản lý sản phẩm đã chọn, cập nhật số lượng.
+[1306] (Normal) [HAS_IMAGE]: Place Order (/place-order): Nhập thông tin giao hàng, chọn phương thức thanh toán.
+[1307] (Normal) [HAS_IMAGE]: Orders (/orders): Xem lịch sử đơn hàng.
+[1308] (Normal) [HAS_IMAGE]: Profile (/profile): Cập nhật thông tin người dùng.
+[1309] (Normal) [HAS_IMAGE]: Login/Register (/login): Đăng nhập hoặc đăng ký tài khoản.
+[1310] (Normal) [HAS_IMAGE]: (/): Danh sách sản phẩm yêu thích.
+[1311] (Normal) [HAS_IMAGE]: Compare (/compare): So sánh đặc tính sản phẩm.
+[1312] (Normal) [HAS_IMAGE]: About / Contact: Giới thiệu và liên hệ.
+[1313] (Normal) [HAS_IMAGE]: 
+[1314] (Normal) [HAS_IMAGE]: 1.4. Kỹ thuật sử dụng
+[1315] (Normal) [HAS_IMAGE]: React Router: Quản lý điều hướng giữa các trang. Axios: Gửi và nhận dữ liệu từ backend.
+[1316] (Normal) [HAS_IMAGE]: React Context (ShopContext): Lưu trữ trạng thái người dùng, giỏ hàng, sản phẩm.
+[1317] (Normal) [HAS_IMAGE]: TailwindCSS: Thiết kế nhanh, đồng nhất, tối ưu hiển thị trên mọi thiết bị.
+[1318] (Normal) [HAS_IMAGE]: React Toastify & Framer Motion: Hiệu ứng thông báo và chuyển cảnh mượt mà.
+[1319] (Normal) [HAS_IMAGE]: 
+[1320] (Normal) [HAS_IMAGE]: 1.5. Đánh giá
+[1321] (Normal) [HAS_IMAGE]: Phần Frontend hoạt động ổn định, giao diện trực quan, tốc độ phản hồi nhanh, đảm bảo tính thẩm mỹ và trải nghiệm người dùng tốt. Kết nối chặt chẽ với API backend để đồng bộ dữ liệu sản phẩm, người dùng và đơn hàng theo thời gian thực.
+[1322] (Normal) [HAS_IMAGE]: 
+[1323] (Normal) [HAS_IMAGE]: 
+[1324] (Normal) [HAS_IMAGE]: Hình 5.1 Giao diện trang chủ user
+[1325] (Normal) [HAS_IMAGE]: 
+[1326] (Normal) [HAS_IMAGE]: 
+[1327] (Normal) [HAS_IMAGE]: 
+[1328] (Normal) [HAS_IMAGE]: Hình 5.2Giao diện trang sản phẩm
+[1329] (Normal) [HAS_IMAGE]: 
+[1330] (Normal) [HAS_IMAGE]: 
+[1331] (Normal) [HAS_IMAGE]: 
+[1332] (Normal) [HAS_IMAGE]: Backend (NodeJS + Express): routes, controllers, middleware, JWT, Stripe.
+[1333] (Normal) [HAS_IMAGE]: Tổng quan
+[1334] (Normal) [HAS_IMAGE]: Phần Backend được xây dựng bằng Node.js kết hợp Express.js, đóng vai trò là tầng xử lý trung gian giữa frontend và cơ sở dữ liệu MongoDB.
+[1335] (Normal) [HAS_IMAGE]: Hệ thống đảm nhận việc xác thực người dùng, quản lý dữ liệu sản phẩm, đơn hàng, đánh giá, chat hỗ trợ và xử lý thanh toán qua Stripe.
+[1336] (Normal) [HAS_IMAGE]: Cấu trúc backend được tổ chức theo mô hình MVC (Model – View – Controller), giúp mã nguồn rõ ràng, dễ bảo trì và mở rộng.
+[1337] (Normal) [HAS_IMAGE]: 
+[1338] (Normal) [HAS_IMAGE]: Cấu trúc thư mục backend/
+[1339] (Normal) [HAS_IMAGE]: │── server.js 	→ Điểm khởi động chính của ứng dụng
+[1340] (Normal) [HAS_IMAGE]: │── routes/ → Khai báo các endpoint (user, product, order…)
+[1341] (Normal) [HAS_IMAGE]: 
+[1342] (Normal) [HAS_IMAGE]: Các nhóm API chính
+[1343] (Normal) [HAS_IMAGE]: Người dùng (User API)
+[1344] (Normal) [HAS_IMAGE]: POST /api/user/register – Đăng ký tài khoản mới.
+[1345] (Normal) [HAS_IMAGE]: POST /api/user/login – Đăng nhập, trả về token JWT.
+[1346] (Normal) [HAS_IMAGE]: GET /api/user/profile – Lấy thông tin người dùng hiện tại.
+[1347] (Normal) [HAS_IMAGE]: PUT /api/user/profile – Cập nhật thông tin cá nhân.
+[1348] (Normal) [HAS_IMAGE]: GET /api/user/admin/users – Quản lý tài khoản (dành cho admin).
+[1349] (Normal) [HAS_IMAGE]: Sản phẩm (Product API)
+[1350] (Normal) [HAS_IMAGE]: GET /api/product/list – Lấy danh sách sản phẩm.
+[1351] (Normal) [HAS_IMAGE]: POST /api/product/single – Lấy chi tiết sản phẩm theo ID.
+[1352] (Normal) [HAS_IMAGE]: POST /api/product/add – Thêm mới sản phẩm (admin).
+[1353] (Normal) [HAS_IMAGE]: POST /api/product/update – Cập nhật thông tin sản phẩm. DELETE /api/product/remove – Xóa sản phẩm.
+[1354] (Normal) [HAS_IMAGE]: Giỏ hàng & Đơn hàng (Cart & Order API) POST /api/cart/add – Thêm sản phẩm vào giỏ.
+[1355] (Normal) [HAS_IMAGE]: POST /api/cart/get – Lấy giỏ hàng theo user.
+[1356] (Normal) [HAS_IMAGE]: POST /api/order/place – Đặt hàng (COD hoặc Stripe).
+[1357] (Normal) [HAS_IMAGE]: GET /api/order/userorders – Lịch sử đơn hàng của người dùng.
+[1358] (Normal) [HAS_IMAGE]: POST /api/order/verifyStripe – Xác thực giao dịch Stripe.
+[1359] (Normal) [HAS_IMAGE]: POST /api/order/status – Cập nhật trạng thái đơn (admin).
+[1360] (Normal) [HAS_IMAGE]: Thống kê (Statistics API)
+[1361] (Normal) [HAS_IMAGE]: GET /api/statistics/overview – Tổng quan hệ thống.
+[1362] (Normal) [HAS_IMAGE]: GET /api/statistics/revenue – Doanh thu theo thời gian.
+[1363] (Normal) [HAS_IMAGE]: GET /api/statistics/top-products – Sản phẩm bán chạy nhất.
+[1364] (Normal) [HAS_IMAGE]: Hỗ trợ khách hàng (Chat API)
+[1365] (Normal) [HAS_IMAGE]: POST /api/chat/create – Tạo cuộc hội thoại mới.
+[1366] (Normal) [HAS_IMAGE]: POST /api/chat/send-user-message – Người dùng gửi tin nhắn.
+[1367] (Normal) [HAS_IMAGE]: POST /api/chat/send-admin-message – Admin phản hồi.
+[1368] (Normal) [HAS_IMAGE]: PUT /api/chat/mark-read/:id – Đánh dấu đã đọc.
+[1369] (Normal) [HAS_IMAGE]: Đánh giá sản phẩm (Review API)
+[1370] (Normal) [HAS_IMAGE]: POST /api/review/add – Thêm đánh giá có kèm ảnh.
+[1371] (Normal) [HAS_IMAGE]: GET /api/review/product/:id – Xem các đánh giá theo sản phẩm.
+[1372] (Normal) [HAS_IMAGE]: POST /api/review/helpful – Đánh dấu đánh giá hữu ích. DELETE /api/review/delete – Xóa đánh giá.
+[1373] (Normal) [HAS_IMAGE]: 
+[1374] (Normal) [HAS_IMAGE]: 2.4. Công nghệ và thư viện chính
+[1375] (Normal) [HAS_IMAGE]: Express.js: Xây dựng và quản lý các route API.
+[1376] (Normal) [HAS_IMAGE]: Mongoose: Kết nối và thao tác dữ liệu với MongoDB.
+[1377] (Normal) [HAS_IMAGE]: JWT (jsonwebtoken): Xác thực người dùng và phân quyền admin.
+[1378] (Normal) [HAS_IMAGE]: Multer + Cloudinary: Upload và lưu trữ ảnh sản phẩm, đánh giá.
+[1379] (Normal) [HAS_IMAGE]: Stripe / Razorpay: Xử lý thanh toán online.
+[1380] (Normal) [HAS_IMAGE]: Nodemailer: Gửi email hỗ trợ và phản hồi khách hàng.
+[1381] (Normal) [HAS_IMAGE]: 
+[1382] (Normal) [HAS_IMAGE]: 2.5. Bảo mật và xác thực
+[1383] (Normal) [HAS_IMAGE]: Tất cả route nhạy cảm (user, order, admin) đều được bảo vệ bằng middleware JWT.
+[1384] (Normal) [HAS_IMAGE]: Phân quyền adminAuth đảm bảo chỉ quản trị viên có quyền chỉnh sửa dữ liệu quan trọng.
+[1385] (Normal) [HAS_IMAGE]: Mật khẩu người dùng được mã hóa bằng bcrypt trước khi lưu trữ.
+[1386] (Normal) [HAS_IMAGE]: 
+[1387] (Normal) [HAS_IMAGE]: 2.6. Đánh giá
+[1388] (Normal) [HAS_IMAGE]: Hệ thống Backend hoạt động ổn định, có khả năng mở rộng và tích hợp dễ dàng. Kiến trúc rõ ràng, các route được tách riêng theo chức năng, đảm bảo tính bảo mật, tốc độ xử lý và khả năng bảo trì trong dài hạn.
+[1389] (Normal) [HAS_IMAGE]: Dưới đây là bản phần 3 – Admin Panel (ReactJS) viết đầy đủ, chi tiết và phù hợp với phong cách học phần hệ thống thông tin:
+[1390] (Normal) [HAS_IMAGE]: 
+[1391] (Normal) [HAS_IMAGE]: 3. Admin Panel (ReactJS)
+[1392] (Normal) [HAS_IMAGE]: Hệ thống Admin Panel được xây dựng bằng ReactJS với mục tiêu cung cấp công cụ quản trị mạnh mẽ, trực quan và hiệu quả cho người quản lý hệ thống. Giao diện được thiết kế dựa trên nguyên tắc dashboard quản trị hiện đại, giúp theo dõi toàn bộ hoạt động như sản phẩm, đơn hàng, người dùng, mã giảm giá và thống kê doanh thu một cách tập trung và dễ thao tác.
+[1393] (Normal) [HAS_IMAGE]: 
+[1394] (Normal) [HAS_IMAGE]: 3.1 Cấu trúc và thành phần chính
+[1395] (Normal) [HAS_IMAGE]: Admin Panel được chia thành các module chức năng riêng biệt nhằm đảm bảo khả năng mở rộng và bảo trì:
+[1396] (Normal) [HAS_IMAGE]: Quản lý sản phẩm: Cho phép thêm, sửa, xóa, cập nhật thông tin sản phẩm, hình ảnh và giá bán.
+[1397] (Normal) [HAS_IMAGE]: Quản lý người dùng: Hiển thị danh sách người dùng, phân quyền truy cập và theo dõi hoạt động.
+[1398] (Normal) [HAS_IMAGE]: Quản lý đơn hàng: Theo dõi trạng thái đơn hàng (đang xử lý, đã giao, đã hủy), xem chi tiết lịch sử mua hàng của từng khách hàng.
+[1399] (Normal) [HAS_IMAGE]: Quản lý mã giảm giá: Tạo, chỉnh sửa, và xóa mã khuyến mãi để hỗ trợ các chiến dịch marketing.
+[1400] (Normal) [HAS_IMAGE]: Thống kê và báo cáo: Sử dụng biểu đồ và bảng dữ liệu (DataTable, Chart.js hoặc Recharts) để hiển thị doanh thu, tần suất mua hàng, và các chỉ số kinh doanh khác theo thời gian.
+[1401] (Normal) [HAS_IMAGE]: 3.2 Kết nối dữ liệu và xử lý
+[1402] (Normal) [HAS_IMAGE]: Admin Panel giao tiếp trực tiếp với API Backend (NodeJS + Express) thông qua Axios hoặc Fetch API. Mọi thao tác quản lý (CRUD – Create, Read, Update, Delete) đều được thực hiện qua các endpoint RESTful được định nghĩa rõ ràng. Hệ thống xác thực bằng JSON Web Token (JWT) giúp đảm bảo chỉ người dùng có quyền quản trị mới có thể truy cập trang Admin. Khi đăng nhập, JWT được lưu trong localStorage và được gửi kèm theo mỗi yêu cầu đến máy chủ để xác minh.
+[1403] (Normal) [HAS_IMAGE]: 
+[1404] (Normal) [HAS_IMAGE]: 3.3 Giao diện và trải nghiệm người dùng (UI/UX)
+[1405] (Normal) [HAS_IMAGE]: Giao diện được xây dựng với React Router để điều hướng giữa các trang con (Dashboard, Products, Orders, Users, Reports…). Mỗi trang có thanh điều hướng
+[1406] (Normal) [HAS_IMAGE]: (Sidebar) và khu vực nội dung chính.
+[1407] (Normal) [HAS_IMAGE]: Giao diện ưu tiên trải nghiệm người dùng trực quan, với các nút thao tác rõ ràng, màu sắc phân biệt trạng thái, bảng dữ liệu dễ đọc, có chức năng lọc và tìm kiếm nhanh. Ngoài ra, các thông báo trạng thái (success, error, warning) được hiển thị qua Toast notifications giúp người dùng theo dõi hoạt động hệ thống tức thời.
+[1408] (Normal) [HAS_IMAGE]: 3.4 Tính năng nâng cao và mở rộng
+[1409] (Normal) [HAS_IMAGE]: Admin Panel được thiết kế theo hướng module hóa và component-based, có thể dễ dàng mở rộng thêm các tính năng trong tương lai như: Tích hợp phân quyền chi tiết theo cấp độ nhân viên. Báo cáo tự động định kỳ qua email.
+[1410] (Normal) [HAS_IMAGE]: Xuất dữ liệu thống kê sang file Excel hoặc PDF.
+[1411] (Normal) [HAS_IMAGE]: Kết nối trực tiếp với hệ thống nhận diện khuôn mặt để quản lý và theo dõi hoạtđộng đăng nhập hoặc điểm danh của người dùng.
+[1412] (Normal) [HAS_IMAGE]: 
+[1413] (Normal) [HAS_IMAGE]: Kết nối API, upload Cloudinary, thanh toán Stripe.
+[1414] (Normal) [HAS_IMAGE]: 4.1 Kết nối API
+[1415] (Normal) [HAS_IMAGE]: Hệ thống sử dụng RESTful API làm cầu nối giữa Frontend (ReactJS) và Backend (NodeJS + Express).
+[1416] (Normal) [HAS_IMAGE]: Các API được thiết kế theo cấu trúc rõ ràng, tách biệt theo từng module như:
+[1417] (Normal) [HAS_IMAGE]: /api/users – quản lý tài khoản người dùng (đăng ký, đăng nhập, xác thực, cập nhật thông tin).
+[1418] (Normal) [HAS_IMAGE]: /api/products – quản lý danh sách sản phẩm, phân loại, tìm kiếm, thêm – sửa – xóa sản phẩm.
+[1419] (Normal) [HAS_IMAGE]: /api/orders – quản lý đơn hàng, tình trạng vận chuyển, thanh toán và lịch sử giao dịch. /api/reviews – xử lý đánh giá, nhận xét sản phẩm của người dùng.
+[1420] (Normal) [HAS_IMAGE]: Các API được gọi thông qua Axios từ ReactJS, đảm bảo truyền nhận dữ liệu nhanh và bảo mật.
+[1421] (Normal) [HAS_IMAGE]: Hệ thống có tích hợp middleware xác thực bằng JWT (JSON Web Token) giúp đảm bảo chỉ người dùng hợp lệ mới được phép truy cập các API quan trọng như đặt hàng hoặc quản trị.
+[1422] (Normal) [HAS_IMAGE]: 
+[1423] (Heading 2) [HAS_IMAGE]: 4.2 Upload hình ảnh với Cloudinary
+[1424] (Normal) [HAS_IMAGE]: Để quản lý hình ảnh sản phẩm hiệu quả, hệ thống tích hợp Cloudinary – nền tảng lưu trữ và xử lý hình ảnh trực tuyến. Quy trình upload hoạt động như sau:
+[1425] (Normal) [HAS_IMAGE]: Người quản trị (admin) chọn hình ảnh sản phẩm trong giao diện quản trị. Ảnh được gửi từ Frontend lên Backend qua API upload.
+[1426] (Normal) [HAS_IMAGE]: Backend sử dụng SDK của Cloudinary để tải ảnh lên hệ thống lưu trữ đám mây. Sau khi upload thành công, Cloudinary trả về URL công khai của hình ảnh. URL này được lưu trong cơ sở dữ liệu MongoDB để hiển thị sản phẩm trên website.
+[1427] (Normal) [HAS_IMAGE]: Ưu điểm của Cloudinary là hỗ trợ tối ưu kích thước ảnh, định dạng, nén tự động, giúp trang web tải nhanh hơn và tiết kiệm băng thông.
+[1428] (Normal) [HAS_IMAGE]: Ngoài ra, Cloudinary còn cho phép xử lý ảnh động, cắt ghép, watermark và chuyển đổi định dạng trực tiếp qua API, nâng cao trải nghiệm hiển thị sản phẩm.
+[1429] (Normal) [HAS_IMAGE]: 
+[1430] (Heading 2) [HAS_IMAGE]: 4.3 Tích hợp thanh toán Stripe
+[1431] (Normal) [HAS_IMAGE]: Để hỗ trợ người dùng thanh toán trực tuyến an toàn, hệ thống tích hợp Stripe API – một trong những nền tảng thanh toán phổ biến nhất thế giới.
+[1432] (Normal) [HAS_IMAGE]: Quy trình thanh toán được thiết kế như sau:
+[1433] (Normal) [HAS_IMAGE]: Khi người dùng chọn mua sản phẩm và tiến hành thanh toán, Frontend gửi yêu cầu đến Backend để khởi tạo phiên thanh toán (Checkout Session).
+[1434] (Normal) [HAS_IMAGE]: Backend sử dụng Stripe SDK để tạo yêu cầu thanh toán, bao gồm các thông tin: số tiền, sản phẩm, email người mua, phương thức thanh toán.
+[1435] (Normal) [HAS_IMAGE]: Stripe xử lý thông tin thẻ tín dụng qua kênh bảo mật SSL/TLS, đảm bảo dữ liệu không bị rò rỉ.
+[1436] (Normal) [HAS_IMAGE]: Sau khi thanh toán thành công, Stripe gửi phản hồi đến Webhook của hệ thống, xác nhận trạng thái đơn hàng là “Đã thanh toán”.
+[1437] (Normal) [HAS_IMAGE]: Thông tin giao dịch được lưu vào MongoDB, giúp người dùng theo dõi lịch sử mua hàng, và admin có thể kiểm soát doanh thu dễ dàng.
+[1438] (Normal) [HAS_IMAGE]: Ngoài ra, hệ thống còn hỗ trợ xử lý lỗi thanh toán, hoàn tiền (refund) và gửi email xác nhận đơn hàng tự động sau mỗi giao dịch thành công.
+[1439] (Normal) [HAS_IMAGE]: 
+[1440] (Heading 2) [HAS_IMAGE]: 4.4 Bảo mật và đồng bộ dữ liệu
+[1441] (Normal) [HAS_IMAGE]: Tất cả các API kết nối đều yêu cầu xác thực token để đảm bảo tính riêng tư. Dữ liệu thanh toán và thông tin người dùng được mã hóa bằng HTTPS.
+[1442] (Normal) [HAS_IMAGE]: Hệ thống sử dụng dotenv (.env) để lưu trữ thông tin nhạy cảm như khóa API của Cloudinary và Stripe.
+[1443] (Normal) [HAS_IMAGE]: Các tác vụ upload ảnh và thanh toán được đồng bộ theo thời gian thực để đảm bảo tránh trùng lặp giao dịch hoặc lỗi upload.
+[1444] (Normal) [HAS_IMAGE]: 
+[1445] (Heading 1) [HAS_IMAGE]: CHƯƠNG 6 KẾT QUẢ ĐẠT ĐƯỢC
+[1446] (Normal) [HAS_IMAGE]: 
+[1447] (Normal) [HAS_IMAGE]: 1. Chức năng hoạt động ổn định
+[1448] (Normal) [HAS_IMAGE]: 1.1. Mục tiêu đảm bảo tính ổn định hệ thống
+[1449] (Normal) [HAS_IMAGE]: Hệ thống được xây dựng với mục tiêu hoạt động liên tục, ổn định và có khả năng xử lý đồng thời nhiều yêu cầu của người dùng. Tất cả các module đều được thiết kế theo mô hình client–server, đảm bảo tính tách biệt giữa giao diện, xử lý nghiệp vụ và cơ sở dữ liệu, giúp dễ dàng bảo trì và mở rộng.
+[1450] (Normal) [HAS_IMAGE]: 
+[1451] (Heading 2) [HAS_IMAGE]: 1.2. Ổn định trong các chức năng người dùng
+[1452] (Normal) [HAS_IMAGE]: Người dùng có thể thực hiện toàn bộ quy trình mua sắm mà không gặp lỗi hoặc gián đoạn:
+[1453] (Normal) [HAS_IMAGE]: Đăng ký / Đăng nhập: xử lý xác thực bằng JWT, bảo mật thông tin và duy trì phiên đăng nhập ổn định.
+[1454] (Normal) [HAS_IMAGE]: Duyệt sản phẩm, tìm kiếm, lọc và sắp xếp: hoạt động nhanh, không trễ, tối ưu dữ liệu từ MongoDB.
+[1455] (Normal) [HAS_IMAGE]: Giỏ hàng và thanh toán: thêm, xóa, cập nhật sản phẩm theo thời gian thực; thanh toán qua Stripe hoạt động ổn định.
+[1456] (Normal) [HAS_IMAGE]: Đánh giá và : lưu trữ, cập nhật, và hiển thị dữ liệu tức thời nhờ ShopContext (React). Chat hỗ trợ: đồng bộ hai chiều giữa người dùng và admin thông qua Web API.
+[1457] (Normal) [HAS_IMAGE]: 
+[1458] (Heading 2) [HAS_IMAGE]: 1.3. Ổn định trong các chức năng quản trị (Admin Panel)
+[1459] (Normal) [HAS_IMAGE]: Hệ thống quản trị được tối ưu hóa để xử lý dữ liệu lớn mà vẫn ổn định: Quản lý sản phẩm, người dùng, đơn hàng theo CRUD chuẩn RESTful.
+[1460] (Normal) [HAS_IMAGE]: Cập nhật trạng thái đơn hàng và thống kê doanh thu được đồng bộ trực tiếp từ cơ sở dữ liệu.
+[1461] (Normal) [HAS_IMAGE]: Phân quyền người dùng và bảo mật truy cập bằng middleware adminAuth. Biểu đồ và báo cáo thống kê (SimpleChart) hiển thị theo thời gian thực, không gián đoạn.
+[1462] (Normal) [HAS_IMAGE]: 
+[1463] (Heading 2) [HAS_IMAGE]: 1.4. Kiểm thử và xử lý lỗi hệ thống
+[1464] (Normal) [HAS_IMAGE]: Toàn bộ các route và API được kiểm thử bằng Postman trước khi tích hợp, đảm bảo phản hồi đúng định dạng JSON và không phát sinh lỗi 500/404.
+[1465] (Normal) [HAS_IMAGE]: Hệ thống có middleware xử lý lỗi toàn cục (errorHandler.js) để ghi log, thông báo lỗi hợp lệ cho người dùng, giúp quá trình vận hành ổn định và dễ bảo trì.
+[1466] (Normal) [HAS_IMAGE]: 1.5. Hiệu năng và tốc độ phản hồi Thời gian phản hồi trung bình: < 300ms/API.
+[1467] (Normal) [HAS_IMAGE]: Sử dụng Vite và ReactJS giúp tải trang nhanh và xử lý mượt. MongoDB tối ưu cho thao tác đọc/ghi song song, giảm tải cho backend.
+[1468] (Normal) [HAS_IMAGE]: Cloudinary hỗ trợ nén và tải ảnh nhanh hơn 40%, nâng cao trải nghiệm người dùng.
+[1469] (Normal) [HAS_IMAGE]: 1.6. Kết luận
+[1470] (Normal) [HAS_IMAGE]: Hệ thống vận hành ổn định trên toàn bộ quy trình từ frontend đến backend.
+[1471] (Normal) [HAS_IMAGE]: Các chức năng chính đều hoạt động đúng thiết kế, dữ liệu đồng bộ, tốc độ phản hồi nhanh, không xung đột hoặc mất mát thông tin.
+[1472] (Normal) [HAS_IMAGE]: Điều này chứng minh nền tảng kỹ thuật được triển khai đúng hướng, đáp ứng đầy đủ yêu cầu của một website thương mại điện tử hiện đại.
+[1473] (Normal) [HAS_IMAGE]: 
+[1474] (Normal) [HAS_IMAGE]: 2. Giao diện thân thiện, responsive
+[1475] (Normal) [HAS_IMAGE]: 2.1. Mục tiêu thiết kế giao diện
+[1476] (Normal) [HAS_IMAGE]: Mục tiêu của thiết kế giao diện là mang đến trải nghiệm người dùng trực quan, dễ thao tác và tương thích đa nền tảng. Giao diện được phát triển bằng ReactJS + TailwindCSS, kết hợp với Framer Motion để tạo hiệu ứng chuyển động mượt mà, đảm bảo cả tính thẩm mỹ và hiệu quả sử dụng.
+[1477] (Heading 2) [HAS_IMAGE]: 2.2. Nguyên tắc thiết kế giao diện
+[1478] (Normal) [HAS_IMAGE]: Thiết kế tuân theo các nguyên tắc cơ bản của UX/UI hiện đại:
+[1479] (Normal) [HAS_IMAGE]: Tối giản (Minimalist): sử dụng tông màu trung tính, bố cục gọn gàng, dễ nhìn. Tập trung vào trải nghiệm người dùng (User-Centered Design): các nút thao tác được đặt ở vị trí dễ truy cập, biểu tượng rõ ràng.
+[1480] (Normal) [HAS_IMAGE]: Nhất quán (Consistency): các thành phần như header, footer, card sản phẩm, button… có phong cách đồng bộ.
+[1481] (Normal) [HAS_IMAGE]: Phản hồi người dùng (Feedback): Toastify hiển thị thông báo khi thêm giỏ hàng, thanh toán, hoặc thao tác thất bại.
+[1482] (Normal) [HAS_IMAGE]: 2.3. Cấu trúc giao diện tổng thể Giao diện được chia thành 3 khu vực chính:
+[1483] (Normal) [HAS_IMAGE]: Header và Navbar: chứa logo, thanh tìm kiếm, biểu tượng giỏ hàng, , và menu đăng nhập.
+[1484] (Normal) [HAS_IMAGE]: Body (Trang chính): hiển thị danh mục sản phẩm, banner quảng cáo, danh sách sản phẩm nổi bật, bộ lọc và sắp xếp.
+[1485] (Normal) [HAS_IMAGE]: Footer: hiển thị thông tin liên hệ, bản quyền và liên kết mạng xã hội.
+[1486] (Heading 2) [HAS_IMAGE]: 2.4. Responsive và khả năng tương thích đa thiết bị
+[1487] (Normal) [HAS_IMAGE]: Website được thiết kế hoàn toàn responsive nhờ sử dụng TailwindCSS và grid system linh hoạt.
+[1488] (Normal) [HAS_IMAGE]: Tự động thay đổi bố cục khi hiển thị trên điện thoại, tablet hoặc máy tính để bàn.
+[1489] (Normal) [HAS_IMAGE]: Ảnh sản phẩm và nội dung tự co giãn, không bị vỡ hoặc tràn khung.
+[1490] (Normal) [HAS_IMAGE]: Menu chuyển sang dạng hamburger menu trên màn hình nhỏ, giúp người dùng thao tác dễ dàng.
+[1491] (Normal) [HAS_IMAGE]: Tất cả các trang (Home, Product Detail, Cart, Checkout, Profile…) đều đã được kiểm thử hiển thị trên trình duyệt Chrome, Edge và Safari.
+[1492] (Heading 2) [HAS_IMAGE]: 2.5. Cải thiện trải nghiệm người dùng
+[1493] (Normal) [HAS_IMAGE]: Hiệu ứng động (Framer Motion): tạo cảm giác mượt mà khi chuyển trang và tương tác với sản phẩm.
+[1494] (Normal) [HAS_IMAGE]: Toast thông báo (React Toastify): phản hồi tức thì các hành động (thêm sản phẩm, đăng nhập, thanh toán…).
+[1495] (Normal) [HAS_IMAGE]: SearchBar & Filter: giúp người dùng nhanh chóng tìm được sản phẩm mong muốn.
+[1496] (Normal) [HAS_IMAGE]: ChatWidget: hỗ trợ khách hàng trực tiếp, tăng tính tương tác và giữ chân người dùng. 2.6. Kết luận
+[1497] (Normal) [HAS_IMAGE]: Giao diện được thiết kế hiện đại, thân thiện và dễ sử dụng, đảm bảo tương thích tốt trên mọi kích thước màn hình.
+[1498] (Normal) [HAS_IMAGE]: Trải nghiệm người dùng được ưu tiên hàng đầu với tốc độ phản hồi nhanh, thao tác mượt mà, và tính thẩm mỹ cao.
+[1499] (Normal) [HAS_IMAGE]: Hệ thống giao diện của website thể hiện rõ đặc trưng của một nền tảng thương mại điện tử chuyên nghiệp – vừa hiệu quả về mặt chức năng, vừa hấp dẫn về mặt trực quan.
+[1500] (Normal) [HAS_IMAGE]: 
+[1501] (Normal) [HAS_IMAGE]: 3. Hệ thống bảo mật tốt (JWT)
+[1502] (Normal) [HAS_IMAGE]: 3.1. Cơ chế xác thực bằng JWT (JSON Web Token)
+[1503] (Normal) [HAS_IMAGE]: JWT được sử dụng để xác thực người dùng giữa client và server.
+[1504] (Normal) [HAS_IMAGE]: Khi người dùng đăng nhập thành công, server tạo một token chứa thông tin người dùng (ID, vai trò, thời gian hết hạn) và gửi về client.
+[1505] (Normal) [HAS_IMAGE]: Token này được lưu trữ ở localStorage hoặc HTTP-only Cookie và được gửi kèm theo các request tiếp theo trong phần Authorization Header.
+[1506] (Heading 2) [HAS_IMAGE]: 3.2. Kiểm tra và xác thực token ở backend
+[1507] (Normal) [HAS_IMAGE]: Middleware trong ExpressJS sẽ kiểm tra token trong mỗi yêu cầu đến server. Nếu token hợp lệ, middleware cho phép truy cập vào API; nếu không, trả về mã lỗi 401 Unauthorized.
+[1508] (Normal) [HAS_IMAGE]: Giúp ngăn chặn việc truy cập trái phép vào các tài nguyên quan trọng như thông tin người dùng, dữ liệu đơn hàng, hoặc bảng quản trị.
+[1509] (Heading 2) [HAS_IMAGE]: 3.3. Mã hóa và bảo mật thông tin
+[1510] (Normal) [HAS_IMAGE]: Token 	được 	ký 	bằng 	secret 	key 	lưu 	trong 	biến 	môi 	trường
+[1511] (Normal) [HAS_IMAGE]: (process.env.JWT_SECRET).
+[1512] (Normal) [HAS_IMAGE]: Thời gian tồn tại của token được giới hạn (ví dụ: 24 giờ) để tránh bị lạm dụng. Thông tin nhạy cảm (mật khẩu, dữ liệu người dùng) được mã hóa bằng bcrypt trước khi lưu vào MongoDB.
+[1513] (Heading 2) [HAS_IMAGE]: 3.4. Quản lý phân quyền người dùng
+[1514] (Normal) [HAS_IMAGE]: JWT chứa trường role để phân biệt admin và user.
+[1515] (Normal) [HAS_IMAGE]: Các route trong backend được bảo vệ riêng: chỉ admin mới được phép truy cập vào các API quản trị (thêm, sửa, xóa sản phẩm).
+[1516] (Normal) [HAS_IMAGE]: Giúp đảm bảo tính toàn vẹn và bảo mật của hệ thống dữ liệu.
+[1517] (Heading 2) [HAS_IMAGE]: 3.5. Bảo vệ chống tấn công phổ biến
+[1518] (Normal) [HAS_IMAGE]: CORS được cấu hình để chỉ cho phép các domain hợp lệ truy cập API. Helmet và express-rate-limit được tích hợp nhằm giảm thiểu nguy cơ tấn công DDoS hoặc XSS. JWT kết hợp cùng HTTPS giúp đảm bảo dữ liệu truyền tải giữa frontend và backend được mã hóa và an toàn.
+[1519] (Normal) [HAS_IMAGE]: 
+[1520] (Normal) [HAS_IMAGE]: 4. Quản trị dễ dàng, dữ liệu đồng bộ
+[1521] (Normal) [HAS_IMAGE]: 4.1. Hệ thống quản trị (Admin Panel)
+[1522] (Normal) [HAS_IMAGE]: Giao diện quản trị được xây dựng bằng ReactJS, tách biệt với giao diện người dùng chính.
+[1523] (Normal) [HAS_IMAGE]: Cho phép quản trị viên thêm, sửa, xóa sản phẩm, quản lý đơn hàng, theo dõi người dùng, và cập nhật trạng thái thanh toán hoặc giao hàng.
+[1524] (Normal) [HAS_IMAGE]: Dữ liệu hiển thị theo thời gian thực, giúp người quản trị nắm bắt được tình hình kinh doanh nhanh chóng.
+[1525] (Heading 2) [HAS_IMAGE]: 4.2. Kết nối dữ liệu đồng bộ giữa Frontend – Backend – Database
+[1526] (Normal) [HAS_IMAGE]: Các thao tác quản lý đều thông qua API RESTful (NodeJS + Express), đảm bảo dữ liệu luôn đồng nhất giữa các thành phần hệ thống.
+[1527] (Normal) [HAS_IMAGE]: Khi admin cập nhật sản phẩm hoặc trạng thái đơn hàng, Frontend tự động nhận thay đổi thông qua API response, giúp người dùng nhìn thấy dữ liệu mới ngay lập tức. Cấu trúc dữ liệu được thiết kế nhất quán trong MongoDB, giúp dễ dàng truy xuất, thống kê và xử lý dữ liệu lớn.
+[1528] (Heading 2) [HAS_IMAGE]: 4.3. Cơ chế đồng bộ thời gian thực (Real-time Update)
+[1529] (Normal) [HAS_IMAGE]: Ứng dụng có thể tích hợp WebSocket (hoặc Socket.IO) để thông báo ngay khi có đơn hàng mới hoặc thay đổi trạng thái.
+[1530] (Normal) [HAS_IMAGE]: Quản trị viên không cần tải lại trang mà vẫn thấy dữ liệu được cập nhật liên tục.
+[1531] (Heading 2) [HAS_IMAGE]: 4.4. Tự động hóa và tối ưu quản trị
+[1532] (Normal) [HAS_IMAGE]: Các thao tác như xác nhận đơn hàng, cập nhật tồn kho, gửi email thông báo... có thể được tự động hóa bằng API hoặc webhook.
+[1533] (Normal) [HAS_IMAGE]: Giảm thời gian thao tác thủ công, hạn chế sai sót và tăng hiệu quả vận hành.
+[1534] (Heading 2) [HAS_IMAGE]: 4.5. Đảm bảo tính toàn vẹn và thống nhất dữ liệu
+[1535] (Normal) [HAS_IMAGE]: Tất cả dữ liệu được quản lý tập trung qua MongoDB, tránh tình trạng sai lệch giữa các giao diện.
+[1536] (Normal) [HAS_IMAGE]: Cơ chế mã định danh (ID) và ràng buộc logic giữa các bảng (collections) giúp tránh trùng lặp và mất dữ liệu.
+[1537] (Heading 1) [HAS_IMAGE]: CHƯƠNG 7: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+[1538] (Normal) [HAS_IMAGE]: 1. Kết luận
+[1539] (Normal) [HAS_IMAGE]: Hoàn thiện website Website DL với đầy đủ chức năng thương mại điện tử
+[1540] (Heading 2) [HAS_IMAGE]: 1.1. Tổng quan
+[1541] (Normal) [HAS_IMAGE]: Dự án Website DL đã được hoàn thiện với đầy đủ các chức năng của một hệ thống thương mại điện tử hiện đại, bao gồm: mua hàng, thanh toán, đánh giá sản phẩm, quản lý người dùng và quản trị hệ thống.
+[1542] (Normal) [HAS_IMAGE]: Hệ thống được phát triển bằng ReactJS, NodeJS, Express và MongoDB, bảo đảm tính ổn định, tốc độ xử lý nhanh và khả năng mở rộng linh hoạt.
+[1543] (Heading 2) [HAS_IMAGE]: 1.2. Tính năng người dùng
+[1544] (Normal) [HAS_IMAGE]: Website cho phép người dùng đăng ký, đăng nhập, tìm kiếm, thêm sản phẩm vào giỏ hàng, thanh toán và đánh giá sản phẩm.
+[1545] (Normal) [HAS_IMAGE]: Các chức năng hoạt động đồng bộ giữa frontend – backend – database, mang lại trải nghiệm liền mạch cho người dùng.
+[1546] (Heading 2) [HAS_IMAGE]: 1.3. Tính năng quản trị
+[1547] (Normal) [HAS_IMAGE]: Phần Admin Panel cho phép người quản trị thêm, sửa, xóa sản phẩm, quản lý đơn hàng, người dùng, mã giảm giá và xem thống kê doanh thu.
+[1548] (Normal) [HAS_IMAGE]: Nhờ đó, toàn bộ hoạt động kinh doanh được theo dõi và kiểm soát hiệu quả, giúp đưa ra quyết định kịp thời.
+[1549] (Heading 2) [HAS_IMAGE]: 1.4. Đánh giá tổng thể
+[1550] (Normal) [HAS_IMAGE]: Hệ thống đảm bảo tính bảo mật (JWT), giao diện thân thiện, dữ liệu đồng bộ và đáp ứng tốt yêu cầu của một website thương mại điện tử quy mô vừa.
+[1551] (Normal) [HAS_IMAGE]: Dự án thể hiện sự kết hợp hiệu quả giữa thiết kế, lập trình và triển khai thực tế.
+[1552] (Normal) [HAS_IMAGE]: 
+[1553] (Normal) [HAS_IMAGE]: 2. Hạn chế
+[1554] (Normal) [HAS_IMAGE]: 2.1. Về phạm vi triển khai
+[1555] (Normal) [HAS_IMAGE]: Website hiện tại chưa được triển khai lên domain thực tế, chỉ hoạt động trong môi trường cục bộ (localhost).
+[1556] (Heading 2) [HAS_IMAGE]: 2.2. Về ứng dụng di động
+[1557] (Normal) [HAS_IMAGE]: Dự án chưa có phiên bản app mobile, do đó người dùng chỉ có thể truy cập qua trình duyệt web.
+[1558] (Heading 2) [HAS_IMAGE]: 2.3. Về phương thức thanh toán
+[1559] (Normal) [HAS_IMAGE]: Hiện tại, hệ thống mới tích hợp cổng thanh toán Stripe quốc tế, chưa hỗ trợ các cổng thanh toán nội địa như Momo hoặc VNPay, điều này làm hạn chế khả năng tiếp cận người dùng Việt Nam.
+[1560] (Normal) [HAS_IMAGE]: 
+[1561] (Normal) [HAS_IMAGE]: 3. Hướng phát triển
+[1562] (Normal) [HAS_IMAGE]: 3.1. Phát triển ứng dụng di động
+[1563] (Normal) [HAS_IMAGE]: Xây dựng phiên bản mobile app (Android và iOS) bằng React Native hoặc Flutter, giúp người dùng dễ dàng mua sắm, thanh toán và quản lý đơn hàng trên điện thoại.
+[1564] (Heading 2) [HAS_IMAGE]: 3.2. Triển khai lên domain thực tế
+[1565] (Normal) [HAS_IMAGE]: Đưa website lên domain chính thức (ví dụ: shopDL.vn), sử dụng hosting/VPS và chứng chỉ SSL để tăng độ tin cậy và tính bảo mật khi hoạt động trực tuyến.
+[1566] (Heading 2) [HAS_IMAGE]: 3.3. Mở rộng phương thức thanh toán
+[1567] (Normal) [HAS_IMAGE]: Tích hợp thêm các cổng thanh toán nội địa như Momo, VNPay, ZaloPay, nhằm đáp ứng thói quen thanh toán của người dùng Việt Nam và tăng khả năng thương mại hóa. 3.4. Ứng dụng công nghệ AI
+[1568] (Normal) [HAS_IMAGE]: Trong giai đoạn tiếp theo, có thể tích hợp AI gợi ý sản phẩm (recommendation system) giúp người dùng tiếp cận sản phẩm phù hợp, nâng cao trải nghiệm mua sắm cá nhân hóa.
+[1569] (Normal) [HAS_IMAGE]: 
+[1570] (Normal) [HAS_IMAGE]: 
+[1571] (Normal) [HAS_IMAGE]: 
+[1572] (Normal) [HAS_IMAGE]: 
+[1573] (Normal) [HAS_IMAGE]: PHỤ LỤC :
+[1574] (Normal) [HAS_IMAGE]: Tài liệu tham khảo
+[1575] (Normal) [HAS_IMAGE]: Stripe Docs – Get Started with Node.js.
+[1576] (Normal) [HAS_IMAGE]: Hướng dẫn thiết lập môi trường phát triển và tích hợp thanh toán Stripe trong Node.js. https://docs.stripe.com/get-started/development-environment?lang=node
+[1577] (Normal) [HAS_IMAGE]: Stripe Payments Quickstart (React + Node.js). Hướng dẫn tích hợp thanh toán Stripe vào ứng dụng React/Node.
+[1578] (Normal) [HAS_IMAGE]: https://docs.stripe.com/payments/quickstart?client=react&lang=node
+[1579] (Normal) [HAS_IMAGE]: Bigscal Technologies – How to Integrate Stripe Payment APIs Using Node.js. Bài hướng dẫn chi tiết quy trình thêm tính năng thanh toán Stripe trong ứng dụng Node.js.
+[1580] (Normal) [HAS_IMAGE]: https://medium.com/@Bigscal-Technologies/how-to-integrate-stripe- paymentapis-using-node-js-566bfdad5850
+[1581] (Normal) [HAS_IMAGE]: Bezkoder – Build a MERN Stack CRUD App (React, Node, Express, MongoDB).
+[1582] (Normal) [HAS_IMAGE]: Hướng dẫn xây dựng ứng dụng CRUD đầy đủ với React + Node + Express + MongoDB. https://www.bezkoder.com/react-node-express-mongodb-mern-stack/
+[1583] (Normal) [HAS_IMAGE]: FreeCodeCamp – MERN Stack Full Tutorial (YouTube).
+[1584] (Normal) [HAS_IMAGE]: Video hướng dẫn xây dựng website hoàn chỉnh bằng MERN Stack. https://www.youtube.com/watch?v=7CqJlxBYj-M
+[1585] (Normal) [HAS_IMAGE]: GeeksforGeeks – How To Connect MongoDB with ReactJS. Cách kết nối React frontend với MongoDB thông qua backend Node.js/Express.
+[1586] (Normal) [HAS_IMAGE]: https://www.geeksforgeeks.org/reactjs/how-to-connect-mongodb-with- reactjs/
+[1587] (Normal) [HAS_IMAGE]: Dev.to – Add Payments Feature Using Express & Stripe.
+[1588] (Normal) [HAS_IMAGE]: Bài viết hướng dẫn thêm chức năng thanh toán vào ứng dụng Node.js với
+[1589] (Normal) [HAS_IMAGE]: 
+[1590] (Normal) [HAS_IMAGE]: Stripe API.
+[1591] (Normal) [HAS_IMAGE]: https://dev.to/nishimweprince/add-payments-feature-in-your-application- using-nodejsexpress-and-stripe-305a
+[1592] (Normal) [HAS_IMAGE]: Cloudinary Documentation – Node.js SDK.
+[1593] (Normal) [HAS_IMAGE]: Hướng dẫn upload, quản lý hình ảnh bằng Cloudinary trong Node.js. https://cloudinary.com/documentation/node_integration
+[1594] (Normal) [HAS_IMAGE]: JWT.io – JSON Web Token Introduction.
+[1595] (Normal) [HAS_IMAGE]: Tài liệu giới thiệu về cơ chế bảo mật xác thực JWT. https://jwt.io/introduction 10. Tailwind CSS Official Documentation.
+[1596] (Normal) [HAS_IMAGE]: Hướng dẫn sử dụng Tailwind CSS để xây dựng giao diện frontend nhanh và chuẩn. https://tailwindcss.com/docs
+[1597] (Normal) [HAS_IMAGE]: 
+[1598] (Normal) [HAS_IMAGE]: 
+[1599] (Normal) [HAS_IMAGE]: 
+[1600] (Normal) [HAS_IMAGE]: 
+[1601] (Normal) [HAS_IMAGE]: 
+[1602] (Normal) [HAS_IMAGE]: 
+[1603] (Normal) [HAS_IMAGE]: 
+[1604] (Normal) [HAS_IMAGE]: 
+[1605] (Normal) [HAS_IMAGE]: 
+[1606] (Normal) [HAS_IMAGE]: 
+[1607] (Normal) [HAS_IMAGE]: 
+[1608] (Normal) [HAS_IMAGE]: 
+[1609] (Normal) [HAS_IMAGE]: 
+[1610] (Normal) [HAS_IMAGE]: 
+[1611] (Normal) [HAS_IMAGE]: 
+[1612] (Normal) [HAS_IMAGE]: 
+[1613] (Normal) [HAS_IMAGE]: 
+[1614] (Normal) [HAS_IMAGE]: 
+
+=== ALL TABLES ===
+
+--- Table 0 (36 rows x 2 cols) ---
+  Row 0: Từ viết tắt | Giải thích
+  Row 1: API | Application Programming Interface – Giao diện lập trình ứng dụng
+  Row 2: B2C | Business to Customer – Doanh nghiệp đến người tiêu dùng
+  Row 3: B2B | Business to Business – Doanh nghiệp đến doanh nghiệp
+  Row 4: C2C | Customer to Customer – Cá nhân đến cá nhân
+  Row 5: C2B | Customer to Business – Cá nhân đến doanh nghiệp
+  Row 6: B2G | Business to Government – Doanh nghiệp đến chính phủ
+  Row 7: MERN | MongoDB, ExpressJS, ReactJS, NodeJS
+  Row 8: JWT | JSON Web Token – Mã thông báo xác thực dạng JSON
+  Row 9: UI | User Interface – Giao diện người dùng
+  Row 10: UX | User Experience – Trải nghiệm người dùng
+  Row 11: SPA | Single Page Application – Ứng dụng một trang
+  Row 12: MVC | Model – View – Controller
+  Row 13: CRUD | Create, Read, Update, Delete – Tạo, Đọc, Cập nhật, Xóa
+  Row 14: REST | Representational State Transfer
+  Row 15: HTTP | HyperText Transfer Protocol – Giao thức truyền siêu văn bản
+  Row 16: HTTPS | HyperText Transfer Protocol Secure – Giao thức truyền siêu văn bản bảo mật
+  Row 17: SSL | Secure Sockets Layer – Lớp ổ cắm bảo mật
+  Row 18: TLS | Transport Layer Security – Bảo mật tầng truyền tải
+  Row 19: COD | Cash on Delivery – Thanh toán khi nhận hàng
+  Row 20: SKU | Stock Keeping Unit – Đơn vị lưu kho
+  Row 21: ERD | Entity Relationship Diagram – Sơ đồ quan hệ thực thể
+  Row 22: NoSQL | Non-relational SQL – Cơ sở dữ liệu phi quan hệ
+  Row 23: JSON | JavaScript Object Notation
+  Row 24: BSON | Binary JSON – JSON dạng nhị phân
+  Row 25: CORS | Cross-Origin Resource Sharing – Chia sẻ tài nguyên đa nguồn gốc
+  Row 26: ORM | Object Relational Mapping
+  Row 27: SDK | Software Development Kit – Bộ công cụ phát triển phần mềm
+  Row 28: URL | Uniform Resource Locator – Địa chỉ tài nguyên đồng nhất
+  Row 29: SMTP | Simple Mail Transfer Protocol – Giao thức truyền thư đơn giản
+  Row 30: AI | Artificial Intelligence – Trí tuệ nhân tạo
+  Row 31: VPS | Virtual Private Server – Máy chủ riêng ảo
+  Row 32: CSS | Cascading Style Sheets
+  Row 33: XSS | Cross-Site Scripting – Tấn công kịch bản chéo trang
+  Row 34: DDoS | Distributed Denial of Service – Tấn công từ chối dịch vụ phân tán
+  Row 35: PCI-DSS | Payment Card Industry Data Security Standard – Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán
+
+--- Table 1 (14 rows x 3 cols) ---
+  Row 0: STT | Hình ảnh | Mô tả
+  Row 1: 1 | Hình 1.1 | Thực trạng mua sắm
+  Row 2: 2 | Hình 1.2 | Nắm bắt nhu cầu của khách hàng
+  Row 3: 3 | Hình 1.3 | Sự quan tâm của khách hàng
+  Row 4: 4 | Hình 1.4 | Tham khảo chức năng khách hàng quan tâm
+  Row 5: 5 | Hình 1.5 | Mong muốn của khách hàng
+  Row 6: 6 | Hình 2.1 | Sơ đồ kiến trúc hệ thống
+  Row 7: 7 | Hình 3.1 | Sơ đồ Use Case tổng thể
+  Row 8: 8 | Hình 3.2 | Sơ đồ Use Case chi tiết Admin
+  Row 9: 9 | Hình 3.3 | Sơ đồ Use Case cho User
+  Row 10: 10 | Hình 3.4 | Sơ đồ ERD tổng thể
+  Row 11: 11 | Hình 4.1 | Cấu trúc thư mục Frontend
+  Row 12: 12 | Hình 5.1 | Giao diện trang chủ User
+  Row 13: 13 | Hình 5.2 | Giao diện trang sản phẩm
+
+--- Table 2 (4 rows x 3 cols) ---
+  Row 0: B2C (Business to  Customer) | Doanh nghiệp bán hàng trực tiếp cho người tiêu dùng. | Tiki, Lazada, Shopee.
+  Row 1: B2B (Business to  Business) | Giao dịch giữa hai doanh nghiệp. | Alibaba.
+  Row 2: C2C (Customer to  Customer) | Cá nhân bán hàng cho cá nhân thông qua nền tảng trung gian. | Chợ Tốt, eBay, Shopee C2C.
+  Row 3: C2B (Customer to  Business)    B2G (Business to  Government) | Cá nhân cung cấp sản  phẩm/dịch vụ cho doanh 	 nghiệp. 	    Doanh nghiệp cung cấp hàng hóa, dịch vụ cho cơ quan nhà nước. | Freelancer, Fiverr.  Các cổng đấu thầu trực tuyến.
+
+--- Table 3 (3 rows x 3 cols) ---
+  Row 0: Đối tượng | Nhóm chức năng chính | Mô tả tổng quát
+  Row 1: Người dùng (User) | Đăng ký/Đăng nhập, Mua hàng,  Thanh toán, Review, Chat hỗ  trợ | Giúp người dùng có trải nghiệm mua sắm trực tuyến nhanh, an toàn, và tiện lợi.
+  Row 2: Quản trị viên  (Admin) | Quản lý sản phẩm, Đơn hàng,  Người dùng, Review, Thống kê,  Hỗ trợ khách hàng | Hỗ trợ quản trị hiệu quả hoạt động kinh doanh và duy trì chất lượng dịch vụ.
+
+--- Table 4 (7 rows x 2 cols) ---
+  Row 0: Thực thể 	Mô tả | Quan hệ
+  Row 1: Thông tin  users 	người dùng, vai trò  (user/admin), bảo mật JWT.  products Sản phẩm, thông số kỹ thuật, hình ảnh, tồn kho.  Thông tin thức thanh toán.  orders 	đơn hàng, trạng thái, phương | 1–N với orders, reviews, chats, s  1–N với reviews, orderItems, s  1–N với orderItems
+  Row 2: orderItems  Chi tiết từng sản phẩm trong đơn hàng. | N–1 với orders, products
+  Row 3: reviews 	Đánh giá sản phẩm, ảnh, điểm số, helpful/report. | N–1 với users, products
+  Row 4: s 	Danh sách yêu thích của người dùng. | N–1 với users, products
+  Row 5: Phòng chat trạng thái.  chats 	giữa user–admin, tin nhắn,  statistics 	Lưu dữ liệu thống kê doanh thu, đơn 	 hàng, sản phẩm. | N–1 với users, admins  Độc lập
+  Row 6: coupons 	Mã giảm giá (dự phòng mở rộng). | Độc lập
+
+--- Table 5 (11 rows x 3 cols) ---
+  Row 0: STT  collection | STT  collection | Chức năng chính
+  Row 1: 1 | users | Lưu trữ thông tin người dùng (khách hàng, quản trị viên)
+  Row 2: 2 | products | Lưu thông tin chi tiết sản phẩm (tên, giá, tồn kho, mô tả, hình  ảnh, danh mục)
+  Row 3: 3 | categories | Quản lý danh mục sản phẩm
+  Row 4: 4 | orders | Lưu thông tin đơn hàng (khách hàng, tổng tiền, trạng thái, ngày  đặt)
+  Row 5: 5 | orderitems | Lưu chi tiết từng sản phẩm trong đơn hàng
+  Row 6: 6 | reviews | Lưu đánh giá và phản hồi của khách hàng về sản phẩm
+  Row 7: 7 | s | Danh sách sản phẩm yêu thích của người dùng
+  Row 8: 8 | coupons | Lưu thông tin mã giảm giá, điều kiện sử dụng
+  Row 9: 9 | chats | Lưu lịch sử tin nhắn giữa người dùng và nhân viên hỗ trợ
+  Row 10: 10 | statistics | Lưu dữ liệu tổng hợp cho mục đích báo cáo, phân tích (doanh  thu, sản phẩm bán chạy, khách hàng tiềm năng)
+
+--- Table 6 (6 rows x 2 cols) ---
+  Row 0: │ 	Frontend | │
+  Row 1: │ 	(ReactJS + Redux) | │
+  Row 2: │ - Giao diện web | │
+  Row 3: │ - Gọi API bằng Axios | │
+  Row 4: │ - Hiển thị sản phẩm, giỏ | │
+  Row 5: │ - Xử lý thanh toán, chat | │
+
+--- Table 7 (5 rows x 2 cols) ---
+  Row 0: │ 	Backend API | │
+  Row 1: │ 	(Node.js + Express) | │
+  Row 2: │ - Xử lý logic nghiệp vụ | │
+  Row 3: │ - Xác thực JWT | │
+  Row 4: │ - Upload ảnh (Cloudinary) | │
+
+--- Table 8 (8 rows x 2 cols) ---
+  Row 0: │ 	MongoDB Atlas | │
+  Row 1: │ - Collection: Users | │
+  Row 2: │ 	Products | │
+  Row 3: │ 	Orders | │
+  Row 4: │ 	Reviews | │
+  Row 5: │ 	Chat | │
+  Row 6: │ - Lưu trữ cloud an toàn | │
+  Row 7: │ - Hỗ trợ indexing, backup | │
+
+--- Table 9 (9 rows x 2 cols) ---
+  Row 0: 4.5. Các thành phần bổ trợ | 
+  Row 1: Thành phần | Chức năng
+  Row 2: Cloudinary | Lưu trữ hình ảnh sản phẩm, avatar người dùng
+  Row 3: Stripe / VNPay API | Xử lý thanh toán trực tuyến
+  Row 4: Nodemailer / Gmail API | Gửi email xác nhận đơn hàng
+  Row 5: JWT + bcrypt | Xác thực và bảo mật người dùng
+  Row 6: CORS + Helmet + Rate limiter | Bảo vệ API khỏi tấn công mạng
+  Row 7: Redis (tùy chọn) | Cache dữ liệu sản phẩm, thống kê
+  Row 8: PM2 / Docker | Quản lý, giám sát và triển khai ứng dụng
+
+--- Table 10 (6 rows x 2 cols) ---
+  Row 0: │── controllers/ | → Xử lý logic nghiệp vụ cho từng route
+  Row 1: │── models/ | → Mô hình dữ liệu MongoDB (Mongoose)
+  Row 2: │── middleware/ | → Xác thực JWT, phân quyền admin, upload ảnh
+  Row 3: │── config/ | → Cấu hình cơ sở dữ liệu, Cloudinary, Stripe
+  Row 4: │── uploads/ | → Lưu tạm ảnh người dùng upload
+  Row 5: │── .env | → Thông tin môi trường (DB, JWT, API keys)

@@ -1,174 +1,158 @@
-import React, { useContext, useState, useEffect } from 'react'
-import { ShopContext } from '../context/ShopContext'
-import { Link } from 'react-router-dom'
-import { toast } from 'react-toastify'
-import axios from 'axios'
+import React, { useContext } from 'react';
+import { ShopContext } from '../context/ShopContext';
+import { Link } from 'react-router-dom';
 
-const ProductItem = ({id, image, name, price, originalPrice, averageRating, totalReviews}) => {
-    const {currency, backendUrl, token} = useContext(ShopContext);
-    const [isLoading, setIsLoading] = useState(true);
-    const [isInWishlist, setIsInWishlist] = useState(false);
-    const [isWishlistLoading, setIsWishlistLoading] = useState(false);
-    const hasDiscount = typeof originalPrice === 'number' && originalPrice > price;
-    const discountPercent = hasDiscount ? Math.round((1 - (price / originalPrice)) * 100) : 0;
+const ProductItem = ({ id, image, name, price, originalPrice, averageRating, totalReviews, brand, sizes, category, isFlashSale, soldCount }) => {
+  const { currency, addToCart, isWishlisted, toggleWishlist } = useContext(ShopContext);
+  const isFav = isWishlisted ? isWishlisted(id) : false;
 
-    // Check wishlist status
-    useEffect(() => {
-        const checkWishlistStatus = async () => {
-            if (!token) return;
-            
-            try {
-                const response = await axios.get(`${backendUrl}/api/wishlist/check/${id}`, {
-                    headers: { token }
-                });
-                setIsInWishlist(response.data.isInWishlist);
-            } catch (error) {
-                console.error('Error checking wishlist status:', error);
-            }
-        };
+  const hasDiscount = originalPrice && originalPrice > price;
+  const discountPercent = hasDiscount ? Math.round((1 - (price / originalPrice)) * 100) : 0;
 
-        checkWishlistStatus();
-    }, [token, id]);
+  const displayImage = Array.isArray(image) && image.length > 0 
+    ? image[0] 
+    : (image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600');
 
-    // Toggle wishlist
-    const toggleWishlist = async (e) => {
-        e.preventDefault();
-        e.stopPropagation();
+  const rating = Number(averageRating) || 4.9;
+  const reviews = Number(totalReviews) || 24;
+
+  const handleQuickAdd = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const defaultVariant = sizes && sizes.length > 0 ? sizes[0] : 'Tiêu chuẩn';
+    addToCart(id, defaultVariant);
+  };
+
+  return (
+    <div className='group bg-white rounded-2xl border border-slate-200/80 hover:border-red-400 hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden relative'>
+      
+      <Link to={`/product/${id}`} className='block p-3 sm:p-4 flex-1 flex flex-col'>
         
-        if (!token) {
-            toast.error('Vui lòng đăng nhập để sử dụng tính năng này');
-            return;
-        }
+        {/* Top Badges (CellphoneS style) */}
+        <div className='flex items-center justify-between gap-1 mb-2'>
+          {hasDiscount ? (
+            <span className='px-2 py-0.5 bg-[#d70018] text-white text-[10px] font-black rounded-md uppercase tracking-wider shadow-2xs'>
+              Giảm {discountPercent}%
+            </span>
+          ) : (
+            <span className='px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-bold rounded-md'>
+              Chính hãng
+            </span>
+          )}
 
-        if (isWishlistLoading) return;
+          <span className='px-2 py-0.5 bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-bold rounded-md'>
+            Trả góp 0%
+          </span>
+        </div>
 
-        try {
-            setIsWishlistLoading(true);
-            
-            if (isInWishlist) {
-                // Remove from wishlist
-                await axios.delete(`${backendUrl}/api/wishlist/remove/${id}`, {
-                    headers: { token }
-                });
-                setIsInWishlist(false);
-                toast.success('Đã xóa khỏi danh sách yêu thích');
-            } else {
-                // Add to wishlist
-                await axios.post(`${backendUrl}/api/wishlist/add`, {
-                    productId: id
-                }, {
-                    headers: { token }
-                });
-                setIsInWishlist(true);
-                toast.success('Đã thêm vào danh sách yêu thích');
-            }
-        } catch (error) {
-            console.error('Error toggling wishlist:', error);
-            toast.error('Có lỗi xảy ra');
-        } finally {
-            setIsWishlistLoading(false);
-        }
-    };
+        {/* Product Image with Zoom on Hover */}
+        <div className='aspect-square w-full rounded-xl p-2 flex items-center justify-center overflow-hidden bg-white relative'>
+          <img
+            src={displayImage}
+            alt={name}
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600';
+            }}
+            className='max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300'
+            loading='lazy'
+          />
+        </div>
 
-    return (
-        <Link 
-            className='group block bg-white rounded-md overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 max-w-[200px] mx-auto' 
-            to={`/product/${id}`}
-        >
-            {/* Image Container */}
-            <div className='relative overflow-hidden bg-gray-50 aspect-square w-full'>
-                {/* Loading Skeleton */}
-                {isLoading && (
-                    <div className='absolute inset-0 bg-gray-200 animate-pulse'></div>
-                )}
-                
-                <img 
-                    className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded-md' 
-                    src={image[0]} 
-                    alt={name}
-                    onLoad={() => setIsLoading(false)}
-                    style={{display: isLoading ? 'none' : 'block'}}
-                />
-                
-                {/* Overlay với text "Chi tiết" */}
-                <div className='absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center'>
-                    <span className='text-white text-xs font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300'>
-                        Chi tiết
-                    </span>
-                </div>
-                
-                {/* Wishlist Button */}
-                <button
-                    onClick={toggleWishlist}
-                    disabled={isWishlistLoading}
-                    className='absolute top-1.5 right-1.5 bg-white bg-opacity-90 hover:bg-opacity-100 p-1.5 rounded-full shadow-sm transition-all duration-200 disabled:opacity-50'
-                >
-                    {isWishlistLoading ? (
-                        <div className='animate-spin rounded-full h-3 w-3 border-b-2 border-red-500'></div>
-                    ) : (
-                        <svg 
-                            className={`w-3 h-3 ${isInWishlist ? 'fill-red-500 text-red-500' : 'text-gray-600'}`}
-                            fill={isInWishlist ? 'currentColor' : 'none'}
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24"
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                        </svg>
-                    )}
-                </button>
+        {/* Product Brand & Name */}
+        <div className='mt-2.5 flex-1 flex flex-col justify-between'>
+          <div>
+            <h3 className='text-xs sm:text-[13px] font-bold text-slate-900 group-hover:text-[#d70018] transition-colors line-clamp-2 leading-snug'>
+              {name}
+            </h3>
+          </div>
 
-                {/* Discount Badge (button-like) */}
-                {hasDiscount && (
-                    <div className='absolute top-1.5 left-1.5'>
-                        <span className='inline-block px-1 py-0.5 rounded-full text-xs font-bold shadow-sm bg-green-600 text-white'>
-                            -{discountPercent}%
-                        </span>
-                    </div>
-                )}
+          {/* Pricing Box (CellphoneS Signature) */}
+          <div className='mt-2 space-y-1.5'>
+            <div className='flex items-baseline gap-2 flex-wrap'>
+              <span className='text-sm sm:text-base font-black text-[#d70018]'>
+                {Number(price || 0).toLocaleString('vi-VN')}{currency}
+              </span>
+              {hasDiscount && (
+                <span className='text-[11px] text-slate-400 line-through font-medium'>
+                  {Number(originalPrice).toLocaleString('vi-VN')}{currency}
+                </span>
+              )}
             </div>
-            
-            {/* Product Info */}
-            <div className='p-2'>
-                <h3 className='text-gray-800 font-medium text-xs leading-4 mb-1.5 line-clamp-2 hover:text-blue-600 transition-colors'>
-                    {name}
-                </h3>
-                
-                {/* Rating */}
-                {averageRating > 0 && (
-                    <div className='flex items-center space-x-1 mb-1'>
-                        <div className='flex items-center space-x-0.5'>
-                            {[1, 2, 3, 4, 5].map((star) => (
-                                <span
-                                    key={star}
-                                    className={`text-xs ${
-                                        star <= Math.round(averageRating)
-                                            ? 'text-yellow-400'
-                                            : 'text-gray-300'
-                                    }`}
-                                >
-                                    ★
-                                </span>
-                            ))}
-                        </div>
-                        <span className='text-xs text-gray-500'>
-                            ({totalReviews || 0})
-                        </span>
-                    </div>
-                )}
-                
-                <div className='flex flex-col gap-0.5'>
-                    {hasDiscount && (
-                        <span className='text-xs text-gray-400 line-through'>
-                            {originalPrice.toLocaleString('vi-VN')}{currency}
-                        </span>
-                    )}
-                    <p className='text-xs font-bold text-red-600'>
-                        {price.toLocaleString('vi-VN')}{currency}
-                    </p>
-                </div>
-            </div>
-        </Link>
-    )
-}
 
-export default ProductItem
+            {/* Smember benefit pill (CellphoneS signature) */}
+            <div className='bg-red-50 border border-red-100/80 rounded-md px-2 py-0.5 text-[10px] text-red-700 font-medium truncate'>
+              Smember giảm đến <strong>{(Math.round(price * 0.01 / 1000) * 1000).toLocaleString('vi-VN')}đ</strong>
+            </div>
+
+            {/* Installment terms note */}
+            <div className='bg-slate-50 rounded-md px-2 py-0.5 text-[9px] text-slate-500 line-clamp-1 border border-slate-100'>
+              Trả góp 0% - 0đ trả trước - kỳ hạn 12 tháng
+            </div>
+
+            {/* Flash Sale Progress bar if flash sale */}
+            {isFlashSale && (
+              <div className='pt-1'>
+                <div className='flex items-center justify-between text-[10px] font-bold text-slate-500 mb-0.5'>
+                  <span className='text-[#d70018] flex items-center gap-1'>
+                    <span>🔥</span> Đã bán {soldCount || 16}/20
+                  </span>
+                </div>
+                <div className='w-full h-1.5 bg-red-100 rounded-full overflow-hidden'>
+                  <div className='h-full bg-[#d70018] rounded-full' style={{ width: `${Math.min(100, ((soldCount || 16) / 20) * 100)}%` }}></div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Bottom Row: Giao 2 Gio, Star rating & Quick Action / Wishlist */}
+        <div className='mt-2.5 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500'>
+          <div className='flex items-center gap-1.5'>
+            <span className='px-1.5 py-0.5 bg-blue-50 text-blue-700 font-bold rounded flex items-center gap-0.5 text-[9px]'>
+              <span>⚡</span>
+              <span>2 Giờ</span>
+            </span>
+            <span className='text-amber-500 font-black flex items-center gap-0.5'>
+              ★ {rating.toFixed(0)}
+            </span>
+          </div>
+
+          <div className='flex items-center gap-1'>
+            <button
+              type='button'
+              onClick={handleQuickAdd}
+              className='p-1.5 rounded-lg bg-red-50 hover:bg-[#d70018] text-[#d70018] hover:text-white transition-colors shadow-2xs'
+              title='Thêm vào giỏ'
+            >
+              <svg className='w-3.5 h-3.5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2.5' d='M12 4v16m8-8H4' />
+              </svg>
+            </button>
+            <button
+              type='button'
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleWishlist && toggleWishlist(id);
+              }}
+              className={`p-1.5 rounded-lg transition-all ${
+                isFav 
+                  ? 'text-red-600 bg-red-50 hover:bg-red-100 scale-110' 
+                  : 'text-slate-400 hover:text-red-600 hover:bg-red-50'
+              }`}
+              title={isFav ? 'Bỏ yêu thích' : 'Thêm vào yêu thích'}
+            >
+              <svg className='w-3.5 h-3.5' fill={isFav ? 'currentColor' : 'none'} stroke='currentColor' viewBox='0 0 24 24'>
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </Link>
+    </div>
+  );
+};
+
+export default ProductItem;

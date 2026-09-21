@@ -1,5 +1,5 @@
 # Database
-MONGODB_URI=
+MONGODB_URI="mongodb+srv://Phuc26104:2785YaFdsluel5sI@cluster0.qdkccgc.mongodb.net/np"
 
 # Cloudinary (quản lý hình ảnh)
 CLOUDINARY_API_KEY=

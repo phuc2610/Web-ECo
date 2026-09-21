@@ -22,6 +22,9 @@ import Compare from "./pages/Compare";
 import Product from "./pages/Product";
 import Profile from "./pages/Profile";
 import Verify from "./pages/Verify";
+import News from "./pages/News";
+import NewsDetail from "./pages/NewsDetail";
+import PaymentGateway from "./pages/PaymentGateway";
 
 const AppRoutes = () => {
   const location = useLocation();
@@ -71,6 +74,11 @@ const AppRoutes = () => {
             <PlaceOrder />
           </AnimatedRoute>
         } />
+        <Route path="/payment/:orderId" element={
+          <AnimatedRoute>
+            <PaymentGateway />
+          </AnimatedRoute>
+        } />
         <Route path="/orders" element={
           <AnimatedRoute>
             <Orders />
@@ -89,6 +97,16 @@ const AppRoutes = () => {
         <Route path="/verify" element={
           <AnimatedRoute>
             <Verify />
+          </AnimatedRoute>
+        } />
+        <Route path="/news" element={
+          <AnimatedRoute>
+            <News />
+          </AnimatedRoute>
+        } />
+        <Route path="/news/:slug" element={
+          <AnimatedRoute>
+            <NewsDetail />
           </AnimatedRoute>
         } />
         <Route

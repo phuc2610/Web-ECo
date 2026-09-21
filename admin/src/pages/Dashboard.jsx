@@ -42,8 +42,8 @@ const Dashboard = ({ token }) => {
   return (
     <div className="p-6">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-800">Dashboard</h1>
-        <p className="text-gray-600 mt-2">Tổng quan hệ thống TLookShop</p>
+        <h1 className="text-3xl font-black text-slate-800">Bảng Điều Khiển Hệ Thống</h1>
+        <p className="text-slate-500 mt-1">Tổng quan kinh doanh Minh Tuấn Shop - Điện Thoại & Máy Tính Chính Hãng</p>
       </div>
 
       {/* Quick Stats */}

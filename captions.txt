@@ -1,0 +1,20 @@
+P78: DANH MỤC HÌNH ẢNH
+P110: Hình thành hệ thống quản trị trực tuyến (Admin Panel) cho phép người quản lý có thể theo dõi, cập nhật và kiểm soát toàn bộ hoạt động kinh doanh một cách thuận tiện, nhanh chóng và chính xác
+P131: Hình 1.1 Thực trạng mua sắm
+P135: Hình 1.2 Nắm bắt nhu cầu của khách hàn
+P139: Hình 1.3 Sự quan tâm của khách hàng
+P144: Hình 1.4 Tham khảo chức năng khách hàng quan tâm
+P149: Hình 1.5 Mong muốn của khách hàng
+P464: Hình 2.1 Sơ đồ kiến trúc
+P731: Hình ảnh (lưu trên Cloudinary).
+P832: Hình 3.1 Sơ đồ usecase tổng thể
+P842: Hình 3.1Sơ đồ Use Case chi tiết admin
+P849: Hình 3.3 Sơ đồ Use Case cho User
+P854: Hình 3.4 Sơ đồ EDR Tổng Thể
+P1000: │ ├── assets/ 	# Hình ảnh, biểu tượng, banner
+P1005: Hình 4.1. Cấu trúc Frontend
+P1299: │ ├── assets/ 	→ Ảnh và biểu tượng giao diện
+P1324: Hình 5.1 Giao diện trang chủ user
+P1328: Hình 5.2Giao diện trang sản phẩm
+P1425: Người quản trị (admin) chọn hình ảnh sản phẩm trong giao diện quản trị. Ảnh được gửi từ Frontend lên Backend qua API upload.
+P1489: Ảnh sản phẩm và nội dung tự co giãn, không bị vỡ hoặc tràn khung.

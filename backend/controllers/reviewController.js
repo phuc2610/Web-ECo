@@ -453,6 +453,17 @@ const updateProductRating = async (productId) => {
     }
 };
 
+// Get recent reviews for homepage
+const getRecentReviews = async (req, res) => {
+    try {
+        const reviews = await reviewModel.find({}).sort({ createdAt: -1 }).limit(10);
+        res.json({ success: true, reviews });
+    } catch (error) {
+        console.log('Error getting recent reviews:', error);
+        res.json({ success: false, message: error.message });
+    }
+};
+
 export {
     addReview,
     getProductReviews,
@@ -460,7 +471,8 @@ export {
     updateReview,
     deleteReview,
     markHelpful,
-    reportReview
+    reportReview,
+    getRecentReviews
 };
 
 

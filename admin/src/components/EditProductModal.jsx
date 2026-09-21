@@ -8,8 +8,8 @@ const EditProductModal = ({ isOpen, onClose, onUpdate, product }) => {
     description: '',
     price: '',
     originalPrice: '',
-    category: 'PC',
-    subCategory: 'PC',
+    category: 'Điện thoại',
+    subCategory: 'Apple',
     bestseller: false,
     sizes: [],
     stockQuantities: {},
@@ -37,8 +37,8 @@ const EditProductModal = ({ isOpen, onClose, onUpdate, product }) => {
         description: product.description || '',
         price: product.price || '',
         originalPrice: product.originalPrice || '',
-        category: product.category || 'PC',
-        subCategory: product.subCategory || 'PC',
+        category: product.category || 'Điện thoại',
+        subCategory: product.subCategory || 'Apple',
         bestseller: product.bestseller || false,
         sizes: product.sizes || [],
         stockQuantities: product.stockQuantities || {},
@@ -64,80 +64,61 @@ const EditProductModal = ({ isOpen, onClose, onUpdate, product }) => {
   // Get available brands based on selected category
   const getAvailableBrands = () => {
     switch(formData.category) {
-      case 'PC':
-        return []; // PC không cần brand
+      case 'Điện thoại':
+        return ['Apple', 'Samsung', 'Xiaomi', 'OPPO', 'Vivo', 'Realme', 'Google Pixel', 'Asus ROG Phone', 'Khác'];
+      case 'Máy tính bảng':
+        return ['Apple', 'Samsung', 'Xiaomi', 'Lenovo', 'Khác'];
       case 'Laptop':
-        return ['Dell', 'HP', 'Lenovo', 'Asus', 'MSI', 'Acer', 'Khác'];
-      case 'CPU':
-        return ['Intel', 'AMD', 'Khác'];
-      case 'Mainboard':
-        return ['Asus', 'MSI', 'Gigabyte', 'ASRock', 'Intel', 'Khác'];
-      case 'RAM':
-        return ['Corsair', 'Kingston', 'G.Skill', 'Crucial', 'Team Group', 'Khác'];
-      case 'GPU':
-        return ['NVIDIA', 'AMD', 'Intel', 'Asus', 'MSI', 'Gigabyte', 'EVGA', 'Khác'];
-      case 'PSU':
-        return ['Corsair', 'Seasonic', 'EVGA', 'Cooler Master', 'Thermaltake', 'Khác'];
-      case 'Ổ cứng':
-        return ['Samsung', 'Western Digital', 'Seagate', 'Crucial', 'Kingston', 'Khác'];
-      case 'Case':
-        return ['NZXT', 'Phanteks', 'Lian Li', 'Cooler Master', 'Fractal Design', 'Khác'];
-      case 'Tản nhiệt':
-        return ['Noctua', 'Cooler Master', 'be quiet!', 'Arctic', 'Corsair', 'Khác'];
-      case 'Ổ đĩa quang':
-        return ['LG', 'Asus', 'Pioneer', 'Khác'];
-      case 'Card mở rộng':
-        return ['Asus', 'TP-Link', 'Creative', 'Elgato', 'Khác'];
+        return ['Apple', 'Dell', 'Asus', 'HP', 'Lenovo', 'MSI', 'Acer', 'Khác'];
+      case 'PC':
+        return ['Minh Tuấn Gaming', 'Minh Tuấn Workstation', 'Asus', 'MSI', 'Khác'];
+      case 'Phụ kiện di động':
+        return ['Apple', 'Samsung', 'Anker', 'Baseus', 'Ugreen', 'Belkin', 'Sony', 'Khác'];
+      case 'Phụ kiện máy tính':
+        return ['Logitech', 'Razer', 'SteelSeries', 'Corsair', 'FL-Esports', 'Akko', 'Khác'];
+      case 'Linh kiện máy tính':
+        return ['Intel', 'AMD', 'NVIDIA', 'Asus', 'MSI', 'Gigabyte', 'Corsair', 'Kingston', 'Khác'];
       case 'Màn hình':
         return ['Samsung', 'LG', 'Dell', 'HP', 'Asus', 'Acer', 'BenQ', 'Khác'];
-      case 'Chuột':
-        return ['Logitech', 'Razer', 'SteelSeries', 'Corsair', 'HyperX', 'Khác'];
-      case 'Bàn phím':
-        return ['Logitech', 'Razer', 'SteelSeries', 'Corsair', 'HyperX', 'Cherry', 'Khác'];
-      case 'Tai nghe':
-        return ['Logitech', 'Razer', 'SteelSeries', 'Corsair', 'HyperX', 'Sennheiser', 'Khác'];
+      case 'CPU':
+        return ['Intel', 'AMD', 'Khác'];
+      case 'GPU':
+        return ['NVIDIA', 'AMD', 'Intel', 'Asus', 'MSI', 'Gigabyte', 'EVGA', 'Khác'];
+      case 'RAM':
+        return ['Corsair', 'Kingston', 'G.Skill', 'Crucial', 'Team Group', 'Khác'];
+      case 'Ổ cứng':
+        return ['Samsung', 'Western Digital', 'Seagate', 'Crucial', 'Kingston', 'Khác'];
       default:
-        return [];
+        return ['Apple', 'Samsung', 'Asus', 'Dell', 'Khác'];
     }
   };
 
   // Get available sizes based on selected category
   const getAvailableSizes = () => {
     switch(formData.category) {
-      case 'PC':
-        return ['ATX', 'Micro-ATX', 'Mini-ITX'];
+      case 'Điện thoại':
+        return ['128GB', '256GB', '512GB', '1TB'];
+      case 'Máy tính bảng':
+        return ['64GB', '128GB', '256GB', '512GB', '1TB'];
       case 'Laptop':
-        return ['13 inch', '14 inch', '15.6 inch', '17 inch'];
-      case 'CPU':
-        return ['Socket 1151', 'Socket 1200', 'Socket 1700', 'AM4', 'AM5'];
-      case 'Mainboard':
-        return ['ATX', 'Micro-ATX', 'Mini-ITX'];
-      case 'RAM':
-        return ['DDR4', 'DDR5'];
+        return ['16GB / 512GB', '16GB / 1TB', '32GB / 1TB', '18GB / 512GB', '36GB / 512GB', '8GB / 256GB'];
+      case 'PC':
+        return ['Core i5 / RTX 4060', 'Core i7 / RTX 4070', 'Core i9 / RTX 4090', 'Ryzen 7 / RX 7800 XT'];
+      case 'Phụ kiện di động':
+        return ['Trắng', 'Đen', 'Titan Sa Mạc', 'Titan Tự Nhiên', 'Xanh', 'USB-C'];
+      case 'Phụ kiện máy tính':
+        return ['Không dây', 'Có dây', 'RGB', 'Retro Gray', 'Đen', 'Trắng'];
+      case 'Linh kiện máy tính':
       case 'GPU':
-        return ['PCIe x16', 'PCIe x8'];
-      case 'PSU':
-        return ['450W', '550W', '650W', '750W', '850W', '1000W'];
+        return ['16GB', '12GB', '8GB', '24GB', 'OC Edition'];
+      case 'RAM':
+        return ['16GB DDR5', '32GB DDR5', '64GB DDR5', '16GB DDR4', '32GB DDR4'];
       case 'Ổ cứng':
-        return ['128GB', '256GB', '512GB', '1TB', '2TB', '4TB'];
-      case 'Case':
-        return ['ATX', 'Micro-ATX', 'Mini-ITX'];
-      case 'Tản nhiệt':
-        return ['120mm', '140mm', '240mm', '280mm', '360mm'];
-      case 'Ổ đĩa quang':
-        return ['DVD-RW', 'Blu-ray'];
-      case 'Card mở rộng':
-        return ['PCIe x1', 'PCIe x4', 'PCIe x8'];
+        return ['500GB', '1TB', '2TB', '4TB'];
       case 'Màn hình':
-        return ['24 inch', '27 inch', '32 inch', '34 inch', '38 inch', '49 inch'];
-      case 'Chuột':
-        return ['Có dây', 'Không dây', 'Gaming', 'Văn phòng'];
-      case 'Bàn phím':
-        return ['Cơ học', 'Membrane', 'Có dây', 'Không dây', 'Gaming', 'Văn phòng'];
-      case 'Tai nghe':
-        return ['Có dây', 'Không dây', 'Gaming', 'Studio', 'Văn phòng'];
+        return ['24 inch', '27 inch', '32 inch', '34 inch', '49 inch OLED'];
       default:
-        return [];
+        return ['Tiêu chuẩn', 'Cao cấp'];
     }
   };
 
@@ -309,36 +290,23 @@ const EditProductModal = ({ isOpen, onClose, onUpdate, product }) => {
                 <p className='mb-2 font-bold text-gray-700'>Danh mục chính</p>
                 <select 
                   onChange={(e) => {
-                    setFormData(prev => ({ ...prev, category: e.target.value }));
-                    if (e.target.value === 'PC') {
-                      setFormData(prev => ({ ...prev, subCategory: 'PC' }));
-                    } else {
-                      setFormData(prev => ({ ...prev, subCategory: '' }));
-                    }
-                    setFormData(prev => ({ ...prev, sizes: [] }));
+                    setFormData(prev => ({ ...prev, category: e.target.value, subCategory: '', sizes: [] }));
                     setCustomBrand('');
                     setCustomSpec('');
                     setCustomSpecs([]);
                     setStockQuantities({});
                   }} 
+                  value={formData.category}
                   className='w-full px-3 py-2 border border-gray-300 rounded'
                 >
-                  <option value="PC">PC (Máy tính để bàn)</option>
+                  <option value="Điện thoại">Điện thoại (Smartphones)</option>
+                  <option value="Máy tính bảng">Máy tính bảng (Tablets / iPad)</option>
                   <option value="Laptop">Laptop (Máy tính xách tay)</option>
-                  <option value="CPU">CPU (Bộ vi xử lý)</option>
-                  <option value="Mainboard">Mainboard (Bo mạch chủ)</option>
-                  <option value="RAM">RAM (Bộ nhớ tạm)</option>
-                  <option value="GPU">GPU (Card đồ họa)</option>
-                  <option value="PSU">PSU (Nguồn máy tính)</option>
-                  <option value="Ổ cứng">Ổ cứng (HDD/SSD)</option>
-                  <option value="Case">Case (Vỏ máy tính)</option>
-                  <option value="Tản nhiệt">Tản nhiệt (quạt, tản nhiệt nước/khí)</option>
-                  <option value="Ổ đĩa quang">Ổ đĩa quang (nếu có)</option>
-                  <option value="Card mở rộng">Card mở rộng (WiFi, Sound card, Capture card, …)</option>
-                  <option value="Màn hình">Màn hình (Monitor)</option>
-                  <option value="Chuột">Chuột (Mouse)</option>
-                  <option value="Bàn phím">Bàn phím (Keyboard)</option>
-                  <option value="Tai nghe">Tai nghe (Headphone)</option>
+                  <option value="PC">PC (Gaming & Đồ họa)</option>
+                  <option value="Phụ kiện di động">Phụ kiện di động (Tai nghe, Sạc, Cáp...)</option>
+                  <option value="Phụ kiện máy tính">Phụ kiện máy tính (Bàn phím, Chuột...)</option>
+                  <option value="Linh kiện máy tính">Linh kiện máy tính (CPU, GPU, RAM...)</option>
+                  <option value="Màn hình">Màn hình (Monitors)</option>
                 </select>
               </div>
 

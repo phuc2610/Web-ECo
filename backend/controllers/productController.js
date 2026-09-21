@@ -49,11 +49,44 @@ const addProduct = async (req,res) => {
 
 }
 
+// Helper function to normalize product data for backwards/alternate schema compatibility
+const formatProduct = (p) => {
+    if (!p) return null;
+    const doc = p.toObject ? p.toObject() : { ...p };
+    const price = typeof doc.price === 'number' ? doc.price : (typeof doc.sellingPrice === 'number' ? doc.sellingPrice : 0);
+    
+    let image = [];
+    if (Array.isArray(doc.image) && doc.image.length > 0) {
+        image = doc.image.map(img => typeof img === 'string' ? img : (img?.url || ''));
+    } else if (Array.isArray(doc.images) && doc.images.length > 0) {
+        image = doc.images.map(img => typeof img === 'string' ? img : (img?.url || ''));
+    }
+    if (image.length === 0) {
+        image = ["https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400"];
+    }
+
+    return {
+        ...doc,
+        price,
+        originalPrice: typeof doc.originalPrice === 'number' ? doc.originalPrice : price,
+        image,
+        category: doc.category || 'Điện thoại',
+        subCategory: doc.subCategory || doc.brand || doc.category || 'Khác',
+        brand: doc.brand || doc.subCategory || 'Khác',
+        sizes: Array.isArray(doc.sizes) && doc.sizes.length > 0 ? doc.sizes : ['Tiêu chuẩn'],
+        stockQuantities: doc.stockQuantities || {},
+        specs: doc.specs || {},
+        bestseller: Boolean(doc.bestseller),
+        featured: Boolean(doc.featured),
+        isNewProduct: Boolean(doc.isNewProduct)
+    };
+};
+
 // function for list product
 const listProducts = async (req,res) => {
     try {
-        
-        const products = await productModel.find({});
+        const productsRaw = await productModel.find({});
+        const products = productsRaw.map(formatProduct);
         res.json({success:true,products})
 
     } catch (error) {
@@ -82,7 +115,11 @@ const singleProduct = async (req,res) => {
         
         const { productId } = req.body
         
-        const product = await productModel.findById(productId)
+        const productRaw = await productModel.findById(productId)
+        if (!productRaw) {
+            return res.json({success:false, message: "Không tìm thấy sản phẩm"});
+        }
+        const product = formatProduct(productRaw);
         res.json({success:true,product})
 
     } catch (error) {

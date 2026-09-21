@@ -1,149 +1,233 @@
-import React from 'react'
-import { assets } from '../assets/assets'
+import React from 'react';
+import { assets } from '../assets/assets';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white w-full'>
-        {/* Main Footer Content */}
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4'>
-            <div className='flex flex-col md:flex-row justify-between gap-8'>
-                {/* Brand Section - Sát góc trái */}
-                <div className='md:w-1/3'>
-                    <a href="/" className='inline-block mb-3'>
-                        <img src={assets.logo} className='w-32' alt="TLook Logo" />
-                    </a>
-                    <p className='text-gray-300 text-sm leading-relaxed mb-4 max-w-md'>
-                    NP Computer cam kết mang đến cho khách hàng những sản phẩm công nghệ chính hãng, đa dạng, phù hợp với nhu cầu sử dụng tại Việt Nam, đồng thời tư vấn chính xác – tối ưu – tận tâm.
-                    </p>
-                    
-                    {/* Social Media */}
-                    <div className='flex items-center gap-3'>
-                        <p className='text-gray-400 font-medium text-sm'>Theo dõi chúng tôi:</p>
-                        <div className='flex gap-2'>
-                            <a href="#" className='w-8 h-8 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors'>
-                                <svg className='w-5 h-5 fill-current' viewBox='0 0 24 24'>
-                                    <path d='M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z'/>
-                                </svg>
-                            </a>
-                            <a href="https://www.facebook.com/ngoc.phieu.982562" className='w-8 h-8 bg-blue-800 hover:bg-blue-900 rounded-full flex items-center justify-center transition-colors'>
-                                <svg className='w-4 h-4 fill-current' viewBox='0 0 24 24'>
-                                    <path d='M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z'/>
-                                </svg>
-                            </a>
-                            <a href="#" className='w-8 h-8 bg-pink-600 hover:bg-pink-700 rounded-full flex items-center justify-center transition-colors'>
-                                <svg className='w-5 h-5 fill-current' viewBox='0 0 24 24'>
-                                    <path d='M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.347-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z'/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Company Links - Ở giữa */}
-                <div className='md:w-1/3 flex justify-center'>
-                    <div>
-                        <h3 className='text-lg font-bold mb-3 text-white relative'>
-                            CÔNG TY
-                            <div className='absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 -mb-1'></div>
-                        </h3>
-                        <ul className='space-y-2'>
-                            <li>
-                                <a href="/about" className='text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 flex items-center gap-1 text-sm'>
-                                    <span className='text-blue-400'>→</span>
-                                    Giới thiệu về chúng tôi
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/contact" className='text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 flex items-center gap-1 text-sm'>
-                                    <span className='text-blue-400'>→</span>
-                                    Liên hệ với chúng tôi
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className='text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 flex items-center gap-1 text-sm'>
-                                    <span className='text-blue-400'>→</span>
-                                    Chính sách vận chuyển
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className='text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 flex items-center gap-1 text-sm'>
-                                    <span className='text-blue-400'>→</span>
-                                    Chính sách bảo mật
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                {/* Contact Info - Sát góc phải */}
-                <div className='md:w-1/3 flex justify-end'>
-                    <div>
-                        <h3 className='text-lg font-bold mb-3 text-white relative'>
-                            LIÊN HỆ
-                            <div className='absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 -mb-1'></div>
-                        </h3>
-                        <div className='space-y-3'>
-                            <div className='flex items-center gap-2 text-gray-300'>
-                                <div className='w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0'>
-                                    <svg className='w-3 h-3 fill-current text-white' viewBox='0 0 24 24'>
-                                        <path d='M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z'/>
-                                    </svg>
-                                </div>
-                                <a href="tel:0358409406" className='hover:text-white transition-colors text-sm'>
-                                    0358409406
-                                </a>
-                            </div>
-                            
-                            <div className='flex items-center gap-2 text-gray-300'>
-                                <div className='w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0'>
-                                    <svg className='w-3 h-3 fill-current text-white' viewBox='0 0 24 24'>
-                                        <path d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/>
-                                    </svg>
-                                </div>
-                                <a href="mailto:ngocphieu@gmail.com" className='hover:text-white transition-colors break-all text-sm'>
-                                    ngocphieu@gmail.com
-                                </a>
-                            </div>
-                            
-                            <div className='flex items-start gap-2 text-gray-300'>
-                                <div className='w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5'>
-                                    <svg className='w-3 h-3 fill-current text-white' viewBox='0 0 24 24'>
-                                        <path d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'/>
-                                    </svg>
-                                </div>
-                                <span className='leading-relaxed text-sm'>
-                                    719 Đường Phạm Văn Thuận - Phường Tam Hiệp
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <footer className='bg-[#f8f9fa] text-neutral-700 w-full mt-14 border-t border-slate-200 text-xs'>
+      
+      {/* 1. Policy Trust Badges (CellphoneS Style: Clean, Light, Professional) */}
+      <div className='bg-white border-b border-slate-200 py-6'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
+            
+            <div className='flex items-center gap-3.5 p-3 rounded-2xl bg-red-50/60 border border-red-100/80'>
+              <div className='w-11 h-11 rounded-xl bg-[#d70018] text-white flex items-center justify-center shrink-0 shadow-sm'>
+                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' />
+                </svg>
+              </div>
+              <div>
+                <h4 className='font-black text-slate-800 text-xs sm:text-sm uppercase tracking-tight'>100% CHÍNH HÃNG</h4>
+                <p className='text-[11px] text-slate-500 mt-0.5'>Bồi thường 200% nếu phát hiện giả</p>
+              </div>
             </div>
+
+            <div className='flex items-center gap-3.5 p-3 rounded-2xl bg-emerald-50/60 border border-emerald-100/80'>
+              <div className='w-11 h-11 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-sm'>
+                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15' />
+                </svg>
+              </div>
+              <div>
+                <h4 className='font-black text-slate-800 text-xs sm:text-sm uppercase tracking-tight'>1 ĐỔI 1 TRONG 30 NGÀY</h4>
+                <p className='text-[11px] text-slate-500 mt-0.5'>Lỗi phần cứng từ nhà sản xuất</p>
+              </div>
+            </div>
+
+            <div className='flex items-center gap-3.5 p-3 rounded-2xl bg-blue-50/60 border border-blue-100/80'>
+              <div className='w-11 h-11 rounded-xl bg-blue-600 text-white flex items-center justify-center shrink-0 shadow-sm'>
+                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M13 10V3L4 14h7v7l9-11h-7z' />
+                </svg>
+              </div>
+              <div>
+                <h4 className='font-black text-slate-800 text-xs sm:text-sm uppercase tracking-tight'>GIAO NHANH 2 GIỜ</h4>
+                <p className='text-[11px] text-slate-500 mt-0.5'>Miễn phí nội thành từ đơn 300k</p>
+              </div>
+            </div>
+
+            <div className='flex items-center gap-3.5 p-3 rounded-2xl bg-amber-50/60 border border-amber-100/80'>
+              <div className='w-11 h-11 rounded-xl bg-amber-600 text-white flex items-center justify-center shrink-0 shadow-sm'>
+                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z' />
+                </svg>
+              </div>
+              <div>
+                <h4 className='font-black text-slate-800 text-xs sm:text-sm uppercase tracking-tight'>TRẢ GÓP 0% LÃI SUẤT</h4>
+                <p className='text-[11px] text-slate-500 mt-0.5'>Duyệt nhanh qua CCCD & thẻ Visa</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* 2. Main Footer Columns (Standard CellphoneS 4-Column Layout) */}
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10'>
+        {/* Brand Banner with User Logo */}
+        <div className='pb-8 mb-8 border-b border-slate-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4'>
+          <Link to="/" className='inline-block bg-white p-2 rounded-2xl border border-slate-200 shadow-2xs hover:shadow-sm transition-shadow'>
+            <img src={assets.logo} alt="Minh Tuấn - PC & Điện Thoại" className='h-12 w-auto object-contain' />
+          </Link>
+          <div className='text-xs text-slate-500 max-w-xl text-left md:text-right'>
+            <p className='font-bold text-slate-800 text-sm'>CÔNG NGHỆ KIẾN TẠO CUỘC SỐNG TỐT ĐẸP HƠN</p>
+            <p className='mt-1 text-slate-500'>Hệ thống bán lẻ Điện thoại, Máy tính, Laptop, Phụ kiện công nghệ chính hãng hàng đầu Việt Nam.</p>
+          </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className='border-t border-gray-700'>
-            <div className='max-w-6xl mx-auto px-4 py-3'>
-                <div className='flex flex-col md:flex-row justify-between items-center gap-3'>
-                    <p className='text-gray-400 text-xs'>
-                        © 2024 NP Computer. Tất cả quyền được bảo lưu.
-                    </p>
-                    <div className='flex items-center gap-4 text-xs'>
-                        <a href="#" className='text-gray-400 hover:text-white transition-colors'>
-                            Điều khoản sử dụng
-                        </a>
-                        <a href="#" className='text-gray-400 hover:text-white transition-colors'>
-                            Chính sách bảo mật
-                        </a>
-                        <a href="#" className='text-gray-400 hover:text-white transition-colors'>
-                            Cookie Policy
-                        </a>
-                    </div>
-                </div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+          
+          {/* Column 1: Tổng đài hỗ trợ & Thanh toán */}
+          <div className='space-y-4'>
+            <h3 className='font-bold text-slate-900 text-sm uppercase tracking-tight'>
+              Tổng đài hỗ trợ <span className='text-[10px] text-emerald-600 font-bold lowercase'>(miễn phí)</span>
+            </h3>
+            
+            <div className='space-y-2 text-xs'>
+              <p className='text-slate-600'>
+                Gọi mua hàng: <a href="tel:18002097" className='font-black text-slate-900 hover:text-[#d70018]'>1800.2097</a> <span className='text-[11px] text-slate-400'>(7h30 - 22h00)</span>
+              </p>
+              <p className='text-slate-600'>
+                Khiếu nại, góp ý: <a href="tel:18002063" className='font-black text-slate-900 hover:text-[#d70018]'>1800.2063</a> <span className='text-[11px] text-slate-400'>(8h00 - 21h30)</span>
+              </p>
+              <p className='text-slate-600'>
+                Bảo hành, kỹ thuật: <a href="tel:18002064" className='font-black text-slate-900 hover:text-[#d70018]'>1800.2064</a> <span className='text-[11px] text-slate-400'>(8h00 - 21h00)</span>
+              </p>
             </div>
+
+            {/* Payment methods */}
+            <div className='pt-3 border-t border-slate-200'>
+              <h4 className='font-bold text-slate-900 text-xs mb-2.5 uppercase tracking-tight'>Phương thức thanh toán</h4>
+              <div className='flex flex-wrap items-center gap-2'>
+                <span className='px-3 py-1.5 bg-white border border-slate-200 rounded-lg font-black text-xs text-red-600 shadow-2xs flex items-center gap-1.5'>
+                  <span className='w-2 h-2 rounded-full bg-red-600'></span>
+                  VNPAY
+                </span>
+                <span className='px-3 py-1.5 bg-white border border-slate-200 rounded-lg font-black text-xs text-blue-800 shadow-2xs flex items-center gap-1.5'>
+                  <span className='w-2 h-2 rounded-full bg-blue-800'></span>
+                  VISA / MasterCard
+                </span>
+              </div>
+            </div>
+
+            {/* Smember highlight */}
+            <div className='pt-2'>
+              <div className='p-3 bg-red-50/80 rounded-xl border border-red-100 flex items-center gap-2.5'>
+                <span className='text-lg'>👑</span>
+                <div>
+                  <p className='font-bold text-slate-900 text-[11px]'>Smember - Khách hàng thân thiết</p>
+                  <p className='text-[10px] text-slate-500'>Tích điểm 1 - 5% cho mỗi đơn hàng</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Column 2: Thông tin và chính sách */}
+          <div className='space-y-3'>
+            <h3 className='font-bold text-slate-900 text-sm uppercase tracking-tight'>Thông tin và chính sách</h3>
+            <ul className='space-y-2 text-xs text-slate-600'>
+              <li><Link to="/collection" className='hover:text-[#d70018] transition-colors'>Mua hàng và thanh toán Online</Link></li>
+              <li><Link to="/collection" className='hover:text-[#d70018] transition-colors'>Mua hàng trả góp Online</Link></li>
+              <li><Link to="/collection" className='hover:text-[#d70018] transition-colors'>Mua hàng trả góp bằng thẻ tín dụng</Link></li>
+              <li><span className='hover:text-[#d70018] transition-colors cursor-pointer'>Chính sách giao hàng toàn quốc</span></li>
+              <li><Link to="/orders" className='hover:text-[#d70018] transition-colors'>Tra cứu thông tin bảo hành</Link></li>
+              <li><Link to="/orders" className='hover:text-[#d70018] transition-colors'>Tra cứu hóa đơn điện tử VAT</Link></li>
+              <li><span className='hover:text-[#d70018] transition-colors cursor-pointer'>Chính sách đổi trả & hoàn tiền</span></li>
+              <li><span className='hover:text-[#d70018] transition-colors cursor-pointer'>Chính sách bảo mật thông tin</span></li>
+            </ul>
+          </div>
+
+          {/* Column 3: Dịch vụ và thông tin khác */}
+          <div className='space-y-3'>
+            <h3 className='font-bold text-slate-900 text-sm uppercase tracking-tight'>Dịch vụ và thông tin khác</h3>
+            <ul className='space-y-2 text-xs text-slate-600'>
+              <li><Link to="/about" className='hover:text-[#d70018] transition-colors'>Khách hàng doanh nghiệp (B2B)</Link></li>
+              <li><Link to="/collection" className='hover:text-[#d70018] transition-colors'>Ưu đãi thanh toán & Voucher</Link></li>
+              <li><Link to="/about" className='hover:text-[#d70018] transition-colors'>Quy chế hoạt động Minh Tuấn Shop</Link></li>
+              <li><Link to="/contact" className='hover:text-[#d70018] transition-colors'>Chính sách bảo vệ dữ liệu cá nhân</Link></li>
+              <li><Link to="/contact" className='hover:text-[#d70018] transition-colors'>Hợp tác kinh doanh & Đại lý</Link></li>
+              <li><Link to="/about" className='hover:text-[#d70018] transition-colors'>Tuyển dụng nhân tài mới nhất</Link></li>
+              <li><span className='hover:text-[#d70018] transition-colors cursor-pointer'>Dịch vụ bảo hành mở rộng VIP</span></li>
+              <li><Link to="/contact" className='hover:text-[#d70018] transition-colors'>Trung tâm bảo hành chính hãng</Link></li>
+            </ul>
+          </div>
+
+          {/* Column 4: Kết nối, Website thành viên & Chứng nhận */}
+          <div className='space-y-4'>
+            <div>
+              <h3 className='font-bold text-slate-900 text-sm uppercase tracking-tight mb-2.5'>Kết nối với Minh Tuấn Shop</h3>
+              <div className='flex items-center gap-3 text-slate-600'>
+                <a href="https://youtube.com" target="_blank" rel="noreferrer" className='w-8 h-8 rounded-full bg-red-100 text-red-600 flex items-center justify-center hover:scale-110 transition-transform'>
+                  <span className='font-black text-xs'>YT</span>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer" className='w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center hover:scale-110 transition-transform'>
+                  <span className='font-black text-xs'>FB</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer" className='w-8 h-8 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center hover:scale-110 transition-transform'>
+                  <span className='font-black text-xs'>IG</span>
+                </a>
+                <a href="https://tiktok.com" target="_blank" rel="noreferrer" className='w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center hover:scale-110 transition-transform'>
+                  <span className='font-black text-xs'>TT</span>
+                </a>
+                <a href="https://zalo.me" target="_blank" rel="noreferrer" className='w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center hover:scale-110 transition-transform'>
+                  <span className='font-black text-xs'>ZL</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Member Websites (CellphoneS Style: Điện Thoại Vui, CareS, SForum) */}
+            <div className='pt-3 border-t border-slate-200'>
+              <h4 className='font-bold text-slate-900 text-xs mb-2 uppercase tracking-tight'>Website thành viên</h4>
+              <div className='space-y-1.5 text-xs text-slate-600'>
+                <p>
+                  <strong className='text-slate-800'>Điện Thoại Vui:</strong> Hệ thống sửa chữa điện thoại & laptop
+                </p>
+                <p>
+                  <strong className='text-slate-800'>CareS:</strong> Trung tâm bảo hành ủy quyền Apple chính hãng
+                </p>
+                <p>
+                  <strong className='text-slate-800'>SForum:</strong> Trang thông tin công nghệ mới nhất 24/7
+                </p>
+              </div>
+            </div>
+
+            {/* Certifications & Trust Badges */}
+            <div className='pt-2 flex items-center gap-2.5'>
+              <div className='px-3 py-1.5 bg-slate-100 rounded-lg border border-slate-200 text-slate-700 font-bold text-[11px] shadow-2xs flex items-center gap-1.5'>
+                <span>🔒</span>
+                <span>DMCA.com</span>
+              </div>
+              <div className='px-3 py-1.5 bg-emerald-50 rounded-lg border border-emerald-200 text-emerald-700 font-bold text-[11px] shadow-2xs flex items-center gap-1.5'>
+                <span>✓</span>
+                <span>SSL Secured</span>
+              </div>
+            </div>
+
+          </div>
+
         </div>
+      </div>
+
+      {/* 3. Bottom Legal & Corporate Info (Exact CellphoneS Standard) */}
+      <div className='bg-[#eaedf0] py-6 border-t border-slate-200 text-[11px] text-slate-500'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2 text-center md:text-left'>
+          <div className='flex flex-col md:flex-row justify-between items-center gap-2'>
+            <p className='font-semibold text-slate-700'>
+              © 2026 MINH TUẤN SHOP - Hệ thống bán lẻ Điện thoại, Laptop, Tablet, Phụ kiện chính hãng toàn quốc.
+            </p>
+            <p className='text-slate-500'>
+              GPĐKKD số: 0108889999 do Sở Kế Hoạch & Đầu Tư TP.HCM cấp • Bảo mật SSL 256-bit
+            </p>
+          </div>
+          <p className='text-[10px] text-slate-400'>
+            Trụ sở chính: 128 Trần Quang Khải, P. Tân Định, Quận 1, TP. Hồ Chí Minh • Chi nhánh Hà Nội: 123 Thái Hà, Q. Đống Đa • Chi nhánh Đà Nẵng: 68 Nguyễn Văn Linh, Q. Hải Châu.
+          </p>
+        </div>
+      </div>
+
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

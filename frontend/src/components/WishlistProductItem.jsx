@@ -10,8 +10,13 @@ const WishlistProductItem = ({id, image, name, price, originalPrice, averageRati
     const [isInWishlist, setIsInWishlist] = useState(false);
     const [isWishlistLoading, setIsWishlistLoading] = useState(false);
     const [isAddingToCart, setIsAddingToCart] = useState(false);
-    const hasDiscount = typeof originalPrice === 'number' && originalPrice > price;
-    const discountPercent = hasDiscount ? Math.round((1 - (price / originalPrice)) * 100) : 0;
+    const numPrice = Number(price) || 0;
+    const numOriginalPrice = Number(originalPrice) || 0;
+    const hasDiscount = numOriginalPrice > numPrice;
+    const discountPercent = hasDiscount && numOriginalPrice > 0 ? Math.round((1 - (numPrice / numOriginalPrice)) * 100) : 0;
+    const imageUrl = Array.isArray(image) && image[0] 
+        ? (typeof image[0] === 'string' ? image[0] : image[0]?.url) 
+        : (typeof image === 'string' ? image : 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400');
 
     // Check wishlist status
     useEffect(() => {
@@ -117,9 +122,10 @@ const WishlistProductItem = ({id, image, name, price, originalPrice, averageRati
                 
                 <img 
                     className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded-md' 
-                    src={image[0]} 
+                    src={imageUrl} 
                     alt={name}
                     onLoad={() => setIsLoading(false)}
+                    onError={() => setIsLoading(false)}
                     style={{display: isLoading ? 'none' : 'block'}}
                 />
                 
@@ -194,11 +200,11 @@ const WishlistProductItem = ({id, image, name, price, originalPrice, averageRati
                 <div className='flex flex-col gap-0.5 mb-2 flex-1'>
                     {hasDiscount && (
                         <span className='text-xs text-gray-400 line-through'>
-                            {originalPrice.toLocaleString('vi-VN')}{currency}
+                            {numOriginalPrice.toLocaleString('vi-VN')}{currency}
                         </span>
                     )}
                     <p className='text-xs font-bold text-red-600'>
-                        {price.toLocaleString('vi-VN')}{currency}
+                        {numPrice.toLocaleString('vi-VN')}{currency}
                     </p>
                 </div>
 

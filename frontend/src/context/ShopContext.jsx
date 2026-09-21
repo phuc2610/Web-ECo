@@ -18,7 +18,58 @@ const ShopContextProvider = (props) => {
     const [user , setUser] = useState(null);
     const [selectedItems, setSelectedItems] = useState([]);
     const [buyNowItem, setBuyNowItem] = useState(null);
+    const [wishlist, setWishlist] = useState(() => {
+        try {
+            const saved = localStorage.getItem('mt_guest_wishlist');
+            return saved ? JSON.parse(saved) : [];
+        } catch {
+            return [];
+        }
+    });
     const navigate = useNavigate();
+
+    // Toggle Wishlist handler
+    const toggleWishlist = async (productId) => {
+        if (!productId) return;
+        let nextWishlist = [...wishlist];
+        const isExists = nextWishlist.includes(productId);
+
+        if (isExists) {
+            nextWishlist = nextWishlist.filter(id => id !== productId);
+            toast.info('Đã xóa khỏi danh sách yêu thích');
+            if (token) {
+                try {
+                    await axios.delete(`${backendUrl}/api/wishlist/remove/${productId}`, { headers: { token } });
+                } catch (e) {
+                    console.log('Wishlist remove error:', e);
+                }
+            }
+        } else {
+            nextWishlist.push(productId);
+            toast.success('Đã thêm vào danh sách yêu thích ❤️');
+            if (token) {
+                try {
+                    await axios.post(`${backendUrl}/api/wishlist/add`, { productId }, { headers: { token } });
+                } catch (e) {
+                    console.log('Wishlist add error:', e);
+                }
+            }
+        }
+
+        setWishlist(nextWishlist);
+        try {
+            localStorage.setItem('mt_guest_wishlist', JSON.stringify(nextWishlist));
+        } catch {}
+    };
+
+    const isWishlisted = (productId) => {
+        return wishlist.includes(productId);
+    };
+
+    const getWishlistCount = () => {
+        return wishlist.length;
+    };
+
 
 
 
@@ -26,7 +77,7 @@ const ShopContextProvider = (props) => {
     const addToCart = async(itemId , size) =>{
 
         if(!size){
-            toast.error('Vui lòng chọn size sản phẩm !');
+            toast.error('Vui lòng chọn phiên bản / cấu hình sản phẩm!');
             return;
         } else {
             toast.success('Sản phẩm đã được thêm vào giỏ hàng');
@@ -196,6 +247,7 @@ const ShopContextProvider = (props) => {
         setToken,token , user , setUser, clearAuthData,
         selectedItems, setSelectedItems,
         buyNowItem, setBuyNowItem,
+        wishlist, toggleWishlist, isWishlisted, getWishlistCount,
     }
 
     return (

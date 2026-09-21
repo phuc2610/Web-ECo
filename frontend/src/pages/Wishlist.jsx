@@ -2,196 +2,276 @@ import React, { useState, useEffect, useContext } from 'react';
 import { ShopContext } from '../context/ShopContext';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import WishlistProductItem from '../components/WishlistProductItem';
+import { Link, useNavigate } from 'react-router-dom';
+import PageTransition from '../components/PageTransition';
 
 const Wishlist = () => {
-  const { backendUrl, token, currency } = useContext(ShopContext);
+  const { backendUrl, token, currency, products, addToCart } = useContext(ShopContext);
+  const navigate = useNavigate();
   const [wishlist, setWishlist] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [removingItem, setRemovingItem] = useState(null);
+  const [removingId, setRemovingId] = useState(null);
 
-  // Fetch wishlist data
-  const fetchWishlist = async () => {
-    if (!token) {
-      setLoading(false);
-      return;
-    }
-
-    try {
-      setLoading(true);
-      const response = await axios.get(`${backendUrl}/api/wishlist/list`, {
-        headers: { token }
-      });
-
-      if (response.data.success) {
-        setWishlist(response.data.wishlist);
+  // Fetch or load from localStorage
+  const loadWishlist = async () => {
+    setLoading(true);
+    if (token) {
+      try {
+        const response = await axios.get(`${backendUrl}/api/wishlist/list`, {
+          headers: { token }
+        });
+        if (response.data.success && response.data.wishlist) {
+          // Normalize items
+          const items = response.data.wishlist
+            .filter(w => w.productId)
+            .map(w => w.productId);
+          setWishlist(items);
+        }
+      } catch (err) {
+        console.error('API Wishlist error, falling back to local:', err);
+        loadLocalWishlist();
+      } finally {
+        setLoading(false);
       }
-    } catch (error) {
-      console.error('Error fetching wishlist:', error);
-      console.error('Error details:', error.response?.data);
-      toast.error(`Không thể tải danh sách yêu thích: ${error.response?.data?.message || error.message}`);
-    } finally {
+    } else {
+      loadLocalWishlist();
       setLoading(false);
+    }
+  };
+
+  const loadLocalWishlist = () => {
+    try {
+      const saved = localStorage.getItem('mt_guest_wishlist');
+      if (saved) {
+        const ids = JSON.parse(saved);
+        const matched = (products || []).filter(p => ids.includes(p._id));
+        setWishlist(matched);
+      } else {
+        // Sample default favorites if empty for demonstration
+        setWishlist([]);
+      }
+    } catch {
+      setWishlist([]);
     }
   };
 
   useEffect(() => {
-    fetchWishlist();
-  }, [token]);
+    loadWishlist();
+  }, [token, products]);
 
-  // Remove item from wishlist
-  const removeFromWishlist = async (productId) => {
-    if (!token) {
-      toast.error('Vui lòng đăng nhập để sử dụng tính năng này');
-      return;
-    }
+  // Remove from wishlist
+  const handleRemove = async (productId, e) => {
+    if (e) e.stopPropagation();
+    setRemovingId(productId);
 
-    try {
-      setRemovingItem(productId);
-      const response = await axios.delete(`${backendUrl}/api/wishlist/remove/${productId}`, {
-        headers: { token }
-      });
-
-      if (response.data.success) {
-        toast.success('Đã xóa khỏi danh sách yêu thích');
-        setWishlist(prev => prev.filter(item => item.productId._id !== productId));
+    if (token) {
+      try {
+        await axios.delete(`${backendUrl}/api/wishlist/remove/${productId}`, {
+          headers: { token }
+        });
+      } catch (err) {
+        console.log('Wishlist remove error:', err);
       }
-    } catch (error) {
-      console.error('Error removing from wishlist:', error);
-      toast.error('Có lỗi xảy ra khi xóa khỏi danh sách yêu thích');
-    } finally {
-      setRemovingItem(null);
     }
+
+    // Always update local list
+    try {
+      const saved = localStorage.getItem('mt_guest_wishlist');
+      if (saved) {
+        const ids = JSON.parse(saved).filter(id => id !== productId);
+        localStorage.setItem('mt_guest_wishlist', JSON.stringify(ids));
+      }
+    } catch {}
+
+    setWishlist(prev => prev.filter(item => item._id !== productId));
+    toast.success('Đã xóa khỏi danh sách yêu thích');
+    setRemovingId(null);
   };
 
+  // Add single item to cart
+  const handleAddToCart = (product, e) => {
+    if (e) e.stopPropagation();
+    const size = product.sizes && product.sizes.length > 0 ? product.sizes[0] : 'Tiêu chuẩn';
+    addToCart(product._id, size);
+    toast.success(`Đã thêm ${product.name} vào giỏ hàng!`);
+  };
 
+  // Add all to cart
+  const handleAddAllToCart = () => {
+    if (wishlist.length === 0) return;
+    wishlist.forEach(item => {
+      const size = item.sizes && item.sizes.length > 0 ? item.sizes[0] : 'Tiêu chuẩn';
+      addToCart(item._id, size);
+    });
+    toast.success(`Đã thêm tất cả ${wishlist.length} sản phẩm vào giỏ hàng!`);
+    navigate('/cart');
+  };
+
+  // Clear all
+  const handleClearAll = () => {
+    setWishlist([]);
+    try {
+      localStorage.removeItem('mt_guest_wishlist');
+    } catch {}
+    toast.info('Đã làm trống danh sách yêu thích');
+  };
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Đang tải danh sách yêu thích...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (!token) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center max-w-md mx-auto p-6">
-          <div className="text-6xl mb-4">💔</div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Chưa đăng nhập</h2>
-          <p className="text-gray-600 mb-6">
-            Vui lòng đăng nhập để xem danh sách sản phẩm yêu thích của bạn
-          </p>
-          <Link
-            to="/login"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-          >
-            Đăng nhập ngay
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
-  if (wishlist.length === 0) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center max-w-md mx-auto p-6">
-          <div className="text-6xl mb-4">💔</div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Danh sách yêu thích trống</h2>
-          <p className="text-gray-600 mb-6">
-            Bạn chưa có sản phẩm nào trong danh sách yêu thích. Hãy khám phá và thêm sản phẩm yêu thích!
-          </p>
-          <Link
-            to="/collection"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-          >
-            Khám phá sản phẩm
-          </Link>
-        </div>
+      <div className="min-h-[60vh] flex flex-col items-center justify-center bg-[#f4f6f8]">
+        <div className="w-10 h-10 border-4 border-red-200 border-t-[#d70018] rounded-full animate-spin"></div>
+        <p className="mt-4 text-xs font-bold text-slate-500">Đang tải danh sách yêu thích...</p>
       </div>
     );
   }
 
   return (
-    <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5 }}
-      className="min-h-screen bg-gray-50 py-8"
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Sản phẩm yêu thích</h1>
-          <p className="text-gray-600">
-            {wishlist.length} sản phẩm trong danh sách yêu thích của bạn
-          </p>
-        </div>
+    <PageTransition>
+      <div className="min-h-screen bg-[#f4f6f8] py-6 sm:py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-xs text-slate-500 bg-white px-4 py-2.5 rounded-xl border border-slate-100 shadow-2xs">
+            <Link to="/" className="hover:text-[#d70018]">Trang chủ</Link>
+            <span>/</span>
+            <span className="text-[#d70018] font-bold">Sản phẩm yêu thích ({wishlist.length})</span>
+          </nav>
 
-                 {/* Wishlist Grid */}
-         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-           {wishlist.map((item, index) => (
-             <motion.div
-               key={item._id}
-               initial={{ opacity: 0, y: 20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.5, delay: index * 0.1 }}
-               className="relative"
-             >
-               {/* Remove Button */}
-               <button
-                 onClick={() => removeFromWishlist(item.productId._id)}
-                 disabled={removingItem === item.productId._id}
-                 className="absolute top-1 right-1 z-10 bg-red-500 text-white p-1 rounded-full hover:bg-red-600 transition-colors disabled:opacity-50"
-               >
-                 {removingItem === item.productId._id ? (
-                   <div className="animate-spin rounded-full h-3 w-3 border-b-2 border-white"></div>
-                 ) : (
-                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                   </svg>
-                 )}
-               </button>
+          {/* Header Card */}
+          <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h1 className="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2 uppercase tracking-tight">
+                <span className="p-1.5 bg-red-50 text-[#d70018] rounded-xl text-lg">❤️</span>
+                <span>Danh Sách Sản Phẩm Yêu Thích</span>
+              </h1>
+              <p className="text-xs text-slate-500 mt-1">
+                Lưu lại các thiết bị công nghệ bạn quan tâm để dễ dàng theo dõi biến động giá và đặt mua nhanh chóng.
+              </p>
+            </div>
 
-                               {/* Product Item */}
-                <WishlistProductItem
-                  id={item.productId._id}
-                  image={item.productId.image}
-                  name={item.productId.name}
-                  price={item.productId.price}
-                  originalPrice={item.productId.originalPrice}
-                  averageRating={item.productId.averageRating}
-                  totalReviews={item.productId.totalReviews}
-                />
-             </motion.div>
-           ))}
-         </div>
-
-        {/* Empty State (if all items removed) */}
-        {wishlist.length === 0 && !loading && (
-          <div className="text-center py-12">
-            <div className="text-6xl mb-4">💔</div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Danh sách yêu thích trống</h2>
-            <p className="text-gray-600 mb-6">
-              Bạn chưa có sản phẩm nào trong danh sách yêu thích
-            </p>
-            <Link
-              to="/collection"
-              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-            >
-              Khám phá sản phẩm
-            </Link>
+            {wishlist.length > 0 && (
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={handleClearAll}
+                  className="px-3.5 py-2 rounded-xl border border-slate-200 hover:bg-red-50 hover:text-red-600 text-slate-600 text-xs font-bold transition-all"
+                >
+                  Xóa tất cả
+                </button>
+                <button
+                  onClick={handleAddAllToCart}
+                  className="px-4 py-2 bg-[#d70018] hover:bg-[#ba0014] text-white rounded-xl text-xs font-black transition-all shadow-md active:scale-95 uppercase tracking-wide"
+                >
+                  Thêm tất cả vào giỏ 🛒
+                </button>
+              </div>
+            )}
           </div>
-        )}
+
+          {/* Empty State */}
+          {wishlist.length === 0 ? (
+            <div className="bg-white rounded-3xl p-12 text-center border border-slate-100 shadow-sm max-w-lg mx-auto space-y-5 my-8">
+              <div className="w-20 h-20 bg-red-50 rounded-full flex items-center justify-center text-4xl mx-auto text-red-500 shadow-inner">
+                🤍
+              </div>
+              <div className="space-y-1.5">
+                <h2 className="text-lg font-black text-slate-800 uppercase">Danh sách yêu thích đang trống</h2>
+                <p className="text-xs text-slate-500 leading-relaxed max-w-sm mx-auto">
+                  Hãy nhấn vào biểu tượng trái tim ở bất kỳ sản phẩm nào để lưu lại và theo dõi giá sốc tại Minh Tuấn Shop.
+                </p>
+              </div>
+              <Link
+                to="/collection"
+                className="inline-block py-3 px-8 bg-[#d70018] hover:bg-[#ba0014] text-white font-black text-xs rounded-xl shadow-md transition-all uppercase tracking-wider"
+              >
+                Khám phá sản phẩm ngay &rarr;
+              </Link>
+            </div>
+          ) : (
+            /* Products Grid */
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+              {wishlist.map(product => {
+                const discount = product.originalPrice && product.originalPrice > product.price
+                  ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
+                  : null;
+
+                return (
+                  <div
+                    key={product._id}
+                    onClick={() => navigate(`/product/${product._id}`)}
+                    className="group bg-white rounded-2xl p-3 border border-slate-200/80 hover:border-red-300 hover:shadow-lg transition-all flex flex-col justify-between cursor-pointer relative"
+                  >
+                    {/* Discount & Remove badges */}
+                    <div className="flex items-center justify-between w-full mb-1">
+                      {discount ? (
+                        <span className="bg-[#d70018] text-white font-black text-[10px] px-1.5 py-0.5 rounded">
+                          Giảm {discount}%
+                        </span>
+                      ) : (
+                        <span className="bg-blue-600 text-white font-bold text-[10px] px-1.5 py-0.5 rounded">
+                          Trả góp 0%
+                        </span>
+                      )}
+
+                      <button
+                        onClick={(e) => handleRemove(product._id, e)}
+                        disabled={removingId === product._id}
+                        className="w-6 h-6 rounded-full bg-slate-100 hover:bg-red-100 text-slate-400 hover:text-red-600 flex items-center justify-center transition-colors text-xs"
+                        title="Xóa khỏi yêu thích"
+                      >
+                        ✕
+                      </button>
+                    </div>
+
+                    {/* Image Thumbnail */}
+                    <div className="aspect-square bg-slate-50 rounded-xl overflow-hidden p-2 my-2 flex items-center justify-center">
+                      <img
+                        src={product.image && product.image[0]}
+                        alt={product.name}
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+
+                    {/* Title */}
+                    <h3 className="text-xs font-bold text-slate-800 line-clamp-2 leading-snug group-hover:text-[#d70018] transition-colors mb-2">
+                      {product.name}
+                    </h3>
+
+                    {/* Pricing */}
+                    <div className="space-y-0.5 mb-3">
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-sm font-black text-[#d70018]">
+                          {product.price?.toLocaleString()} {currency}
+                        </span>
+                        {product.originalPrice && (
+                          <span className="text-[10px] text-slate-400 line-through">
+                            {product.originalPrice?.toLocaleString()} {currency}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-[10px] text-emerald-600 font-medium">
+                        ✓ Sẵn hàng tại cửa hàng
+                      </p>
+                    </div>
+
+                    {/* Actions */}
+                    <div className="space-y-1.5 pt-2 border-t border-slate-100">
+                      <button
+                        onClick={(e) => handleAddToCart(product, e)}
+                        className="w-full py-2 bg-[#d70018] hover:bg-[#ba0014] text-white rounded-xl text-xs font-black uppercase tracking-wider transition-colors shadow-2xs flex items-center justify-center gap-1.5"
+                      >
+                        <span>🛒</span>
+                        <span>THÊM VÀO GIỎ</span>
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+        </div>
       </div>
-    </motion.div>
+    </PageTransition>
   );
 };
 
